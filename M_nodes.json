@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "M_ACIDOSIS_CHUYEN_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_ANCA_VIEM_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_ANH_HUONG_SOT_LEN_THUC_THUC_VI_GIAC",
+    "name": ""
+  },
+  {
+    "id": "M_AP_LUC_AM_LONG_NGUC",
+    "name": "Áp lực âm lồng ngực"
+  },
+  {
+    "id": "M_ARDS",
+    "name": ""
+  },
+  {
+    "id": "M_AU_TRUNG_DI_CHUYEN",
+    "name": ""
+  },
+  {
+    "id": "M_BAM_DINH_BAC_QUANG_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_BANG_QUANG_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_BAT_CAN_DOI_REPOLARIZATION",
+    "name": ""
+  },
+  {
+    "id": "M_BAT_DONG_BO_REPOLARIZATION_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_BAT_THUONG_CHUYEN_HOA_VIEM",
+    "name": "Bất thường chuyển hóa do viêm"
+  },
+  {
+    "id": "M_BAT_THUONG_MO_LIEN_KET",
+    "name": ""
+  },
+  {
+    "id": "M_BAT_THUONG_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_BENH_LY_MANG_BUNG",
+    "name": "Bệnh lý màng bụng"
+  },
+  {
+    "id": "M_BENH_LY_THAN_KINH_CO",
+    "name": ""
+  },
+  {
+    "id": "M_BENH_LY_THAN_KINH_TU_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_BENH_TU_MIEN",
+    "name": ""
+  },
+  {
+    "id": "M_BENH_XO_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_BE_TAC_DUONG_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_BE_TAC_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_BIEN_DI_KHANG_NGUYEN_XOAN_KHUAN",
+    "name": ""
+  },
+  {
+    "id": "M_BIEN_DOI_TE_BAO_LYMPHO",
+    "name": ""
+  },
+  {
+    "id": "M_BIEN_DOI_TE_BAO_TAO_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_BIEN_DOI_TE_BAO_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_BIEN_DONG_HORMONE_ESTROGEN",
+    "name": ""
+  },
+  {
+    "id": "M_BLOC_DAN_TRUYEN",
+    "name": "Blốc dẫn truyền"
+  },
+  {
+    "id": "M_BLOC_NHIP_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_BLOC_NHI_THAT_HOAN_TOAN",
+    "name": ""
+  },
+  {
+    "id": "M_BOC_TACH_DONG_MACH_CHU",
+    "name": ""
+  },
+  {
+    "id": "M_BONG_PHOI_DUT_VO",
+    "name": ""
+  },
+  {
+    "id": "M_BU_TRU_GIAM_THE_TICH",
+    "name": ""
+  },
+  {
+    "id": "M_BU_TRU_TOAN_CHUYEN_HOA",
+    "name": "Bù trừ toan chuyển hóa"
+  },
+  {
+    "id": "M_CANG_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_CANG_BAO_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_CANG_GIAN_NOI_TANG",
+    "name": ""
+  },
+  {
+    "id": "M_CAU_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_CHAM_VAN_CHUYEN_DAI_TRANG",
+    "name": "Chậm vận chuyển đại tràng"
+  },
+  {
+    "id": "M_CHAN_THUONG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_CHAN_THUONG_CO_HOC",
+    "name": ""
+  },
+  {
+    "id": "M_CHAYMAUVIMACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_CHAY_DICH_MUI_SAU",
+    "name": "Chảy dịch mũi sau (hội chứng ho đường thở trên)"
+  },
+  {
+    "id": "M_CHAY_MAU_DONG_MACH",
+    "name": "Chảy máu động mạch"
+  },
+  {
+    "id": "M_CHAY_MAU_TINH_MACH",
+    "name": "Chảy máu tĩnh mạch"
+  },
+  {
+    "id": "M_CHEN_EP_DO_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_CHEN_EP_DUONG_DAN_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_CHEN_EP_TAC_NGHEN_DUONG_DAN_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_CHEN_EP_TAC_NGHEN_DUONG_DAN_KHI_TREN",
+    "name": ""
+  },
+  {
+    "id": "M_CHEN_EP_TIM",
+    "name": "Chèn ép tim cấp"
+  },
+  {
+    "id": "M_CHEN_EP_TIM_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_CHIEM_GIEU_TUY_XUONG",
+    "name": ""
+  },
+  {
+    "id": "M_CHIEN_CHO_KHOANG_MANG_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_CHOANG_MAT_MAU",
+    "name": "Choáng mất máu"
+  },
+  {
+    "id": "M_CHOANG_TIM",
+    "name": "Choáng tim"
+  },
+  {
+    "id": "M_CHOC_MU_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_CHU_KY_SINH_SAN_KY_SINH_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_CO_BOP_MANH_SAU_NGHI",
+    "name": "Co bóp mạnh sau khoảng nghỉ"
+  },
+  {
+    "id": "M_CO_BOP_NHI_CHONG_VAN_DONG",
+    "name": "Co bóp nhĩ chống lại van đã đóng"
+  },
+  {
+    "id": "M_CO_CHE_TAM_SINH_LY",
+    "name": ""
+  },
+  {
+    "id": "M_CO_MACH_NGOAI_BIEN",
+    "name": "Co mạch ngoại biên"
+  },
+  {
+    "id": "M_CO_MACH_NGOAI_VI",
+    "name": ""
+  },
+  {
+    "id": "M_CO_MACH_THAN",
+    "name": "Co mạch thận"
+  },
+  {
+    "id": "M_CO_THAI",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THANG_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_CO_TRON",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_MACH_VANH",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_MANG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_NIEU_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_ONG_CYSTIC",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_PHE_QUAN",
+    "name": "Co that phe quan"
+  },
+  {
+    "id": "M_CO_THAT_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_CO_THAT_THUC_QUAN",
+    "name": "Co thắt thực quản"
+  },
+  {
+    "id": "M_CO_THRAT_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_CUONG_GIAP_NHIEM_DOC_GIAP",
+    "name": ""
+  },
+  {
+    "id": "M_CYTOKINES_UNG_THU",
+    "name": ""
+  },
+  {
+    "id": "M_CYTOKINE_GAY_SOT_NOI_SINH",
+    "name": ""
+  },
+  {
+    "id": "M_CYTOKINE_U_LYMPHO",
+    "name": ""
+  },
+  {
+    "id": "M_DAN_TINH_MACH_HAU_MON",
+    "name": ""
+  },
+  {
+    "id": "M_DAP_UNG_NHIEM_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_DAP_UNG_VIEM",
+    "name": ""
+  },
+  {
+    "id": "M_DAP_UNG_VIEM_HE_THONG",
+    "name": "Đáp ứng viêm hệ thống"
+  },
+  {
+    "id": "M_DE_KHANG_PEPTIDE_LOI_NIEU",
+    "name": "Đề kháng peptide lợi niệu"
+  },
+  {
+    "id": "M_DICH_MANG_NGOAI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_DIEM_DIEU_NHIET_KHONG_THAY_DOI",
+    "name": ""
+  },
+  {
+    "id": "M_DINH_PHUC_MAC",
+    "name": ""
+  },
+  {
+    "id": "M_DI_CAN_HUYET_HANH",
+    "name": ""
+  },
+  {
+    "id": "M_DI_SAN_SOI_CO",
+    "name": ""
+  },
+  {
+    "id": "M_DI_UNG_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_DI_UNG_TYPE_I",
+    "name": ""
+  },
+  {
+    "id": "M_DOC_THAN",
+    "name": "Độc thận"
+  },
+  {
+    "id": "M_DOC_THAN_DO_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_DOC_TO_C_DIFFICILE",
+    "name": ""
+  },
+  {
+    "id": "M_DOC_TO_TYPHOID",
+    "name": ""
+  },
+  {
+    "id": "M_DOC_TO_VI_KHUAN_TAC_DONG_NUT_XOANG",
+    "name": ""
+  },
+  {
+    "id": "M_DOC_TO_VI_KHUAN_TIEM_TAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_DONG_CHAY_ROI_QUA_VAN_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_DONG_DAC_PHE_NANG",
+    "name": "Đông đặc phế nang"
+  },
+  {
+    "id": "M_DONG_DAY_THANH_NGHICH_DAO",
+    "name": ""
+  },
+  {
+    "id": "M_DONG_MAU_ROI",
+    "name": ""
+  },
+  {
+    "id": "M_DONG_MO_DUONG_DAN_KHI",
+    "name": "Cơ chế đóng mở đường dẫn khí (rales)"
+  },
+  {
+    "id": "M_DOT_BIEN_COLLAGEN_TYPE_IV",
+    "name": ""
+  },
+  {
+    "id": "M_DUNG_THUOC_GAY_QT_DAI",
+    "name": ""
+  },
+  {
+    "id": "M_DUONG_DAN_TRUYEN_PHU",
+    "name": ""
+  },
+  {
+    "id": "M_DUT_VO_MANG_XO_VUA",
+    "name": "Đứt vỡ mảng xơ vữa"
+  },
+  {
+    "id": "M_DVT",
+    "name": ""
+  },
+  {
+    "id": "M_EARLY_AFTERDEPOLARIZATION",
+    "name": ""
+  },
+  {
+    "id": "M_GAN_VIEM",
+    "name": ""
+  },
+  {
+    "id": "M_GIAI_PHONG_CATECHOLAMINE",
+    "name": ""
+  },
+  {
+    "id": "M_GIAI_PHONG_CHAT_TRUNG_GIAN_VIEM",
+    "name": ""
+  },
+  {
+    "id": "M_GIAI_PHONG_CYTOKINE",
+    "name": ""
+  },
+  {
+    "id": "M_GIAI_PHONG_HISTAMINE",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_ALBUMIN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_ALBUMIN_MAU",
+    "name": "Giảm albumin máu"
+  },
+  {
+    "id": "M_GIAM_AP_KEO_HUYET_TUONG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_LUC_ALBUMIN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_LUC_KEO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_LUC_KEO_HUYET_TUONG",
+    "name": "Giảm áp lực keo huyết tương"
+  },
+  {
+    "id": "M_GIAM_AP_LUC_KEO_MAO_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_LUC_KEO_PROTEIN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_LUC_THAM_THAU_KEO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_AP_SUAT_THAM_THAU",
+    "name": "Giảm áp suất thẩm thấu"
+  },
+  {
+    "id": "M_GIAM_AP_SUC_THAM_THAU",
+    "name": "Giảm áp suất thẩm thấu keo"
+  },
+  {
+    "id": "M_GIAM_BAI_TIET_BILIRUBIN",
+    "name": "Giảm bài tiết bilirubin"
+  },
+  {
+    "id": "M_GIAM_BO_SUNG_MAU_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CAM_GIAC_TRUC_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CARDIAC_RESERVE",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CHUC_NANG_CO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CHUC_NANG_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CHUC_NANG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_CUNG_LUONG_TIM",
+    "name": "Giảm cung lượng tim"
+  },
+  {
+    "id": "M_GIAM_DANH_HOI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_DAN_HOI_PHOI",
+    "name": "Giảm đàn hồi phổi"
+  },
+  {
+    "id": "M_GIAM_DAN_HOI_TAM_NHI",
+    "name": "Giảm đàn hồi tâm nhĩ"
+  },
+  {
+    "id": "M_GIAM_DAP_UNG_ADH",
+    "name": "Giảm đáp ứng ADH ở ống thận"
+  },
+  {
+    "id": "M_GIAM_DAY_TAM_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_DIEN_TICH_TAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_DO_DAN_HOI_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_DO_LOC_CAU_THAN",
+    "name": "Giảm độ lọc cầu thận"
+  },
+  {
+    "id": "M_GIAM_DO_NHAY_TRUN_TAM_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_DUNG_TICH_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_ESTROGEN",
+    "name": "Giảm estrogen"
+  },
+  {
+    "id": "M_GIAM_GFR_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_GFR_MAN_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_HAP_THU",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_HEMOGLOBIN_MAN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHANANG_TAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHANANG_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHA_NANG_CO_BOP_TAM_THU",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHA_NANG_GANG_SUC",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHONG_GIAN_PHO_PHONG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_KHUECH_TAN_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_LIEN_HOP_BILIRUBIN",
+    "name": "Giảm khả năng liên hợp"
+  },
+  {
+    "id": "M_GIAM_LOC_CAU_THAN",
+    "name": "Giảm lọc cầu thận"
+  },
+  {
+    "id": "M_GIAM_LUC_CO_BOP_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_LUONG_MAU_CAU_THAN",
+    "name": "Giảm lưu lượng máu cầu thận"
+  },
+  {
+    "id": "M_GIAM_LUONG_NHAP",
+    "name": "Giảm lượng nhập thức ăn"
+  },
+  {
+    "id": "M_GIAM_LUULUO_MAU_NOI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_LUU_LUONG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_MIEN_DICH_DICH_BANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_NHAY_TRUNG_TAM_HO_HAP_VOI_CO2",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_NHU_DONG_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_OXY",
+    "name": "Giảm oxy máu"
+  },
+  {
+    "id": "M_GIAM_OXY_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_OXY_MAU",
+    "name": "Giam oxy mau"
+  },
+  {
+    "id": "M_GIAM_OXY_MAU_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_OXY_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_SUC_DAN_HOI_PHOI",
+    "name": "Giam suc dan hoi phoi"
+  },
+  {
+    "id": "M_GIAM_TAI_HUT_DICH",
+    "name": "Giảm tái hút dịch"
+  },
+  {
+    "id": "M_GIAM_TANG_CUNG_LUONG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_THAI_ACID",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_THAI_KALI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_THE_TICH_LONG_MACH",
+    "name": "Giảm thể tích lòng mạch"
+  },
+  {
+    "id": "M_GIAM_THE_TICH_LONG_MACH_HIEU_QUA",
+    "name": "Giảm thể tích lòng mạch hiệu quả"
+  },
+  {
+    "id": "M_GIAM_THE_TICH_TUAN_HOAN",
+    "name": "Giảm thể tích tuần hoàn"
+  },
+  {
+    "id": "M_GIAM_THONG_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_THONG_KHI_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TIEN_GANH",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TIEP_NHAN_BILIRUBIN",
+    "name": "Giảm tiếp nhận bilirubin vào gan"
+  },
+  {
+    "id": "M_GIAM_TIET_ADH",
+    "name": "Giảm tiết ADH"
+  },
+  {
+    "id": "M_GIAM_TIET_NP_(BNP)",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TIET_NUOC_BOT",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TIEU_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TIN_HIEU_TKTW",
+    "name": "Giảm tín hiệu từ TKTW"
+  },
+  {
+    "id": "M_GIAM_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TSH",
+    "name": "Giảm TSH"
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_CO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_MO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_NAO",
+    "name": "Giảm tưới máu não"
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_NAO_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_NGOAI_VI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_NON",
+    "name": ""
+  },
+  {
+    "id": "M_GIAM_TUOI_MAU_THAN",
+    "name": "Giảm tưới máu thận"
+  },
+  {
+    "id": "M_GIAM_VAN_CHUYEN_OXY",
+    "name": "Giam van chuyen oxy"
+  },
+  {
+    "id": "M_GIAN_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_DAI_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_DONG_MACH_CHU",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_DONG_MACH_HE_THONG",
+    "name": "Giãn động mạch hệ thống"
+  },
+  {
+    "id": "M_GIAN_MACH_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_MACH_NGOAI_VI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_NO_BAO_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_NO_DUONG_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_PHE_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_THAT_TRAI",
+    "name": ""
+  },
+  {
+    "id": "M_GIAN_TIEU_DONG_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_GIAO_RAC_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_GIOI_HAN_THE_TICH_KHI_LUU_THONG",
+    "name": "Gioi han the tich khi luu thong"
+  },
+  {
+    "id": "M_GIU_MUOI_NUOC_NGUYEN_PHAT",
+    "name": ""
+  },
+  {
+    "id": "M_GIU_MUOI_NUOC_QUA_MUC",
+    "name": ""
+  },
+  {
+    "id": "M_GIU_MUOI_NUOC_TAI_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_GIU_NHIET",
+    "name": "Giữ nhiệt"
+  },
+  {
+    "id": "M_GIU_NUOC_MUOI",
+    "name": ""
+  },
+  {
+    "id": "M_HANH_VI_TRANH",
+    "name": ""
+  },
+  {
+    "id": "M_HANH_VI_TU_TAO_BENH",
+    "name": ""
+  },
+  {
+    "id": "M_HAN_CHE_GIAN_NOI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_HAP_THU_NUOC_QUA_NHIEU",
+    "name": ""
+  },
+  {
+    "id": "M_HELICOBACTER_PYLORI",
+    "name": ""
+  },
+  {
+    "id": "M_HEP_DONG_MACH_THAN",
+    "name": "Hẹp động mạch thận"
+  },
+  {
+    "id": "M_HEP_DONG_MACH_VANH",
+    "name": "Hẹp động mạch vành"
+  },
+  {
+    "id": "M_HEP_LONG_RUOT",
+    "name": "Hẹp lòng ruột"
+  },
+  {
+    "id": "M_HEP_NIEU_DAO",
+    "name": ""
+  },
+  {
+    "id": "M_HEP_VAN",
+    "name": ""
+  },
+  {
+    "id": "M_HINH_THANH_LIEM_CAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_HINH_THANH_TRU_HONG_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_CO_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_ONG_THAN",
+    "name": "Hoại tử ống thận"
+  },
+  {
+    "id": "M_HOAI_TU_ONG_THAN_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_TE_BAO_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_TUYEN_YEN",
+    "name": ""
+  },
+  {
+    "id": "M_HOAI_TU_VO_THAN",
+    "name": "Hoại tử vỏ thận"
+  },
+  {
+    "id": "M_HOAT_DONG_DOI_GIAO_CAM_TANG",
+    "name": ""
+  },
+  {
+    "id": "M_HOAT_DONG_QUA_MUC_CO_BAC_THANG",
+    "name": "Hoạt động quá mức cơ bậc thang và ức đòn chũm"
+  },
+  {
+    "id": "M_HOAT_DONG_TANG_HE_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_HOAT_HOA_BO_THE",
+    "name": ""
+  },
+  {
+    "id": "M_HOAT_HOA_HE_DONG_MAU_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_HOAT_HOA_HE_RAA",
+    "name": "Hoạt hóa hệ renin-angiotensin-aldosterone"
+  },
+  {
+    "id": "M_HOAT_HOA_RAAS",
+    "name": ""
+  },
+  {
+    "id": "M_HO_VAN",
+    "name": ""
+  },
+  {
+    "id": "M_HUYET_KHOI",
+    "name": "Huyết khối"
+  },
+  {
+    "id": "M_HUYET_KHOI_DONG_MACH_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_HUYET_KHOI_TINH_MACH_SAU",
+    "name": ""
+  },
+  {
+    "id": "M_HUY_DONG_CO_HO_HAP_PHU",
+    "name": "Huy động cơ hô hấp phụ"
+  },
+  {
+    "id": "M_HUY_VAN_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_HYPERVENTILATION",
+    "name": ""
+  },
+  {
+    "id": "M_KEM_HAP_THU",
+    "name": "Kém hấp thu"
+  },
+  {
+    "id": "M_KEM_HAP_THU_CHAT_BEO",
+    "name": ""
+  },
+  {
+    "id": "M_KEO_DAI_QT_DO_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_KEO_DAI_REPOLARIZATION",
+    "name": ""
+  },
+  {
+    "id": "M_KHANG_ADH",
+    "name": ""
+  },
+  {
+    "id": "M_KHANG_INSULIN",
+    "name": ""
+  },
+  {
+    "id": "M_KHANG_THE_ANTI_PLA2R",
+    "name": ""
+  },
+  {
+    "id": "M_KHANG_THE_KHANG_MANG_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_KHI_HO_THAN_KIM_TANG_NHIET_DO",
+    "name": ""
+  },
+  {
+    "id": "M_KHOANG_NGHI_BU",
+    "name": "Khoảng nghỉ bù sau ngoại tâm thu"
+  },
+  {
+    "id": "M_KHOI_U_AC_TINH_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_KHOI_U_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_KHONG_CAN_BANG_OXYGEN",
+    "name": ""
+  },
+  {
+    "id": "M_KHONG_TIEU_GIAM_PGE2",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_HOAT_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_HOAT_HE_MIEN_DICH",
+    "name": "Kích hoạt hệ miễn dịch"
+  },
+  {
+    "id": "M_KICH_HOAT_HE_RAA",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_HOAT_RAAS",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_HOAT_TAM_NON",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_HOAT_THAN_KINH_PHA_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_CHEMORECEPTOR",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_DUONG_THO",
+    "name": "Kích thích đường thở"
+  },
+  {
+    "id": "M_KICH_THICH_GIAO_CAM",
+    "name": "Kích thích hệ thần kinh giao cảm"
+  },
+  {
+    "id": "M_KICH_THICH_HE_THAN_KINH_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_MANG_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_PHUC_MAC",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_RECEPTOR_CO_HOC",
+    "name": "Kích thích receptor cơ học"
+  },
+  {
+    "id": "M_KICH_THICH_RECEPTOR_HOA_HOC",
+    "name": "Kích thích receptor hóa học (chemoreceptor)"
+  },
+  {
+    "id": "M_KICH_THICH_THAN_KINH_TRONG_DU",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_THAN_KINH_VAN_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_THU_THE_HO",
+    "name": "Kích thích thụ thể ho"
+  },
+  {
+    "id": "M_KICH_THICH_TRUNG_TAM_HO_HAP",
+    "name": "Kich thich trung tam ho hap"
+  },
+  {
+    "id": "M_KICH_THICH_TRUNG_TAM_NON",
+    "name": ""
+  },
+  {
+    "id": "M_KICH_THICH_VO_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_KIEM_SOAT_THAN_KINH_BAT_ON_DINH",
+    "name": ""
+  },
+  {
+    "id": "M_LANG_DOC_TINH_THE_URAT",
+    "name": ""
+  },
+  {
+    "id": "M_LANG_DONG_AMYLOID",
+    "name": ""
+  },
+  {
+    "id": "M_LANG_DONG_IGA_CAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_LANG_DONG_PHUC_HOP_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_LANG_DONG_SOI_CAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_LAN_AMIP_SANG_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_LAN_HUYET_HANH",
+    "name": ""
+  },
+  {
+    "id": "M_LAO_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_LAẮNG_ĐỌNG_PHUC_HOP_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_LECH_TRUNG_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_LIET_CO_HOANH",
+    "name": "Cơ chế liệt cơ hoành"
+  },
+  {
+    "id": "M_LIET_CO_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_LOAN_NHIP_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_LOAN_NHIP_THẤT_BEN_VUNG",
+    "name": ""
+  },
+  {
+    "id": "M_LOAN_NHIP_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_LOAN_NHIP_TREN_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_LOI_SONG_TINH_TAI",
+    "name": ""
+  },
+  {
+    "id": "M_LOI_TIEU_THAM_THAU",
+    "name": "Lợi tiểu thẩm thấu"
+  },
+  {
+    "id": "M_LONG_NGUC_CANG_PHONG",
+    "name": "Long nguc cang phong"
+  },
+  {
+    "id": "M_LO_LANG_CAG_THANG",
+    "name": ""
+  },
+  {
+    "id": "M_LO_LANG_MAN_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_LO_LANG_NGOAI_DU_KIEN",
+    "name": ""
+  },
+  {
+    "id": "M_LO_LANG_SO_HAI",
+    "name": ""
+  },
+  {
+    "id": "M_LUC_KEO_CO_HOANH_LEN_XUONG_SUON",
+    "name": "Lực kéo cơ hoành lên xương sườn"
+  },
+  {
+    "id": "M_LY_GIAI_CO",
+    "name": "Ly giải cơ"
+  },
+  {
+    "id": "M_MACH_PHOI_TAC",
+    "name": ""
+  },
+  {
+    "id": "M_MANG_DAY_CAU_THAN_MONG",
+    "name": ""
+  },
+  {
+    "id": "M_MANG_SUON_DI_DONG",
+    "name": "Cơ chế mảng sườn di động"
+  },
+  {
+    "id": "M_MAN_KINH_BOC_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_CAN_BANG_DIEN_GIAI",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_CHUC_NANG_LOC_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_DAN_HOI_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_DICH_QUA_TIEU_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_KHA_NANG_CO_DAC",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_KHOI_CO",
+    "name": "Mất khối lượng cơ"
+  },
+  {
+    "id": "M_MAT_KIEM_SOAT_THAI_NHIET",
+    "name": "Mất kiểm soát thải nhiệt"
+  },
+  {
+    "id": "M_MAT_KIEM_SOAT_THAT_NHIET",
+    "name": "Mất kiểm soát thải nhiệt"
+  },
+  {
+    "id": "M_MAT_MAU",
+    "name": "Mất máu"
+  },
+  {
+    "id": "M_MAT_MAU_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_MAU_MAN",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_DIEN_GIAI",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_NGOAI_BAO",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_QUA_DA",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_QUA_NUOC_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_QUA_TIEU_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_TANG",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_VA_TAP_TRUNG_URINE",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_VA_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_NUOC_VIA_HAT_MO_HOI",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_PROTEIN_QUA_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_SU_DAN_HOI_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_MAT_THE_TICH_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_METHEMOGLOBIN",
+    "name": ""
+  },
+  {
+    "id": "M_MET_CO_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_MIEN_DICH_CHEO",
+    "name": ""
+  },
+  {
+    "id": "M_NGOAI_TAM_THU_NHI",
+    "name": "Ngoại tâm thu nhĩ"
+  },
+  {
+    "id": "M_NGOAI_TAM_THU_THAT",
+    "name": "Ngoại tâm thu thất"
+  },
+  {
+    "id": "M_NGOAI_TAM_THU_THẤT",
+    "name": ""
+  },
+  {
+    "id": "M_NGUNG_THAI_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_NGUNG_THO_TAC_NGHEN",
+    "name": "Cơ chế ngừng thở tắc nghẽn"
+  },
+  {
+    "id": "M_NGUNG_THO_TRUNG_UONG",
+    "name": "Cơ chế ngừng thở trung ương"
+  },
+  {
+    "id": "M_NHIEM_BORRELIA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_BRUCELLA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_DOC_CHAT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_HIV_VIRUS",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_LAO_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_LEISHMANIA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_LEPTOSPIRA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_MO_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_MYCOBACTERIUM_TB",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_NAM_CO_HOI",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_ORIENTIA_TSUTSUGAMUSHI",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_PLASMODIUM",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_RICKETTSIA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_SALMONELLA_TYPHI",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_AN",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DICH_BANG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DUONG_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DUONG_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DUONG_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DUONG_TIET_NIEU",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_HUYET",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_KHONG_DIEN_HINH",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_LAN_TOA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_MAN",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_MAN_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_NAM",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_NIEU_DAO",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_PHUC_MAC",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_TIEU_HOA_TANG_CHUYENDONG",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_VAN_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_TRUNG_VIRUS",
+    "name": "Nhiễm trùng virus"
+  },
+  {
+    "id": "M_NHIEM_TRUNG_VI_KHUAN",
+    "name": "Nhiễm trùng vi khuẩn"
+  },
+  {
+    "id": "M_NHIEM_TRYPANOSOMA",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_CUM",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_DENGUE",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_EBV",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_HERPES",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_VIEM_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VIRUS_YELLOW_FEVER",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VI_KHUAN_MANG_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VI_KHUAN_NOI_BAO",
+    "name": ""
+  },
+  {
+    "id": "M_NHIEM_VI_KHUAN_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_KHONG_DONG_BO_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_AVRT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_THAT_POLYMORPHIC",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_VON_RE_ENTRY",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_VON_RE_ENTRY_DUONG_PHU",
+    "name": ""
+  },
+  {
+    "id": "M_NHIP_NHANH_XOANG",
+    "name": "Nhịp nhanh xoang"
+  },
+  {
+    "id": "M_NHOI_MAU_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_NHOI_MAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_NHOI_MAU_THANH_DUOI",
+    "name": ""
+  },
+  {
+    "id": "M_NSAIDS",
+    "name": ""
+  },
+  {
+    "id": "M_OVERLOAD_THE_TICH",
+    "name": ""
+  },
+  {
+    "id": "M_PARANEOPLASTIC",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_HUY_MO_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_LY_NHI_THAT",
+    "name": "Phân ly nhĩ-thất"
+  },
+  {
+    "id": "M_PHAN_UNG_AI_TOAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_BU_TRU",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_DI_UNG",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_DI_UNG_IGE",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_MIEN_DICH_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_MIEN_DICH_QUA_MANG",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_QUA_MAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_QUA_MAN_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_TAM_LY",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_VIEM",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_VIEM_SAU_CHAN_THUONG",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_VIEM_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_VIEM_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_UNG_VIEM_VET_THUONG",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_VE_TYPE_I",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_XA_HO",
+    "name": "Phản xạ ho"
+  },
+  {
+    "id": "M_PHAN_XA_NHIEM_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_PHAN_XA_PHE_VI",
+    "name": "Phản xạ phế vị"
+  },
+  {
+    "id": "M_PHAN_XA_THAN_NAO_CUOI_CUNG",
+    "name": "Phản xạ thân não cuối cùng"
+  },
+  {
+    "id": "M_PHAT_TRIEN_BAT_THUONG_XUONG_SUN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAT_TRIEN_KHONG_KIEM_SOAT",
+    "name": ""
+  },
+  {
+    "id": "M_PHAT_TRIEN_NANG_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHAT_TRIEN_QUA_MUC_C_DIFFICILE",
+    "name": ""
+  },
+  {
+    "id": "M_PHA_VO_HONG_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_PHINH_TANG_DAC",
+    "name": ""
+  },
+  {
+    "id": "M_PHINH_TUYEN_TIEN_LIET",
+    "name": ""
+  },
+  {
+    "id": "M_PHI_DAI_CO_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_PHI_DAI_THAT_TRAI",
+    "name": ""
+  },
+  {
+    "id": "M_PHI_LOI_KHUAN_DUONG_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_PHI_SAT_KHUAN_BENH_VIEN",
+    "name": ""
+  },
+  {
+    "id": "M_PHONG_THICH_PGE2",
+    "name": "Phóng thích prostaglandin E2"
+  },
+  {
+    "id": "M_PHUPHAM_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_DUONG_THO_TREN",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_HAU_LUOI",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_MO_KE",
+    "name": "Phu mo ke"
+  },
+  {
+    "id": "M_PHU_MO_KE_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_NE_MO_KE_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_PHOI_CAP",
+    "name": "Phù phổi cấp"
+  },
+  {
+    "id": "M_PHU_PHOI_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_THANH_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_PHU_XUONG_KHOP",
+    "name": ""
+  },
+  {
+    "id": "M_PRE_EXCITATION",
+    "name": ""
+  },
+  {
+    "id": "M_PROSTAGLANDIN_E2",
+    "name": ""
+  },
+  {
+    "id": "M_QT_DAI",
+    "name": "Kéo dài khoảng QT"
+  },
+  {
+    "id": "M_QUA_MAN_HO",
+    "name": "Quá mẫn ho"
+  },
+  {
+    "id": "M_QUA_TAI_AP_LUC",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_CHAT_THAM_THAU",
+    "name": "Quá tải chất thẩm thấu"
+  },
+  {
+    "id": "M_QUA_TAI_DA_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_DICH_TUAN_HOAN",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_MUOI",
+    "name": "Quá tải muối"
+  },
+  {
+    "id": "M_QUA_TAI_NHIET_MOI_TRUONG",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_THE_TICH",
+    "name": ""
+  },
+  {
+    "id": "M_QUA_TAI_THE_TICH_TUAN_HOAN",
+    "name": "Qua tai the tich tuan hoan"
+  },
+  {
+    "id": "M_RACH_VO_MACH_MAU_PHOI",
+    "name": "Rách vỡ mạch máu phổi"
+  },
+  {
+    "id": "M_ROI_LOAN_BOM_HO_HAP",
+    "name": "Roi loan bom ho hap"
+  },
+  {
+    "id": "M_ROI_LOAN_CAM_GIAC_THAN_KINH_PHE_VI",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CAN_BANG_KHI_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CAU_TRUC_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_BOM_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_CAU_NAO",
+    "name": "Rối loạn chức năng cầu não"
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_CO_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_PHE_VI",
+    "name": "Rối loạn chức năng phế vị"
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TAM_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TAM_THU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TAM_THUONG",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TAM_TRUONG",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TE_BAO_GAN",
+    "name": "Rối loạn chức năng tế bào gan"
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUC_NANG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUYEN_HOA",
+    "name": "Rối loạn chuyển hóa"
+  },
+  {
+    "id": "M_ROI_LOAN_CHUYEN_HOA_LIPID",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_CHUYEN_HOA_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_DAN_TRUYEN_NHI_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_DAY_TRUC_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_DIASTOLIC",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_DIEN_GIAI",
+    "name": "Rối loạn điện giải"
+  },
+  {
+    "id": "M_ROI_LOAN_DONG_MAU",
+    "name": "Rối loạn đông máu"
+  },
+  {
+    "id": "M_ROI_LOAN_ELECTROLYTE",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_HOANG_LOAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_HUYET_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_LAM_DAY_TRUC_TRANG",
+    "name": "Rối loạn làm đầy trực tràng"
+  },
+  {
+    "id": "M_ROI_LOAN_LIPID_BU_TRU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_LO_AU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_LUU_LUONG_MAU_QUA_VAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_MACH_MAU_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_NHIP",
+    "name": "Rối loạn nhịp tim"
+  },
+  {
+    "id": "M_ROI_LOAN_NHIP_SINH_HOC",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_NHIP_THU_PHAT",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_NHIP_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_PHOI_HOP_CO_SAN_CHAU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_TAM_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_TAM_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_THAN_KINH_TU_CHU",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_THOAT_PHAN",
+    "name": "Rối loạn thoát phân"
+  },
+  {
+    "id": "M_ROI_LOAN_TIC",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_TONG_XUAT_TRUC_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_TRAO_DOI_KHI",
+    "name": "Roi loan trao doi khi"
+  },
+  {
+    "id": "M_ROI_LOAN_TRUNG_TAM_HO_HAP",
+    "name": "Roi loan trung tam ho hap"
+  },
+  {
+    "id": "M_ROI_LOAN_TRUYEN_THAM_KINH_CO",
+    "name": ""
+  },
+  {
+    "id": "M_ROI_LOAN_VAN_DONG",
+    "name": "Rối loạn vận động"
+  },
+  {
+    "id": "M_ROI_LOAN_VAN_DONG_RUOT",
+    "name": "Rối loạn vận động ruột"
+  },
+  {
+    "id": "M_ROI_LOAN_VAN_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_RO_NGUOC_MAU_TAM_NHIP",
+    "name": ""
+  },
+  {
+    "id": "M_RO_NUOC_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_RO_ONG_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_RUNG_THAT_VO_CAN",
+    "name": ""
+  },
+  {
+    "id": "M_SAN_SINH_CYTOKINE",
+    "name": "Sản sinh cytokine nội sinh"
+  },
+  {
+    "id": "M_SHUNT_TRAI_SANG_PHAI",
+    "name": ""
+  },
+  {
+    "id": "M_SOC",
+    "name": ""
+  },
+  {
+    "id": "M_SOC_HYPOVOLEMIC",
+    "name": ""
+  },
+  {
+    "id": "M_SOC_NHIEM_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_SOI_KICH_THICH",
+    "name": ""
+  },
+  {
+    "id": "M_SOI_TON_THUONG_NIEM_MAC",
+    "name": ""
+  },
+  {
+    "id": "M_SOI_TUI_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_SONG_OI_LOI_HOA_CHAT_VA_DIEN_GIAI",
+    "name": ""
+  },
+  {
+    "id": "M_SOT",
+    "name": ""
+  },
+  {
+    "id": "M_SOT_AC_TINH_HYPERTHERMIA",
+    "name": ""
+  },
+  {
+    "id": "M_SOT_AC_TINH_VA_SUY_THAN_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_SOT_CAO_TANG_THIET_MAT_NUOC",
+    "name": ""
+  },
+  {
+    "id": "M_SUNG_HUYET",
+    "name": "Sung huyết"
+  },
+  {
+    "id": "M_SUNG_HUYET_GAN_RUOT",
+    "name": "Sung huyết gan và ruột"
+  },
+  {
+    "id": "M_SUNG_HUYET_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_SUNG_VIEM_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_SUYGIAMTIM_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_BOM_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_CHUC_NANG_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_CHUC_NANG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_CHUC_NANG_TONG_HOP_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_DINH_DUONG",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GIAM_CHUC_NANG_TAM_THU",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GIAM_CHUC_NANG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GIAM_CO_CHE_DIEU_HOA_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GIAM_KHA_NANG_TOA_MOI_HOI",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_GIAM_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_HO_HAP",
+    "name": "Suy hô hấp"
+  },
+  {
+    "id": "M_SUY_HO_HAP_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_MON_THE_LUC",
+    "name": "Suy mon the luc"
+  },
+  {
+    "id": "M_SUY_NUT_XOANG",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_PHAN_XA_TU_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_SUAT_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TE_BAO_GAN",
+    "name": "Suy tế bào gan"
+  },
+  {
+    "id": "M_SUY_THAT_PHAI",
+    "name": "Suy thất phải"
+  },
+  {
+    "id": "M_SUY_THAT_TRAI",
+    "name": "Suy thất trái"
+  },
+  {
+    "id": "M_SUY_TIM",
+    "name": "Suy tim"
+  },
+  {
+    "id": "M_SUY_TIM_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_MAT_BU",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_MAT_BU_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_PHAI",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_SUNG_HUYET",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_THU_PHAT",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_TRAI_CAP_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TIM_TRI",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TUAN_HOAN",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_TUYEN_TUC",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_VAN_TINH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_YEU_CO_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_YEU_HE_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_SUY_YẾU_CƠ_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_BACH_HUYET",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DONG_CHAY_VAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DONG_MACH_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DONG_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DONG_MACH_VANH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DUG_PH_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_DUNG_PHU_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_LUMEN_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_LUONG_KHONG_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_MACH_GAN",
+    "name": "Tắc mạch gan"
+  },
+  {
+    "id": "M_TAC_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_MAT_TRONG_GAN",
+    "name": "Tắc mật trong gan"
+  },
+  {
+    "id": "M_TAC_NGHEN_BACH_HUYET",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_CO_HOC_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DAN_LUU_BACH_HUYET",
+    "name": "Tắc nghẽn dẫn lưu bạch huyết"
+  },
+  {
+    "id": "M_TAC_NGHEN_DAN_LUU_BACH_HUYET_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DONG_CHAY",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DONG_MACH_VANH",
+    "name": "Tắc nghẽn động mạch vành"
+  },
+  {
+    "id": "M_TAC_NGHEN_DO_CUC_MAU_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_DAN_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_HO_HAP_TREN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_MAT",
+    "name": "Tắc nghẽn đường mật"
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_RA",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_RA_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_THO",
+    "name": "Tac nghen duong tho"
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_THO_TREN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_TIEU",
+    "name": "Tắc nghẽn đường tiểu"
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_TIEU_DUOI",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_TIEU_HOAN_TOAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_MACH_MAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_NIEU_DAO",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_NIEU_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_NIEU_QUAN_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_TANG_RONG",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NGHEN_TINH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NHAN_GAY_SOT_NGOAI_SINH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NHAN_SOT_NOI_SINH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_NHAN_SOT_NOI_SINH_LIEN_TUC",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_ONG_CYSTIC",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_ONG_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_TINH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_TINH_MACH_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAC_TINH_MACH_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TAI_PHAN_BO_DICH",
+    "name": "Tai phan bo dich"
+  },
+  {
+    "id": "M_TAI_PHAN_BO_DICH_KHI_NAM",
+    "name": ""
+  },
+  {
+    "id": "M_TAI_PHAN_BO_MAU",
+    "name": "Tái phân bố máu"
+  },
+  {
+    "id": "M_TAI_PHAN_PHOI_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_TAI_PHAT_NHIEM_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_ACID_URIC",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_ACTH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AFTERLOAD_THAT_TRAI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AMONIAC_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_CUA",
+    "name": "Tăng áp cửa"
+  },
+  {
+    "id": "M_TANG_AP_LUC_CUOI_THI_THO_RA",
+    "name": "Tăng áp lực cuối thì thở ra"
+  },
+  {
+    "id": "M_TANG_AP_LUC_DIC_TRO_LAI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_DONG_MACH_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_DONG_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_DO_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_DO_DAY_THAT",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_MAO_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_MAO_QUAN_PHOI",
+    "name": "Tang ap luc mao quan phoi"
+  },
+  {
+    "id": "M_TANG_AP_LUC_NOI_SO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_O_BUNG",
+    "name": "Tăng áp lực ổ bụng"
+  },
+  {
+    "id": "M_TANG_AP_LUC_THAT_TRAI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_THUY_TINH",
+    "name": "Tăng áp lực thủy tĩnh"
+  },
+  {
+    "id": "M_TANG_AP_LUC_THUY_TINH_MAO_MACH",
+    "name": "Tăng áp lực thủy tĩnh mao mạch"
+  },
+  {
+    "id": "M_TANG_AP_LUC_THUY_TINH_MAO_MACH_PHOI",
+    "name": "Tang ap luc thuy tinh mao mach phoi"
+  },
+  {
+    "id": "M_TANG_AP_LUC_TINH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_LUC_TINH_MACH_CUA",
+    "name": "Tăng áp lực tĩnh mạch cửa"
+  },
+  {
+    "id": "M_TANG_AP_LUC_TINH_MACH_PHOI",
+    "name": "Tăng áp lực tĩnh mạch phổi"
+  },
+  {
+    "id": "M_TANG_AP_LUC_TINH_MACH_TRUNG_TAM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_MAO_QUAN_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_THUY_TINH_MAO_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_TINH_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_AP_TINH_MACH_TAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_BACH_CAU_AI_TOAN",
+    "name": "Tăng bạch cầu ái toan"
+  },
+  {
+    "id": "M_TANG_BAI_TIET_CHAT_HOA_TAN",
+    "name": "Tăng bài tiết chất hòa tan"
+  },
+  {
+    "id": "M_TANG_BAI_TIET_GLUCOSE",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_BAI_TIET_NUOC",
+    "name": "Tăng bài tiết nước"
+  },
+  {
+    "id": "M_TANG_BILIRUBIN_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_BNP",
+    "name": "Tăng BNP/NT-proBNP"
+  },
+  {
+    "id": "M_TANG_CAMP",
+    "name": "Tăng cAMP"
+  },
+  {
+    "id": "M_TANG_CATECHOLAMINE",
+    "name": "Tăng catecholamine"
+  },
+  {
+    "id": "M_TANG_CATECHOLAMINES_NIEU",
+    "name": "Tăng catecholamines niệu"
+  },
+  {
+    "id": "M_TANG_CHUYEN_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_CHUYEN_HOA_CO_BAN",
+    "name": "Tăng chuyển hóa cơ bản"
+  },
+  {
+    "id": "M_TANG_CO2_MAU",
+    "name": "Tang CO2 mau"
+  },
+  {
+    "id": "M_TANG_CONG_THO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_CO_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_CUNG_LUONG_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_CYTOKINE",
+    "name": "Tăng nồng độ cytokine"
+  },
+  {
+    "id": "M_TANG_DAN_LUU_BACH_HUYET_GAN",
+    "name": "Tăng dẫn lưu bạch huyết ở gan"
+  },
+  {
+    "id": "M_TANG_DICH_MOE_BACH_HUYET_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_DIEN_TRO_MACH_MAU_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_DONG",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_DONG_MAU_QUA_GAN",
+    "name": "Tăng dòng máu qua gan"
+  },
+  {
+    "id": "M_TANG_D_DIMER",
+    "name": "Tăng D-dimer"
+  },
+  {
+    "id": "M_TANG_ENDOTHELIN_1",
+    "name": "Tăng endothelin-1"
+  },
+  {
+    "id": "M_TANG_FREE_METANEPHRINE",
+    "name": "Tăng free metanephrine"
+  },
+  {
+    "id": "M_TANG_FSH_LH",
+    "name": "Tăng FSH/LH"
+  },
+  {
+    "id": "M_TANG_FT4_FT3",
+    "name": "Tăng FT4/FT3"
+  },
+  {
+    "id": "M_TANG_HEMOGLOBIN_KHU",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HOAT_DONG_DOI_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HOAT_DONG_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HOAT_DONG_HE_GIAO_CAM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HOAT_DONG_HE_RENIN_ANGIOTENSIN",
+    "name": "Tăng hoạt động hệ renin-angiotensin"
+  },
+  {
+    "id": "M_TANG_HOAT_GIAO_CAM",
+    "name": "Tăng hoạt giao cảm"
+  },
+  {
+    "id": "M_TANG_HOI_LUU_TINH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HORMONE_GIAP",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HUYET_AP",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_HUYET_AP_CATECHOLAMINE",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_KALI_MAU",
+    "name": "Tăng kali máu"
+  },
+  {
+    "id": "M_TANG_KICH_THICH_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_K_PLUS_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_LUU_LUONG_MAS",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_NHAN_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_NHAY_CAM_DUONG_THO",
+    "name": "Tăng nhạy cảm đường thở"
+  },
+  {
+    "id": "M_TANG_NHAY_CAM_THAN_KINH_HO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_NHIP_TIM_XOANG",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_NHU_CAU_NANG_LUONG",
+    "name": "Tăng nhu cầu năng lượng"
+  },
+  {
+    "id": "M_TANG_NHU_CAU_OXY",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_NHU_DONG_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_OSMOLALITY_HUYET_TUONG",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_PHONG_THICH_CATECHOLAMINE",
+    "name": "Tăng phóng thích catecholamine"
+  },
+  {
+    "id": "M_TANG_SAN_SINH_DICH",
+    "name": "Tăng sản sinh dịch"
+  },
+  {
+    "id": "M_TANG_SAN_XUAT_BILIRUBIN",
+    "name": "Tăng sản xuất bilirubin"
+  },
+  {
+    "id": "M_TANG_SAN_XUAT_NUOC_TIEU_DEM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SAT_XUAT_BILIRUBIN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SINH_AC_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SINH_GIAN_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SINH_LYMPHOCYTE",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SINH_MESANGIUM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SINH_MO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SUC_CAN_DUONG_THO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SUC_CAN_MACH_NGOAI_BIEN",
+    "name": "Tăng sức cản động mạch ngoại biên"
+  },
+  {
+    "id": "M_TANG_SUC_CAN_MACH_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_SUC_CAN_NGOAI_VI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TACO_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TAI_HAP_THU_NA_NUOC",
+    "name": "Tăng tái hấp thu Na và nước"
+  },
+  {
+    "id": "M_TANG_TAI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TAO_NHIET",
+    "name": "Tăng tạo nhiệt"
+  },
+  {
+    "id": "M_TANG_TAO_NHIET_GIU_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THAI_NHIET_QUA_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THAM_DIC_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THAM_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THAM_QUA_MAO_MACH",
+    "name": "Tăng thấm qua mao mạch"
+  },
+  {
+    "id": "M_TANG_THAN_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THE_TICH_DICH_NGOAI_BAO",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THE_TICH_TUAN_HOAN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THONG_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_THONG_KHI_TAM_THAN",
+    "name": "Tăng thông khí do tâm thần"
+  },
+  {
+    "id": "M_TANG_TICITY_THAM_THANH_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIEN_TAI_TIM_PHAI",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_ACID",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_ALDOSTERONE",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_AVP",
+    "name": "Tăng tiết vasopressin"
+  },
+  {
+    "id": "M_TANG_TIET_AVP_(ADH)",
+    "name": "Tăng tiết arginine vasopressin (ADH)"
+  },
+  {
+    "id": "M_TANG_TIET_CATECHOLAMINE",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_CHAT_NHAM_TAI_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_NHAY_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TIET_RENIN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TINH_RUOT_DONG_CƯỜNG_GIAP",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TINH_THAM_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TINH_THAM_MANG_DAY_CAU_THAN",
+    "name": "Tăng tính thấm màng đáy cầu thận"
+  },
+  {
+    "id": "M_TANG_TINH_THAM_MAO_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TINH_THAM_THANH_MACH",
+    "name": "Tăng tính thấm thành mạch"
+  },
+  {
+    "id": "M_TANG_TIN_HIEU_HO_HAP_TRUNG_UONG",
+    "name": "Tăng tín hiệu hô hấp trung ương"
+  },
+  {
+    "id": "M_TANG_TOC_DO_CHUYEN_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TRAO_DOI_CHAT_CƯỜNG_GIAP",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TROPONIN",
+    "name": "Tăng troponin"
+  },
+  {
+    "id": "M_TANG_TROPONIN_SUY_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TANG_TRUONG_LUC_DOI_GIAO_CAM",
+    "name": "Tăng trương lực đối giao cảm"
+  },
+  {
+    "id": "M_TANG_URE_HUYET",
+    "name": "Tăng ure huyết"
+  },
+  {
+    "id": "M_TANG_XUNG_DONG_HO_HAP",
+    "name": "Tang xung dong ho hap"
+  },
+  {
+    "id": "M_TAN_HUYET",
+    "name": "Tán huyết"
+  },
+  {
+    "id": "M_TAN_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TAO_AP_XE",
+    "name": ""
+  },
+  {
+    "id": "M_TAO_PHİNH_DONG_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_THAM_DICH_VAO_PHE_NANG",
+    "name": "Tham dich vao phe nang"
+  },
+  {
+    "id": "M_THAY_DOI_CAU_TRUC_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_THAY_DOI_CAU_TRUC_VAN",
+    "name": ""
+  },
+  {
+    "id": "M_THAY_DOI_DIEM_DIEU_NHIET",
+    "name": "Thay đổi điểm điều nhiệt"
+  },
+  {
+    "id": "M_THAY_DOI_DIEM_DIEU_NHIET_HA_DOI",
+    "name": ""
+  },
+  {
+    "id": "M_THAY_DOI_KHANG_NGUYEN",
+    "name": ""
+  },
+  {
+    "id": "M_THAY_DOI_KICH_THUOC_LO_LOC",
+    "name": "Thay đổi kích thước lỗ lọc"
+  },
+  {
+    "id": "M_THAY_DOI_TAM_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_ADH",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_ALDOSTERONE",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_CORTISOL",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_ENZYME_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_HUT_NANG_LUONG",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_HUT_NANG_LUONG_TE_BAO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_HUT_VITAMIN",
+    "name": "Thiếu hụt vitamin và vi chất"
+  },
+  {
+    "id": "M_THIEU_KHI_OXY_MO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CAP",
+    "name": "Thiếu máu cục bộ cơ tim cấp"
+  },
+  {
+    "id": "M_THIEU_MAU_CO_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CO_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CUC_BO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CUC_BO_CO_TIM",
+    "name": "Thiếu máu cục bộ cơ tim"
+  },
+  {
+    "id": "M_THIEU_MAU_CUC_BO_CO_TIM_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CUC_BO_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_CUC_BO_THAN",
+    "name": "Thiếu máu cục bộ thận"
+  },
+  {
+    "id": "M_THIEU_MAU_GAN_CUC_BO",
+    "name": "Thiếu máu gan cục bộ"
+  },
+  {
+    "id": "M_THIEU_MAU_HUNG_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_MAN",
+    "name": "Thiếu máu mạn"
+  },
+  {
+    "id": "M_THIEU_MAU_MAN_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_MO",
+    "name": "Thiếu máu mô"
+  },
+  {
+    "id": "M_THIEU_MAU_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_NUOI_CHI_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_MUOI_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_OXY",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_OXY_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_OXY_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_OXY_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_THIEU_SAT",
+    "name": ""
+  },
+  {
+    "id": "M_THOAT_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_THOAT_DICH_KHOANG_THU_BA",
+    "name": "Thoát dịch vào khoang thứ ba"
+  },
+  {
+    "id": "M_THO_CHEYNE_STOKES",
+    "name": ""
+  },
+  {
+    "id": "M_THUAN_TAC_HUYET_KHOI",
+    "name": ""
+  },
+  {
+    "id": "M_THUNG_TANG_RONG",
+    "name": ""
+  },
+  {
+    "id": "M_THUNG_TA_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_THUNG_TUI_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_THUYEN_TAC",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_MOT_MO",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_MO_QUA_MUC",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_TUY_DICH_SE_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_TU_DICH",
+    "name": "Tích tụ dịch"
+  },
+  {
+    "id": "M_TICH_TU_DICH_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_TU_DOC_CHAT",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_TU_DOC_TO_URE",
+    "name": ""
+  },
+  {
+    "id": "M_TICH_TU_HOI",
+    "name": "Tích tụ hơi"
+  },
+  {
+    "id": "M_TICH_TU_MO",
+    "name": "Tích tụ mỡ"
+  },
+  {
+    "id": "M_TICH_TU_MUCOPOLYSACCHARIDE",
+    "name": ""
+  },
+  {
+    "id": "M_TIET_DICH_DUONG_THO",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_CHAY_DICH_TIET",
+    "name": "Tiêu chảy dịch tiết"
+  },
+  {
+    "id": "M_TIEU_CHAY_DO_VIEM",
+    "name": "Tiêu chảy do viêm"
+  },
+  {
+    "id": "M_TIEU_CHAY_THAM_THAU",
+    "name": "Tiêu chảy thẩm thấu"
+  },
+  {
+    "id": "M_TIEU_CHAY_VIEM",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_FIBRIN_QUA_MUC",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_HAO_DO_UNG_THU",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_HAO_MAN_TINH",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_HAO_YEU_TO_DONG_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TIEU_PROTEIN_MUC_DO_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_TINH_MACH_CUA",
+    "name": ""
+  },
+  {
+    "id": "M_TNF_INTERLEUKIN",
+    "name": ""
+  },
+  {
+    "id": "M_TOAN_CHUYEN_HOA",
+    "name": "Toan chuyển hóa"
+  },
+  {
+    "id": "M_TOAN_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TOAN_THUONG_CAU_TRUC_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TOAN_THUONG_MO_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TOAN_THUONG_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_BOM_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_BO_PHAN_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_CAU_THAN",
+    "name": "Tổn thương cầu thận"
+  },
+  {
+    "id": "M_TON_THUONG_CAU_TRUC_PHE_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_CO_QUAN_DO_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_CO_TIM",
+    "name": "Tổn thương cơ tim"
+  },
+  {
+    "id": "M_TON_THUONG_DAY_THANH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_ENDOTHELIUM_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_HANH_NAO",
+    "name": "Tổn thương hành não"
+  },
+  {
+    "id": "M_TON_THUONG_HAU_MON_TRUC_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_HIT_SAC",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_MACH_MAU_PHOI",
+    "name": "Tổn thương mạch máu phổi"
+  },
+  {
+    "id": "M_TON_THUONG_MACH_MAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_MANG_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_MANG_DAY_CAU_THAN",
+    "name": "Tổn thương màng đáy cầu thận"
+  },
+  {
+    "id": "M_TON_THUONG_MANG_PHE_NANG_MAO_MACH",
+    "name": "Ton thuong mang phe nang-mao mach"
+  },
+  {
+    "id": "M_TON_THUONG_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_MO_KE",
+    "name": "Tổn thương mô kẽ"
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_DAI_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_DA_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_DUONG_TIEU",
+    "name": "Tổn thương niêm mạc đường tiểu"
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_HAU_MON",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_RUOT_NON",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_THUC_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NIEM_MAC_TIEU_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NOI_MAC_MACH_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_NOI_MO_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_ONG_THAN",
+    "name": "Tổn thương ống thận"
+  },
+  {
+    "id": "M_TON_THUONG_PROTEIN_CO",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TE_BAO_DO_NHIET",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TE_BAO_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TE_BAO_GAN_DO_RUOU",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN_KINH_CO",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN_KINH_HOAECH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN_KINH_SAN_CHAU",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_THAN_KINH_TRUNG_UONG",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TRAO_DOI_KHI",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TRON_THAN_KINH",
+    "name": ""
+  },
+  {
+    "id": "M_TON_THUONG_TRUNG_TAM_DIEU_NHIET",
+    "name": "Tổn thương trung tâm điều nhiệt"
+  },
+  {
+    "id": "M_TORSADES_DE_POINTES",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_DICH_MANG_NGOAI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_DICH_MANG_NGOAI_TIM_CHEN_EP",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_DICH_MANG_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_DIC_MEMQ_NGOAI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_DIL",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_KHI_CANH",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_KHI_MANG_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_TRAN_KHI_MEMQ_PHOI_TU_PHAT",
+    "name": ""
+  },
+  {
+    "id": "M_TRAO_NGUOC_DAU_DAY_THUC_QUONG",
+    "name": ""
+  },
+  {
+    "id": "M_TRAO_NGUOC_DA_DAY_THUC_QUAN",
+    "name": "Trào ngược dạ dày thực quản"
+  },
+  {
+    "id": "M_TRE_TUAN_HOAN",
+    "name": ""
+  },
+  {
+    "id": "M_TRONG_LUC",
+    "name": ""
+  },
+  {
+    "id": "M_TRUONG_HOI",
+    "name": ""
+  },
+  {
+    "id": "M_TRUONG_HOI_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_TUT_HUYET_AP",
+    "name": ""
+  },
+  {
+    "id": "M_TUT_HUYET_AP_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_TU_KHANG_THE",
+    "name": ""
+  },
+  {
+    "id": "M_TU_MIEN_VIEM_KHOP",
+    "name": ""
+  },
+  {
+    "id": "M_TU_TIEU_HOA_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_TАСЬ_THE_HIT_THO",
+    "name": ""
+  },
+  {
+    "id": "M_UC_CHE_MEN_CHUYEN",
+    "name": "Ức chế men chuyển (gây tích tụ bradykinin)"
+  },
+  {
+    "id": "M_UNG_DUNG_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_UNG_DUNG_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_UNG_THU_AN",
+    "name": ""
+  },
+  {
+    "id": "M_UNG_THU_MANG_BUNG",
+    "name": ""
+  },
+  {
+    "id": "M_UNG_THU_TIET_CYTOKINE",
+    "name": ""
+  },
+  {
+    "id": "M_UNG_TICH_PHAN",
+    "name": ""
+  },
+  {
+    "id": "M_UONG_NUOC_NHIEU",
+    "name": ""
+  },
+  {
+    "id": "M_URE_HUYET_CAO",
+    "name": "Urê huyết cao"
+  },
+  {
+    "id": "M_U_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_U_HAT",
+    "name": ""
+  },
+  {
+    "id": "M_U_HAT_KHONG_KHO",
+    "name": ""
+  },
+  {
+    "id": "M_U_KHI_PHOI",
+    "name": "Ứ khí phổi (hyperinflation)"
+  },
+  {
+    "id": "M_U_MUOI_NGUYEN_PHAT_TAI_THAN",
+    "name": "Ứ muối nước nguyên phát tại thận"
+  },
+  {
+    "id": "M_U_NANG_BUONG_TRUNG",
+    "name": ""
+  },
+  {
+    "id": "M_U_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_U_TRE_TINH_MACH",
+    "name": "Ứ trệ tĩnh mạch"
+  },
+  {
+    "id": "M_VIEM",
+    "name": "Viêm"
+  },
+  {
+    "id": "M_VIEM_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CAU_THAN",
+    "name": "Viêm cầu thận"
+  },
+  {
+    "id": "M_VIEM_CAU_THAN_BAN_NGUYET",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CAU_THAN_PHUC_HOP_MIEN_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CAU_THAN_TU_MIEN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CAU_TRUC_TUI_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CO_XUONG_KHOP",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_CXK_NGUC",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DAI_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DAY_THAM_KINH_NGOAI_BIEN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DA_DAY",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DA_HE_THONG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DONG_MACH_TRUNG_BINH",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DUONG_HO_HAP",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_DUONG_THO",
+    "name": "Viêm đường thở"
+  },
+  {
+    "id": "M_VIEM_GAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_GAN_DO_VIRUS",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_HAT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_KHOP_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_KHU_TRU",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_LOET_NIEM_MAC",
+    "name": "Viêm loét niêm mạc"
+  },
+  {
+    "id": "M_VIEM_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_IGA",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_MAU_LON",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_MAU_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_MAU_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MACH_TU_MIEN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MANG_HOAT_DICH",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MANG_NAO_CUNG_MANG_NAO_MEM",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MANG_NGOAI_TIM",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MANG_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MANG_TIM_DO_URE",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MEMQ_NGOAI_TIM_PHAN_UNG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MOI_KE",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_MO_KE_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NAO_DO_SOT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NHIEM",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NHIEM_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NHIEM_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_BANG_QUANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_NIEU_DAO",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_TUI_MAT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_NIEM_MAC_XOANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_ONG_THAN_MO_KE",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_ONG_THAN_MO_KE_DO_THUOC",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_PHE_NANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_PHE_NANG_LAN_TOA",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_PHOI_CAP",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_PHOI_HIT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_RUOT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TA_TRANG",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_THAN_BE_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_THUC_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TOAN_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TOAN_THAN_DO_SOT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TUI_KHI_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TUYEN_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_TU_MIEN",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_U_HAT",
+    "name": ""
+  },
+  {
+    "id": "M_VIEM_U_HAT_HOAI_TU",
+    "name": ""
+  },
+  {
+    "id": "M_VI_KHUAN_DA_KHANG",
+    "name": ""
+  },
+  {
+    "id": "M_VO_HONG_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_VO_MACH_MAU_TIEU_HOA",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_LAN_MO_LAN_CAN",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_LAY_MACH_MAU",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_AI_TOAN_CAU",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_AMIP",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_CNS",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_CO_QUAN",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_LAC_GAN_TUY",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_VA_DI_CAN",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_VI_KHUAN_DUONG_TIEU",
+    "name": ""
+  },
+  {
+    "id": "M_XAM_NHAP_VI_KHUAN_VET_THUONG",
+    "name": ""
+  },
+  {
+    "id": "M_XEP_PHOI",
+    "name": ""
+  },
+  {
+    "id": "M_XOA_CHAN_BAO_CAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_XOI_MON_MACH_MAU",
+    "name": "Xói mòn mạch máu"
+  },
+  {
+    "id": "M_XO_HOA_CAU_THAN",
+    "name": ""
+  },
+  {
+    "id": "M_XO_HOA_MOI_KE",
+    "name": ""
+  },
+  {
+    "id": "M_XO_HOA_MO_KE",
+    "name": ""
+  },
+  {
+    "id": "M_XO_VUA_DONG_MACH",
+    "name": ""
+  },
+  {
+    "id": "M_XO_VUA_DONG_MACH_VANH",
+    "name": ""
+  },
+  {
+    "id": "M_XO_VUA_MACH_VANH",
+    "name": "Xơ vữa mạch vành"
+  },
+  {
+    "id": "M_XO_VUNG_DONG_MACH_VANH",
+    "name": ""
+  },
+  {
+    "id": "M_XUAT_HUYET_NAO",
+    "name": ""
+  },
+  {
+    "id": "M_XUAT_HUYET_NON_U_NON",
+    "name": ""
+  },
+  {
+    "id": "M_XUAT_HUYET_PHE_NANG",
+    "name": "Xuất huyết phế nang"
+  },
+  {
+    "id": "M_YEU_CO_THAT_HAU_MON",
+    "name": ""
+  },
+  {
+    "id": "M_YEU_TO_TAM_LY",
+    "name": ""
+  },
+  {
+    "id": "M_ZASTOI_TINH_MACH_HE_THONG",
+    "name": ""
+  },
+  {
+    "id": "M_괴_TU_GAN_TAO_SUY_GAN",
+    "name": ""
+  }
+]
