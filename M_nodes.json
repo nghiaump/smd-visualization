@@ -256,6 +256,10 @@
     "name": "cổ THAT cổ TRON"
   },
   {
+    "id": "M_CO_THAT_DONG_MACH_VANH",
+    "name": "Co thắt động mạch vành"
+  },
+  {
     "id": "M_CO_THAT_MACH_VANH",
     "name": "cổ THAT mạch VANH"
   },
@@ -486,6 +490,10 @@
   {
     "id": "M_GIAM_BAI_TIET_BILIRUBIN",
     "name": "Giảm bài tiết bilirubin"
+  },
+  {
+    "id": "M_GIAM_BAI_TIET_URAT_THAN",
+    "name": "Giảm bài tiết urat qua thận"
   },
   {
     "id": "M_GIAM_BO_SUNG_MAU_NAO",
@@ -948,6 +956,10 @@
     "name": "HOAT HOA HE đông máu TOAN thận"
   },
   {
+    "id": "M_HOAT_HOA_HE_GIAO_CAM",
+    "name": "Hoạt hóa hệ giao cảm"
+  },
+  {
     "id": "M_HOAT_HOA_HE_RAA",
     "name": "Hoạt hóa hệ renin-angiotensin-aldosterone"
   },
@@ -958,6 +970,10 @@
   {
     "id": "M_HO_VAN",
     "name": "ho VAN"
+  },
+  {
+    "id": "M_HUT_THUOC_LA",
+    "name": "Hút thuốc lá"
   },
   {
     "id": "M_HUYET_KHOI",
@@ -1148,6 +1164,10 @@
     "name": "LANG đông SOI CAU thận"
   },
   {
+    "id": "M_LANG_DONG_TINH_THE_URAT",
+    "name": "Lắng đọng tinh thể urat"
+  },
+  {
     "id": "M_LAN_AMIP_SANG_GAN",
     "name": "LAN AMIP SANG gan"
   },
@@ -1242,6 +1262,10 @@
   {
     "id": "M_MAN_KINH_BOC_HOA",
     "name": "mạn KINH BOC HOA"
+  },
+  {
+    "id": "M_MAT_CAN_BANG_CUNG_CAU_OXY_CO_TIM",
+    "name": "Mất cân bằng cung cầu oxy cơ tim"
   },
   {
     "id": "M_MAT_CAN_BANG_DIEN_GIAI",
@@ -2396,6 +2420,18 @@
     "name": "Tac nghen duong tho"
   },
   {
+    "id": "M_TAC_NGHEN_DUONG_THO_LON_NGOAI_LONG_NGUC",
+    "name": "Tắc nghẽn đường thở lớn ngoài lồng ngực"
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_THO_LON_TRONG_LONG_NGUC",
+    "name": "Tắc nghẽn đường thở lớn trong lồng ngực"
+  },
+  {
+    "id": "M_TAC_NGHEN_DUONG_THO_NHO",
+    "name": "Tắc nghẽn đường thở nhỏ"
+  },
+  {
     "id": "M_TAC_NGHEN_DUONG_THO_TREN",
     "name": "TAC NGHEN DUONG THO trên"
   },
@@ -2470,6 +2506,10 @@
   {
     "id": "M_TAC_TINH_MACH_THAN",
     "name": "TAC TINH mạch thận"
+  },
+  {
+    "id": "M_TAI_CAU_TRUC_THAT_TRAI",
+    "name": "Tái cấu trúc thất trái"
   },
   {
     "id": "M_TAI_PHAN_BO_DICH",
@@ -2810,6 +2850,10 @@
   {
     "id": "M_TANG_SAN_XUAT_NUOC_TIEU_DEM",
     "name": "tăng SAN XUAT nước tiểu DEM"
+  },
+  {
+    "id": "M_TANG_SAN_XUAT_URAT",
+    "name": "Tăng sản xuất urat"
   },
   {
     "id": "M_TANG_SAT_XUAT_BILIRUBIN",
@@ -3694,6 +3738,10 @@
   {
     "id": "M_VIEM_DONG_MACH_TRUNG_BINH",
     "name": "viêm đông mạch TRUNG BINH"
+  },
+  {
+    "id": "M_VIEM_DO_TINH_THE",
+    "name": "Viêm do tinh thể"
   },
   {
     "id": "M_VIEM_DUONG_HO_HAP",

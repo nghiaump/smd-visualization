@@ -292,6 +292,10 @@
     "name": "CHEN EP tim"
   },
   {
+    "id": "S_CHIEU_CAO_THANH_QUAN_GIAM",
+    "name": "Chiều cao thanh quản giảm"
+  },
+  {
     "id": "S_CHOANG",
     "name": "CHOANG"
   },
@@ -540,6 +544,10 @@
     "name": "Đau hông lưng"
   },
   {
+    "id": "S_DAU_HOOVER",
+    "name": "Dấu Hoover"
+  },
+  {
     "id": "S_DAU_HO_CHAU",
     "name": "Đau hố chậu"
   },
@@ -634,6 +642,10 @@
   {
     "id": "S_DAU_THANH_NGUC",
     "name": "Đau thành ngực"
+  },
+  {
+    "id": "S_DAU_THAT_NGUC",
+    "name": "Đau thắt ngực"
   },
   {
     "id": "S_DAU_THOI",
@@ -1140,6 +1152,10 @@
     "name": "Ho cấp"
   },
   {
+    "id": "S_HO_DAM_BOT_HONG",
+    "name": "Ho đàm bọt hồng"
+  },
+  {
     "id": "S_HO_DAM_MAN",
     "name": "ho DAM mạn"
   },
@@ -1504,6 +1520,10 @@
     "name": "Mạch-nhiệt phân ly"
   },
   {
+    "id": "S_MACH_XEN_KE",
+    "name": "Mạch xen kẽ"
+  },
+  {
     "id": "S_MANG_BAM_DA",
     "name": "màng BAM da"
   },
@@ -1514,6 +1534,10 @@
   {
     "id": "S_MAT_CHUC_NANG",
     "name": "mắt CHUC nặng"
+  },
+  {
+    "id": "S_MAT_DIEN_DUC_TIM",
+    "name": "Mất diện đục tim"
   },
   {
     "id": "S_MAT_HUNG_THU",
@@ -1610,6 +1634,10 @@
   {
     "id": "S_MOI_KHO",
     "name": "Môi khô"
+  },
+  {
+    "id": "S_MOM_TIM_LECH",
+    "name": "Mỏm tim lệch"
   },
   {
     "id": "S_MONG_SOC",
@@ -1936,6 +1964,10 @@
     "name": "Phân cứng"
   },
   {
+    "id": "S_PHAN_HOI_BUNG_CANH",
+    "name": "Phản hồi bụng-cảnh dương tính"
+  },
+  {
     "id": "S_PHAN_HOI_GAN_TINH_MACH_CO",
     "name": "phân HOI gan TINH mạch cổ"
   },
@@ -2076,6 +2108,10 @@
     "name": "Phù nặng về chiều"
   },
   {
+    "id": "S_PODAGRA",
+    "name": "Viêm khớp bàn-ngón chân cái"
+  },
+  {
     "id": "S_PROTEIN_NIEU",
     "name": "Protein niệu"
   },
@@ -2124,6 +2160,10 @@
     "name": "Ran nổ"
   },
   {
+    "id": "S_RAN_NO_DAU_THI_HIT_VAO",
+    "name": "Ran nổ đầu thì hít vào"
+  },
+  {
     "id": "S_RAN_PHOI",
     "name": "Ran phổi"
   },
@@ -2142,6 +2182,10 @@
   {
     "id": "S_RIP_TIM",
     "name": "RIP tim"
+  },
+  {
+    "id": "S_RIT_THANH_QUAN",
+    "name": "Rít thanh quản"
   },
   {
     "id": "S_ROI_LOAN_DIEN_GIAI",
@@ -2340,6 +2384,14 @@
     "name": "SO THAY KHOI MEM bụng"
   },
   {
+    "id": "S_ST_CHENH_LEN",
+    "name": "ST chênh lên"
+  },
+  {
+    "id": "S_ST_CHENH_XUONG",
+    "name": "ST chênh xuống"
+  },
+  {
     "id": "S_SUNG_BAM_TIM",
     "name": "SUNG BAM tim"
   },
@@ -2370,6 +2422,10 @@
   {
     "id": "S_SUNG_MOI",
     "name": "Sưng môi"
+  },
+  {
+    "id": "S_SUNG_NONG_DO_KHOP",
+    "name": "Sưng nóng đỏ khớp"
   },
   {
     "id": "S_SUNG_PHU_CHI",
@@ -2450,6 +2506,10 @@
   {
     "id": "S_TACHYPNEA",
     "name": "TACHYPNEA"
+  },
+  {
+    "id": "S_TAI_MAT",
+    "name": "Tái mặt"
   },
   {
     "id": "S_TAI_XANH",
@@ -2660,6 +2720,10 @@
     "name": "Thở Cheyne-Stokes"
   },
   {
+    "id": "S_THO_CHUM_MOI",
+    "name": "Thở chùm môi"
+  },
+  {
     "id": "S_THO_KUSSMAUL",
     "name": "Thở Kussmaul"
   },
@@ -2678,6 +2742,10 @@
   {
     "id": "S_THO_NHANH",
     "name": "Thở nhanh"
+  },
+  {
+    "id": "S_THO_RA_DAI",
+    "name": "Thở ra kéo dài"
   },
   {
     "id": "S_THO_REN",
@@ -2754,6 +2822,10 @@
   {
     "id": "S_TIENG_RIT_KHI_HIT_VAO",
     "name": "TIENG RIT KHI HIT VAO"
+  },
+  {
+    "id": "S_TIENG_T4",
+    "name": "Tiếng T4"
   },
   {
     "id": "S_TIENG_THINH_THICH_CO_CO",
@@ -3012,6 +3084,10 @@
     "name": "TINH mạch cổ NOIT"
   },
   {
+    "id": "S_TINH_THE_URAT_DICH_KHOP",
+    "name": "Tinh thể urat trong dịch khớp"
+  },
+  {
     "id": "S_TINH_TRANG_DINH_DUONG_KEM",
     "name": "TINH trắng DINH DUONG KEM"
   },
@@ -3034,6 +3110,10 @@
   {
     "id": "S_TON_THUONG_DA_DI_CHUYEN",
     "name": "TON THUONG da DI CHUYEN"
+  },
+  {
+    "id": "S_TOPHI",
+    "name": "Hạt tophi"
   },
   {
     "id": "S_TRAN_DICH_DA_MANG",
@@ -3114,6 +3194,10 @@
   {
     "id": "S_U_BUNG",
     "name": "U bụng"
+  },
+  {
+    "id": "S_U_KHI_PHOI",
+    "name": "Ứ khí phổi"
   },
   {
     "id": "S_U_VANG",

@@ -1,5 +1,9 @@
 [
   {
+    "id": "D_ACS",
+    "name": "Hội chứng mạch vành cấp"
+  },
+  {
     "id": "D_AIDS",
     "name": "Hội chứng suy giảm miễn dịch mắc phải"
   },
@@ -536,6 +540,10 @@
     "name": "CAU BANG QUANG"
   },
   {
+    "id": "D_CCS",
+    "name": "Hội chứng mạch vành mạn"
+  },
+  {
     "id": "D_CHAM_VAN_CHUYEN_DAI_TRANG",
     "name": "CHAM VAN CHUYEN DAI trắng"
   },
@@ -598,6 +606,10 @@
   {
     "id": "D_CHOANG_NHIEM_TRUNG_DUONG_MAT",
     "name": "Choáng nhiễm trùng đường mật"
+  },
+  {
+    "id": "D_CHOANG_TIM",
+    "name": "Choáng tim"
   },
   {
     "id": "D_CHUNG_AN_NON",
@@ -736,6 +748,14 @@
     "name": "Đau thắt ngực ổn định"
   },
   {
+    "id": "D_DAU_THAT_NGUC_PRINZMETAL",
+    "name": "Đau thắt ngực Prinzmetal"
+  },
+  {
+    "id": "D_DAU_THAT_NGUC_VI_MACH",
+    "name": "Đau thắt ngực do vi mạch"
+  },
+  {
     "id": "D_DAU_THẮT_NGUC_ON_DINH",
     "name": "đầu THẮT ngực ON DINH"
   },
@@ -850,6 +870,14 @@
   {
     "id": "D_GOUT",
     "name": "Gout"
+  },
+  {
+    "id": "D_GOUT_CAP",
+    "name": "Viêm khớp gút cấp"
+  },
+  {
+    "id": "D_GOUT_MAN_TOPHI",
+    "name": "Viêm khớp gút mạn có hạt tophi"
   },
   {
     "id": "D_GU_VEO_COT_SONG",
@@ -1048,6 +1076,10 @@
     "name": "hội chứng KHOANG bụng"
   },
   {
+    "id": "D_HOI_CHUNG_MACH_VANH_CAP",
+    "name": "Hội chứng mạch vành cấp"
+  },
+  {
     "id": "D_HOI_CHUNG_MALLORY_WEISS",
     "name": "Hội chứng Mallory-Weiss"
   },
@@ -1114,6 +1146,10 @@
   {
     "id": "D_HOI_CHUNG_SUY_THAN_MAN",
     "name": "Hội chứng suy thận mạn"
+  },
+  {
+    "id": "D_HOI_CHUNG_TAC_NGHEN_HO_HAP_DUOI",
+    "name": "Hội chứng tắc nghẽn hô hấp dưới"
   },
   {
     "id": "D_HOI_CHUNG_TANG_HUYET_AP",
@@ -1788,6 +1824,14 @@
     "name": "Nhồi máu cơ tim cấp"
   },
   {
+    "id": "D_NHOI_MAU_CO_TIM_KHONG_ST_CHENH_LEN",
+    "name": "Nhồi máu cơ tim không ST chênh lên"
+  },
+  {
+    "id": "D_NHOI_MAU_CO_TIM_ST_CHENH_LEN",
+    "name": "Nhồi máu cơ tim ST chênh lên"
+  },
+  {
     "id": "D_NHOI_MAU_NAO",
     "name": "Nhồi máu não"
   },
@@ -1798,6 +1842,10 @@
   {
     "id": "D_NHUOC_CO",
     "name": "NHUOC cổ"
+  },
+  {
+    "id": "D_NON_STEMI",
+    "name": "Nhồi máu cơ tim không ST chênh lên"
   },
   {
     "id": "D_NUT_HAU_MON",
@@ -2228,6 +2276,10 @@
     "name": "Sợ khoảng trống"
   },
   {
+    "id": "D_STEMI",
+    "name": "Nhồi máu cơ tim ST chênh lên"
+  },
+  {
     "id": "D_SUY_CHUC_NANG_DA_CO_QUAN",
     "name": "suy CHUC nặng da cổ QUAN"
   },
@@ -2480,6 +2532,10 @@
     "name": "Tâm thần phân liệt"
   },
   {
+    "id": "D_TANG_ACID_URIC_MAU",
+    "name": "Tăng acid uric máu"
+  },
+  {
     "id": "D_TANG_AP_CUA",
     "name": "tăng AP CUA"
   },
@@ -2630,6 +2686,10 @@
   {
     "id": "D_THIEU_MAU_CAP_NANG",
     "name": "Thiếu máu cấp nặng"
+  },
+  {
+    "id": "D_THIEU_MAU_CO_TIM_THAM_LANG",
+    "name": "Thiếu máu cục bộ cơ tim thầm lặng"
   },
   {
     "id": "D_THIEU_MAU_CUC_BO_CO_TIM",
