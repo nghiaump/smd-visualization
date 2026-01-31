@@ -13,7 +13,7 @@
   },
   {
     "id": "D_AP_XE_GAN_AMIP",
-    "name": ""
+    "name": "AP XE gan AMIP"
   },
   {
     "id": "D_AP_XE_GAN_DO_AMIP",
@@ -21,23 +21,23 @@
   },
   {
     "id": "D_AP_XE_PHOI",
-    "name": "Áp-xe phổi"
+    "name": "Áp xe phổi"
   },
   {
     "id": "D_AP_XE_QUANH_HAU_MON",
-    "name": ""
+    "name": "AP XE QUANH hầu MON"
   },
   {
     "id": "D_AP_XE_QUANH_THAN",
-    "name": ""
+    "name": "AP XE QUANH thận"
   },
   {
     "id": "D_AP_XE_THAN",
-    "name": ""
+    "name": "AP XE thận"
   },
   {
     "id": "D_ARDS",
-    "name": ""
+    "name": "ARDS"
   },
   {
     "id": "D_AU_TRUNG_DI_CHUYEN",
@@ -61,7 +61,7 @@
   },
   {
     "id": "D_BANG_BUNG",
-    "name": ""
+    "name": "BANG bụng"
   },
   {
     "id": "D_BANG_BUNG_DO_TUY",
@@ -81,7 +81,7 @@
   },
   {
     "id": "D_BASEDOW",
-    "name": ""
+    "name": "BASEDOW"
   },
   {
     "id": "D_BAT_DONG_NHOM_MAU",
@@ -101,11 +101,11 @@
   },
   {
     "id": "D_BENH_BORRELIA_RECURRENTIS",
-    "name": ""
+    "name": "bệnh BORRELIA RECURRENTIS"
   },
   {
     "id": "D_BENH_CAU_THAN",
-    "name": ""
+    "name": "bệnh CAU thận"
   },
   {
     "id": "D_BENH_CAU_THAN_MANG",
@@ -121,7 +121,7 @@
   },
   {
     "id": "D_BENH_CO_TIM_GIAN",
-    "name": ""
+    "name": "bệnh cổ tim GIAN"
   },
   {
     "id": "D_BENH_CO_TIM_GIAN_NO",
@@ -137,7 +137,7 @@
   },
   {
     "id": "D_BENH_CO_TIM_PHI_DAI_TAC_NGHEN",
-    "name": ""
+    "name": "bệnh cổ tim PHI DAI TAC NGHEN"
   },
   {
     "id": "D_BENH_CROHN",
@@ -157,7 +157,7 @@
   },
   {
     "id": "D_BENH_DIA_DAM_COT_SONG_CO",
-    "name": ""
+    "name": "bệnh DIA DAM COT SONG cổ"
   },
   {
     "id": "D_BENH_DIA_DEM_COT_SONG_CO",
@@ -181,7 +181,7 @@
   },
   {
     "id": "D_BENH_KALA_AZAR",
-    "name": ""
+    "name": "bệnh KALA AZAR"
   },
   {
     "id": "D_BENH_LY_AC_TINH",
@@ -189,11 +189,11 @@
   },
   {
     "id": "D_BENH_LY_LONG_NGUC",
-    "name": ""
+    "name": "bệnh LY LONG ngực"
   },
   {
     "id": "D_BENH_LY_THAN_KINH",
-    "name": ""
+    "name": "bệnh LY thần kinh"
   },
   {
     "id": "D_BENH_LY_THAN_KINH_CO",
@@ -201,11 +201,11 @@
   },
   {
     "id": "D_BENH_LY_THAN_KINH_DO_DAI_THAO_DUONG",
-    "name": ""
+    "name": "bệnh LY thần kinh đỏ DAI THAO DUONG"
   },
   {
     "id": "D_BENH_MACH_MAU_THAN",
-    "name": ""
+    "name": "bệnh mạch máu thận"
   },
   {
     "id": "D_BENH_MACH_VANH",
@@ -225,11 +225,11 @@
   },
   {
     "id": "D_BENH_NAO_DO_URE_HUYET",
-    "name": ""
+    "name": "bệnh NAO đỏ URE HUYET"
   },
   {
     "id": "D_BENH_NAO_GAN",
-    "name": ""
+    "name": "bệnh NAO gan"
   },
   {
     "id": "D_BENH_NGU_CHAU_PHI",
@@ -237,7 +237,7 @@
   },
   {
     "id": "D_BENH_NHUC_CO",
-    "name": ""
+    "name": "bệnh NHUC cổ"
   },
   {
     "id": "D_BENH_NHUOC_CO",
@@ -253,7 +253,7 @@
   },
   {
     "id": "D_BENH_PHOI_MAN",
-    "name": ""
+    "name": "bệnh phổi mạn"
   },
   {
     "id": "D_BENH_PHOI_MO_KE",
@@ -261,7 +261,7 @@
   },
   {
     "id": "D_BENH_PHOI_TAC_NGHEN",
-    "name": ""
+    "name": "bệnh phổi TAC NGHEN"
   },
   {
     "id": "D_BENH_PHOI_TAC_NGHEN_MAN",
@@ -269,15 +269,15 @@
   },
   {
     "id": "D_BENH_PHOI_TAC_NGHEN_MAN_TINH",
-    "name": ""
+    "name": "bệnh phổi TAC NGHEN mạn TINH"
   },
   {
     "id": "D_BENH_PHO_MOC_KE",
-    "name": ""
+    "name": "bệnh PHO MOC KE"
   },
   {
     "id": "D_BENH_PHO_TAC_NGHEN_MAN_TINH",
-    "name": ""
+    "name": "bệnh PHO TAC NGHEN mạn TINH"
   },
   {
     "id": "D_BENH_RUOT_MAT_PROTEIN",
@@ -289,7 +289,7 @@
   },
   {
     "id": "D_BENH_TA",
-    "name": ""
+    "name": "bệnh TA"
   },
   {
     "id": "D_BENH_TAO_KEO",
@@ -309,11 +309,11 @@
   },
   {
     "id": "D_BENH_THAN_DO_LITHIUM",
-    "name": ""
+    "name": "bệnh thận đỏ LITHIUM"
   },
   {
     "id": "D_BENH_THAN_GIAI_DOAN_CUOI",
-    "name": ""
+    "name": "bệnh thận GIAI DOAN CUOI"
   },
   {
     "id": "D_BENH_THAN_IGA",
@@ -349,19 +349,19 @@
   },
   {
     "id": "D_BENH_TIM_MACH",
-    "name": ""
+    "name": "bệnh tim mạch"
   },
   {
     "id": "D_BENH_TIM_PHOI_MAN",
-    "name": ""
+    "name": "bệnh tim phổi mạn"
   },
   {
     "id": "D_BENH_TIM_PHOI_MAN_TINH",
-    "name": ""
+    "name": "bệnh tim phổi mạn TINH"
   },
   {
     "id": "D_BENH_TIM_PHO_MAN_TINH",
-    "name": ""
+    "name": "bệnh tim PHO mạn TINH"
   },
   {
     "id": "D_BENH_TIM_THIEU_MAU_CUC_BO",
@@ -369,7 +369,7 @@
   },
   {
     "id": "D_BENH_TRAO_NGUOC_DA_DAY",
-    "name": ""
+    "name": "bệnh TRAO NGUOC dạ dày"
   },
   {
     "id": "D_BENH_TRAO_NGUOC_DA_DAY_THUC_QUAN",
@@ -377,7 +377,7 @@
   },
   {
     "id": "D_BENH_TRAO_NGUOC_DA_DAY_THUC_QUANG",
-    "name": ""
+    "name": "bệnh TRAO NGUOC dạ dày THUC QUANG"
   },
   {
     "id": "D_BENH_TUI_MAT",
@@ -401,7 +401,7 @@
   },
   {
     "id": "D_BENH_XO_HOA_MO_KE_PHOI",
-    "name": ""
+    "name": "bệnh XO HOA mỡ KE phổi"
   },
   {
     "id": "D_BENH_XO_NANG",
@@ -409,11 +409,11 @@
   },
   {
     "id": "D_BENH_XO_PHOI",
-    "name": ""
+    "name": "bệnh XO phổi"
   },
   {
     "id": "D_BENH_XO_PHOI_MO_KE",
-    "name": ""
+    "name": "bệnh XO phổi mỡ KE"
   },
   {
     "id": "D_BEO_PHI",
@@ -433,31 +433,31 @@
   },
   {
     "id": "D_BI_TIEU",
-    "name": ""
+    "name": "BI TIEU"
   },
   {
     "id": "D_BI_TIEU_CAP",
-    "name": ""
+    "name": "BI TIEU cấp"
   },
   {
     "id": "D_BLOC_NHAN_THAL_DO_III",
-    "name": ""
+    "name": "BLOC NHAN THAL đỏ III"
   },
   {
     "id": "D_BLOC_NHIP",
-    "name": ""
+    "name": "BLOC NHIP"
   },
   {
     "id": "D_BLOC_NHIP_AU_THAT_DO_II_III",
-    "name": ""
+    "name": "BLOC NHIP AU THAT đỏ II III"
   },
   {
     "id": "D_BLOC_NHIP_THAT",
-    "name": ""
+    "name": "BLOC NHIP THAT"
   },
   {
     "id": "D_BLOC_NHIP_THUAT",
-    "name": ""
+    "name": "BLOC NHIP THUAT"
   },
   {
     "id": "D_BLOC_NHI_THAT_DO_II",
@@ -469,11 +469,11 @@
   },
   {
     "id": "D_BLOC_NHI_THAT_DO_II_III",
-    "name": ""
+    "name": "BLOC NHI THAT đỏ II III"
   },
   {
     "id": "D_BLOC_NHI_THAT_HOAN_TOAN",
-    "name": ""
+    "name": "BLOC NHI THAT HOAN TOAN"
   },
   {
     "id": "D_BLOC_TIM_CHU_KY",
@@ -481,7 +481,7 @@
   },
   {
     "id": "D_BOC_TACH_DONGMACH_CHU",
-    "name": ""
+    "name": "BOC TACH DONGMACH CHU"
   },
   {
     "id": "D_BOC_TACH_DONG_MACH_CHU",
@@ -489,11 +489,11 @@
   },
   {
     "id": "D_BOC_TACH_DONG_MAC_CHU",
-    "name": ""
+    "name": "BOC TACH đông MAC CHU"
   },
   {
     "id": "D_BOC_TACH_DONG_MAU_CHU_CAP",
-    "name": ""
+    "name": "BOC TACH đông máu CHU cấp"
   },
   {
     "id": "D_BONG",
@@ -501,15 +501,15 @@
   },
   {
     "id": "D_BRUCELLOSIS",
-    "name": ""
+    "name": "BRUCELLOSIS"
   },
   {
     "id": "D_BUDD_CHIARI",
-    "name": ""
+    "name": "BUDD CHIARI"
   },
   {
     "id": "D_BUOU_BANG_QUANG",
-    "name": ""
+    "name": "BUOU BANG QUANG"
   },
   {
     "id": "D_BUOU_GIAP",
@@ -517,7 +517,7 @@
   },
   {
     "id": "D_BỆNH_XƠ_PHỔI",
-    "name": ""
+    "name": "BỆNH XƠ PHỔI"
   },
   {
     "id": "D_CAI_NGHIEN_CAN_SA",
@@ -533,11 +533,11 @@
   },
   {
     "id": "D_CAU_BANG_QUANG",
-    "name": ""
+    "name": "CAU BANG QUANG"
   },
   {
     "id": "D_CHAM_VAN_CHUYEN_DAI_TRANG",
-    "name": ""
+    "name": "CHAM VAN CHUYEN DAI trắng"
   },
   {
     "id": "D_CHAN_AN_TAM_THAN",
@@ -545,7 +545,7 @@
   },
   {
     "id": "D_CHAN_THUONG_BUNG",
-    "name": ""
+    "name": "chấn thương bụng"
   },
   {
     "id": "D_CHAN_THUONG_CO",
@@ -557,7 +557,7 @@
   },
   {
     "id": "D_CHAN_THUONG_NIEU_DAO",
-    "name": ""
+    "name": "chấn thương NIEU DAO"
   },
   {
     "id": "D_CHAN_THUONG_NIEU_QUAN",
@@ -565,11 +565,11 @@
   },
   {
     "id": "D_CHAN_THUONG_THAN",
-    "name": ""
+    "name": "chấn thương thận"
   },
   {
     "id": "D_CHAN_THUONG_TIET_NIEU",
-    "name": ""
+    "name": "chấn thương TIET NIEU"
   },
   {
     "id": "D_CHAY_DICH_MUI_SAU",
@@ -589,11 +589,11 @@
   },
   {
     "id": "D_CHOANG_MAT_MAU",
-    "name": ""
+    "name": "CHOANG mắt máu"
   },
   {
     "id": "D_CHOANG_MAT_MAU_DO_IV",
-    "name": ""
+    "name": "CHOANG mắt máu đỏ IV"
   },
   {
     "id": "D_CHOANG_NHIEM_TRUNG_DUONG_MAT",
@@ -613,7 +613,7 @@
   },
   {
     "id": "D_CON_HEN_NANG",
-    "name": ""
+    "name": "CON HEN nặng"
   },
   {
     "id": "D_CON_HOANG_LOAN",
@@ -625,23 +625,23 @@
   },
   {
     "id": "D_COPD_BENH_PHOI_TAC_NGHEN_MAN_TINH",
-    "name": ""
+    "name": "COPD bệnh phổi TAC NGHEN mạn TINH"
   },
   {
     "id": "D_COPD_CAP",
-    "name": ""
+    "name": "COPD cấp"
   },
   {
     "id": "D_COPD_CAP_TINH",
-    "name": ""
+    "name": "COPD cấp TINH"
   },
   {
     "id": "D_COPD_DOT_CAP",
-    "name": ""
+    "name": "COPD DOT cấp"
   },
   {
     "id": "D_COVID19",
-    "name": ""
+    "name": "COVID19"
   },
   {
     "id": "D_COVID_19",
@@ -657,7 +657,7 @@
   },
   {
     "id": "D_CUONG_GIAP_NHIEM_DOC_GIAP",
-    "name": ""
+    "name": "CUONG GIAP nhiễm DOC GIAP"
   },
   {
     "id": "D_CUONG_NHI",
@@ -665,7 +665,7 @@
   },
   {
     "id": "D_CUONG_NHIP",
-    "name": ""
+    "name": "CUONG NHIP"
   },
   {
     "id": "D_CUONG_PHO_GIAP",
@@ -673,7 +673,7 @@
   },
   {
     "id": "D_CUONG_UONG",
-    "name": ""
+    "name": "CUONG UONG"
   },
   {
     "id": "D_DAI_THAO_DUONG",
@@ -681,7 +681,7 @@
   },
   {
     "id": "D_DAI_THAO_DUONG_KHONG_KIEM_SOAT",
-    "name": ""
+    "name": "DAI THAO DUONG không KIEM SOAT"
   },
   {
     "id": "D_DAI_THAO_DUONG_TYPE_1",
@@ -693,7 +693,7 @@
   },
   {
     "id": "D_DAI_THAO_NHAT",
-    "name": ""
+    "name": "DAI THAO NHAT"
   },
   {
     "id": "D_DAI_THAO_NHAT_DO_THAN",
@@ -721,7 +721,7 @@
   },
   {
     "id": "D_DAU_NGUC_THANH_NGUC",
-    "name": ""
+    "name": "đầu ngực THANH ngực"
   },
   {
     "id": "D_DAU_THANH_NGUC",
@@ -737,11 +737,11 @@
   },
   {
     "id": "D_DAU_THẮT_NGUC_ON_DINH",
-    "name": ""
+    "name": "đầu THẮT ngực ON DINH"
   },
   {
     "id": "D_DA_NIEU",
-    "name": ""
+    "name": "da NIEU"
   },
   {
     "id": "D_DA_U_TUY",
@@ -765,11 +765,11 @@
   },
   {
     "id": "D_DI_UNG_THUC_AN",
-    "name": ""
+    "name": "dị ứng THUC AN"
   },
   {
     "id": "D_DI_UNG_THUOC",
-    "name": ""
+    "name": "dị ứng THUOC"
   },
   {
     "id": "D_DI_VAT_DUONG_THO",
@@ -777,7 +777,7 @@
   },
   {
     "id": "D_DONG_DAC_PHOI",
-    "name": ""
+    "name": "đông DAC phổi"
   },
   {
     "id": "D_DONG_MAU_NOI_MACH_LAN_TOA_(DIC)",
@@ -785,7 +785,7 @@
   },
   {
     "id": "D_DOT_CAP_COPD",
-    "name": ""
+    "name": "DOT cấp COPD"
   },
   {
     "id": "D_DOT_QUY",
@@ -793,7 +793,7 @@
   },
   {
     "id": "D_EP_TIM_CAP",
-    "name": ""
+    "name": "EP tim cấp"
   },
   {
     "id": "D_GAN_NHIEM_MO_CAP_THAI_KY",
@@ -801,7 +801,7 @@
   },
   {
     "id": "D_GAN_TO",
-    "name": ""
+    "name": "gan TO"
   },
   {
     "id": "D_GAY_XUONG",
@@ -821,11 +821,11 @@
   },
   {
     "id": "D_GIAM_OXY_MAU",
-    "name": ""
+    "name": "giảm OXY máu"
   },
   {
     "id": "D_GIAM_OXY_MAU_NANG",
-    "name": ""
+    "name": "giảm OXY máu nặng"
   },
   {
     "id": "D_GIAN_MAO_MACH_XUAT_HUYET_DI_TRUYEN",
@@ -837,7 +837,7 @@
   },
   {
     "id": "D_GIAN_TM_THUC_QUAN",
-    "name": ""
+    "name": "GIAN TM THUC QUAN"
   },
   {
     "id": "D_GIUN_CHI",
@@ -873,27 +873,27 @@
   },
   {
     "id": "D_HC_MALLORY_WEISS",
-    "name": ""
+    "name": "HC MALLORY WEISS"
   },
   {
     "id": "D_HEN",
-    "name": "Hen"
+    "name": "Hen phế quản"
   },
   {
     "id": "D_HEN_CAP",
-    "name": ""
+    "name": "HEN cấp"
   },
   {
     "id": "D_HEN_CAP_NANG",
-    "name": ""
+    "name": "HEN cấp nặng"
   },
   {
     "id": "D_HEN_CAP_TINH",
-    "name": ""
+    "name": "HEN cấp TINH"
   },
   {
     "id": "D_HEN_CON_NANG",
-    "name": ""
+    "name": "HEN CON nặng"
   },
   {
     "id": "D_HEN_DANG_HO",
@@ -901,15 +901,15 @@
   },
   {
     "id": "D_HEN_NANG",
-    "name": ""
+    "name": "HEN nặng"
   },
   {
     "id": "D_HEN_PHE_QUAN",
-    "name": ""
+    "name": "HEN phế quản"
   },
   {
     "id": "D_HEN_TIM",
-    "name": ""
+    "name": "HEN tim"
   },
   {
     "id": "D_HEP_DONG_MACH_THAN",
@@ -941,7 +941,7 @@
   },
   {
     "id": "D_HEP_VAN_HAI_LA",
-    "name": ""
+    "name": "HEP VAN HAI LA"
   },
   {
     "id": "D_HERPES_ZOSTER",
@@ -949,7 +949,7 @@
   },
   {
     "id": "D_HIRSCHSPRUNG",
-    "name": ""
+    "name": "HIRSCHSPRUNG"
   },
   {
     "id": "D_HIT_PHAN_SU",
@@ -969,15 +969,15 @@
   },
   {
     "id": "D_HOAI_TU_ONG_THAN_CAP_DOC_CHAT",
-    "name": ""
+    "name": "HOAI TU ONG thận cấp DOC CHAT"
   },
   {
     "id": "D_HOAI_TU_ONG_THAN_CAP_THIEU_MAU",
-    "name": ""
+    "name": "HOAI TU ONG thận cấp THIEU máu"
   },
   {
     "id": "D_HOANG_LOẠN",
-    "name": ""
+    "name": "HOANG LOẠN"
   },
   {
     "id": "D_HOI_CHUNG_ALPORT",
@@ -985,7 +985,7 @@
   },
   {
     "id": "D_HOI_CHUNG_AU_TRUNG_DI_CHUYEN",
-    "name": ""
+    "name": "hội chứng AU TRUNG DI CHUYEN"
   },
   {
     "id": "D_HOI_CHUNG_BE_TAC_DUONG_TIEU",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "D_HOI_CHUNG_KHOANG_BUNG",
-    "name": ""
+    "name": "hội chứng KHOANG bụng"
   },
   {
     "id": "D_HOI_CHUNG_MALLORY_WEISS",
@@ -1161,11 +1161,11 @@
   },
   {
     "id": "D_HOI_HOP",
-    "name": ""
+    "name": "HOI HOP"
   },
   {
     "id": "D_HOI_PHUC_SAU_ATN",
-    "name": ""
+    "name": "HOI PHUC sau ATN"
   },
   {
     "id": "D_HONG_CAU_HINH_LIEM",
@@ -1173,11 +1173,11 @@
   },
   {
     "id": "D_HON_ME_NON_NHAN",
-    "name": ""
+    "name": "HON ME nôn NHAN"
   },
   {
     "id": "D_HON_ME_TANG_THAM_THAU",
-    "name": ""
+    "name": "HON ME tăng THAM THAU"
   },
   {
     "id": "D_HO_DO_ACEI",
@@ -1205,7 +1205,7 @@
   },
   {
     "id": "D_HO_VAN_HAI_LA_DO_SA_LA_VAN",
-    "name": ""
+    "name": "ho VAN HAI LA đỏ SA LA VAN"
   },
   {
     "id": "D_HO_VO_CAN_KHANG_TRI",
@@ -1217,7 +1217,7 @@
   },
   {
     "id": "D_HYPERKALEMIA",
-    "name": ""
+    "name": "HYPERKALEMIA"
   },
   {
     "id": "D_KALA_AZAR",
@@ -1229,15 +1229,15 @@
   },
   {
     "id": "D_KHONG_DUNG_NAP_LACTOSE",
-    "name": ""
+    "name": "không DUNG NAP LACTOSE"
   },
   {
     "id": "D_KHO_THO_CAP",
-    "name": ""
+    "name": "khó thở cấp"
   },
   {
     "id": "D_KHO_THO_SUY_TIM",
-    "name": ""
+    "name": "khó thở suy tim"
   },
   {
     "id": "D_KIEM_CHUYEN_HOA",
@@ -1245,7 +1245,7 @@
   },
   {
     "id": "D_LACH_TO",
-    "name": ""
+    "name": "LACH TO"
   },
   {
     "id": "D_LAM_DUNG_AMPHETAMINE",
@@ -1265,7 +1265,7 @@
   },
   {
     "id": "D_LAO_NIEU",
-    "name": ""
+    "name": "LAO NIEU"
   },
   {
     "id": "D_LAO_PHOI",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "D_LAO_PHUC_MAC",
-    "name": ""
+    "name": "LAO PHUC MAC"
   },
   {
     "id": "D_LAO_RUOT",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "D_LEGIONELLA",
-    "name": ""
+    "name": "LEGIONELLA"
   },
   {
     "id": "D_LEPTOSPIROSIS",
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "D_LIET_RUOT",
-    "name": ""
+    "name": "LIET ruột"
   },
   {
     "id": "D_LOET_DA_DAY",
@@ -1321,11 +1321,11 @@
   },
   {
     "id": "D_LOET_TUI_THUA",
-    "name": ""
+    "name": "LOET TUI THUA"
   },
   {
     "id": "D_LOI_DA_DAY",
-    "name": ""
+    "name": "lợi dạ dày"
   },
   {
     "id": "D_LONG_NGUC_LOM_BAM_SINH",
@@ -1333,15 +1333,15 @@
   },
   {
     "id": "D_LOT_DAU_DAY_TA_TRANG",
-    "name": ""
+    "name": "LOT đầu DAY TA trắng"
   },
   {
     "id": "D_LOT_DA_DAY_TA_TRANG",
-    "name": ""
+    "name": "LOT dạ dày TA trắng"
   },
   {
     "id": "D_LUPUS",
-    "name": ""
+    "name": "LUPUS"
   },
   {
     "id": "D_LUPUS_BAN_DO",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "D_LUPUS_THAN",
-    "name": ""
+    "name": "LUPUS thận"
   },
   {
     "id": "D_LY",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "D_LYMPHEDEMA",
-    "name": ""
+    "name": "LYMPHEDEMA"
   },
   {
     "id": "D_LYMPHOMA",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "D_LYMPHOMA_HODGKIN",
-    "name": ""
+    "name": "LYMPHOMA HODGKIN"
   },
   {
     "id": "D_LYMPHOMA_RUOT",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "D_LY_GIAI_CO",
-    "name": ""
+    "name": "LY GIAI cổ"
   },
   {
     "id": "D_LY_TRUC_KHUAN",
@@ -1401,31 +1401,31 @@
   },
   {
     "id": "D_MAN_KINH_TIEN_MAN_KINH",
-    "name": ""
+    "name": "mạn KINH TIEN mạn KINH"
   },
   {
     "id": "D_MAT_DICH",
-    "name": ""
+    "name": "mắt dịch"
   },
   {
     "id": "D_MAT_DICH_CAP",
-    "name": ""
+    "name": "mắt dịch cấp"
   },
   {
     "id": "D_MAT_MAU_TRUNG_BINH",
-    "name": ""
+    "name": "mắt máu TRUNG BINH"
   },
   {
     "id": "D_MAT_NUOC",
-    "name": ""
+    "name": "mắt NUOC"
   },
   {
     "id": "D_METHEMOGLOBIN_MAU",
-    "name": ""
+    "name": "METHEMOGLOBIN máu"
   },
   {
     "id": "D_MYOGLOBINURIA",
-    "name": ""
+    "name": "MYOGLOBINURIA"
   },
   {
     "id": "D_NAEB",
@@ -1437,7 +1437,7 @@
   },
   {
     "id": "D_NANG_BUONG_TRUNG",
-    "name": ""
+    "name": "nặng BUONG TRUNG"
   },
   {
     "id": "D_NGHET_PHAN",
@@ -1453,31 +1453,31 @@
   },
   {
     "id": "D_NGOAI_TAM_THU",
-    "name": ""
+    "name": "ngoài TAM THU"
   },
   {
     "id": "D_NGOAI_TAM_THU_DA_O",
-    "name": ""
+    "name": "ngoài TAM THU da O"
   },
   {
     "id": "D_NGOAI_TAM_THU_NHI",
-    "name": ""
+    "name": "ngoài TAM THU NHI"
   },
   {
     "id": "D_NGOAI_TAM_THU_THAT",
-    "name": ""
+    "name": "ngoài TAM THU THAT"
   },
   {
     "id": "D_NGOAI_TAM_THU_THẤT",
-    "name": ""
+    "name": "ngoài TAM THU THẤT"
   },
   {
     "id": "D_NGO_DOC",
-    "name": ""
+    "name": "NGO DOC"
   },
   {
     "id": "D_NGO_DOC_CARBON_MONOXIDE",
-    "name": ""
+    "name": "NGO DOC CARBON MONOXIDE"
   },
   {
     "id": "D_NGO_DOC_CHI",
@@ -1485,7 +1485,7 @@
   },
   {
     "id": "D_NGO_DOC_CO",
-    "name": ""
+    "name": "NGO DOC cổ"
   },
   {
     "id": "D_NGO_DOC_ETHYLENE_GLYCOL",
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "D_NGO_DOC_THUOC",
-    "name": ""
+    "name": "NGO DOC THUOC"
   },
   {
     "id": "D_NGUNG_THO_KHI_NGU",
@@ -1517,7 +1517,7 @@
   },
   {
     "id": "D_NGUNG_TIM",
-    "name": ""
+    "name": "NGUNG tim"
   },
   {
     "id": "D_NHANH_NHI_DA_O_(MAT)",
@@ -1553,11 +1553,11 @@
   },
   {
     "id": "D_NHIEM_DOC_GIAP",
-    "name": ""
+    "name": "nhiễm DOC GIAP"
   },
   {
     "id": "D_NHIEM_DOC_THAN",
-    "name": ""
+    "name": "nhiễm DOC thận"
   },
   {
     "id": "D_NHIEM_ECOLI",
@@ -1569,7 +1569,7 @@
   },
   {
     "id": "D_NHIEM_E_COLI",
-    "name": ""
+    "name": "nhiễm E COLI"
   },
   {
     "id": "D_NHIEM_GIARDIA",
@@ -1577,11 +1577,11 @@
   },
   {
     "id": "D_NHIEM_GIARDIA_MAN",
-    "name": ""
+    "name": "nhiễm GIARDIA mạn"
   },
   {
     "id": "D_NHIEM_GIUN_CHI",
-    "name": ""
+    "name": "nhiễm GIUN CHI"
   },
   {
     "id": "D_NHIEM_GIUN_DUA",
@@ -1605,7 +1605,7 @@
   },
   {
     "id": "D_NHIEM_KHUAN_DUONG_RUOT",
-    "name": ""
+    "name": "nhiễm KHUAN DUONG ruột"
   },
   {
     "id": "D_NHIEM_KHUAN_HO_HAP_TREN",
@@ -1657,11 +1657,11 @@
   },
   {
     "id": "D_NHIEM_SIEU_VI",
-    "name": ""
+    "name": "nhiễm SIEU VI"
   },
   {
     "id": "D_NHIEM_TOAN",
-    "name": ""
+    "name": "nhiễm TOAN"
   },
   {
     "id": "D_NHIEM_TOAN_CETONE_DTD",
@@ -1669,7 +1669,7 @@
   },
   {
     "id": "D_NHIEM_TOAN_CETON_DAI_THAO_DUONG",
-    "name": ""
+    "name": "nhiễm TOAN CETON DAI THAO DUONG"
   },
   {
     "id": "D_NHIEM_TOAN_LACTIC",
@@ -1689,7 +1689,7 @@
   },
   {
     "id": "D_NHIEM_TRUNG_DUONG_HO_HAP",
-    "name": ""
+    "name": "nhiễm trùng DUONG ho HAP"
   },
   {
     "id": "D_NHIEM_TRUNG_DUONG_MAT",
@@ -1697,15 +1697,15 @@
   },
   {
     "id": "D_NHIEM_TRUNG_DUONG_RUOT",
-    "name": ""
+    "name": "nhiễm trùng DUONG ruột"
   },
   {
     "id": "D_NHIEM_TRUNG_DUONG_TIEU",
-    "name": ""
+    "name": "nhiễm trùng DUONG TIEU"
   },
   {
     "id": "D_NHIEM_TRUNG_HO_HAP",
-    "name": ""
+    "name": "nhiễm trùng ho HAP"
   },
   {
     "id": "D_NHIEM_TRUNG_HUYET",
@@ -1721,7 +1721,7 @@
   },
   {
     "id": "D_NHIEM_TRUNG_MAN_TINH",
-    "name": ""
+    "name": "nhiễm trùng mạn TINH"
   },
   {
     "id": "D_NHIEM_TRUNG_MAU",
@@ -1737,7 +1737,7 @@
   },
   {
     "id": "D_NHIEM_TRUNG_TIEU_HOA",
-    "name": ""
+    "name": "nhiễm trùng TIEU HOA"
   },
   {
     "id": "D_NHIEM_TRUNG_VET_THUONG",
@@ -1753,7 +1753,7 @@
   },
   {
     "id": "D_NHIP_NHANH_KICH_PHAT",
-    "name": ""
+    "name": "NHIP NHANH KICH PHAT"
   },
   {
     "id": "D_NHIP_NHANH_KICH_PHAT_TREN_THAT",
@@ -1761,19 +1761,19 @@
   },
   {
     "id": "D_NHIP_NHANH_THAL",
-    "name": ""
+    "name": "NHIP NHANH THAL"
   },
   {
     "id": "D_NHIP_NHANH_THAT",
-    "name": ""
+    "name": "NHIP NHANH THAT"
   },
   {
     "id": "D_NHIP_NHANH_TREN_THAL",
-    "name": ""
+    "name": "NHIP NHANH trên THAL"
   },
   {
     "id": "D_NHIP_NHANH_XOANG",
-    "name": ""
+    "name": "NHIP NHANH XOANG"
   },
   {
     "id": "D_NHOI_MAU_CO_TIM",
@@ -1793,7 +1793,7 @@
   },
   {
     "id": "D_NHUOC_CO",
-    "name": ""
+    "name": "NHUOC cổ"
   },
   {
     "id": "D_NUT_HAU_MON",
@@ -1805,15 +1805,15 @@
   },
   {
     "id": "D_PHAN_UNG_PHAN_VE_NANG",
-    "name": ""
+    "name": "phân UNG phân VE nặng"
   },
   {
     "id": "D_PHAN_VE",
-    "name": ""
+    "name": "phân VE"
   },
   {
     "id": "D_PHAN_VE_CAP",
-    "name": ""
+    "name": "phân VE cấp"
   },
   {
     "id": "D_PHINH_DAI_TRANG",
@@ -1821,7 +1821,7 @@
   },
   {
     "id": "D_PHINH_DAI_TUYEN_TIEN_LIET",
-    "name": ""
+    "name": "PHINH DAI TUYEN TIEN LIET"
   },
   {
     "id": "D_PHI_DAI_THAT_TRAI",
@@ -1829,7 +1829,7 @@
   },
   {
     "id": "D_PHI_DAI_TIEN_LIET_TUYEN",
-    "name": ""
+    "name": "PHI DAI TIEN LIET TUYEN"
   },
   {
     "id": "D_PHI_DAI_TUYEN_AMIDAN",
@@ -1837,11 +1837,11 @@
   },
   {
     "id": "D_PHI_DAI_TUYEN_TIEN_LIET",
-    "name": ""
+    "name": "PHI DAI TUYEN TIEN LIET"
   },
   {
     "id": "D_PHU_BACH_HUYET",
-    "name": ""
+    "name": "phù BACH HUYET"
   },
   {
     "id": "D_PHU_DO_CHAN_KENH_CALCI",
@@ -1865,7 +1865,7 @@
   },
   {
     "id": "D_PHU_MACH",
-    "name": ""
+    "name": "phù mạch"
   },
   {
     "id": "D_PHU_PHOI",
@@ -1881,7 +1881,7 @@
   },
   {
     "id": "D_PHÌNH_DAI_TRANG",
-    "name": ""
+    "name": "PHÌNH DAI trắng"
   },
   {
     "id": "D_POLYP_DAI_TRANG",
@@ -1893,7 +1893,7 @@
   },
   {
     "id": "D_QUA_LIEU_SALICYLATE",
-    "name": ""
+    "name": "QUA LIEU SALICYLATE"
   },
   {
     "id": "D_QUA_MAN",
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "D_ROILOAC_NHIP_THIEU_MAU_CO_TIM",
-    "name": ""
+    "name": "ROILOAC NHIP THIEU máu cổ tim"
   },
   {
     "id": "D_ROI_LOAN_CHUC_NANG_DAY_THANH",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "D_ROI_LOAN_CHUC_NANG_TE_BAO_GAN",
-    "name": ""
+    "name": "rối loạn CHUC nặng TE BAO gan"
   },
   {
     "id": "D_ROI_LOAN_DANG_CO_THE",
@@ -1925,15 +1925,15 @@
   },
   {
     "id": "D_ROI_LOAN_HOANG_LOANN",
-    "name": ""
+    "name": "rối loạn HOANG LOANN"
   },
   {
     "id": "D_ROI_LOAN_HOANG_LOАН",
-    "name": ""
+    "name": "rối loạn HOANG LOАН"
   },
   {
     "id": "D_ROI_LOAN_HOANG_SAP",
-    "name": ""
+    "name": "rối loạn HOANG SAP"
   },
   {
     "id": "D_ROI_LOAN_HOANG_SO",
@@ -1941,7 +1941,7 @@
   },
   {
     "id": "D_ROI_LOAN_HOANG_SOP",
-    "name": ""
+    "name": "rối loạn HOANG SOP"
   },
   {
     "id": "D_ROI_LOAN_HO_DANG_CO_THE",
@@ -1965,7 +1965,7 @@
   },
   {
     "id": "D_ROI_LOAN_NHIP_TANG_KALI",
-    "name": ""
+    "name": "rối loạn NHIP tăng KALI"
   },
   {
     "id": "D_ROI_LOAN_NHIP_TIM",
@@ -1977,7 +1977,7 @@
   },
   {
     "id": "D_ROI_LOAN_THOAT_PHAN",
-    "name": ""
+    "name": "rối loạn THOAT phân"
   },
   {
     "id": "D_RO_HAU_MON",
@@ -1997,11 +1997,11 @@
   },
   {
     "id": "D_RUNG_NHIP",
-    "name": ""
+    "name": "RUNG NHIP"
   },
   {
     "id": "D_RUNG_THAT",
-    "name": ""
+    "name": "RUNG THAT"
   },
   {
     "id": "D_RUNG_THAT_VO_CAN",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": "D_SAU_CAT_RUOT_NON",
-    "name": ""
+    "name": "sau CAT ruột nôn"
   },
   {
     "id": "D_SAU_PHAU_THUAT_CAT_DA_DAY",
@@ -2033,7 +2033,7 @@
   },
   {
     "id": "D_SA_TRUC_TRANG",
-    "name": ""
+    "name": "SA TRUC trắng"
   },
   {
     "id": "D_SA_VAN_HAI_LA",
@@ -2041,39 +2041,39 @@
   },
   {
     "id": "D_SOC",
-    "name": ""
+    "name": "SOC"
   },
   {
     "id": "D_SOC_NHIEM_TRUNG",
-    "name": ""
+    "name": "SOC nhiễm trùng"
   },
   {
     "id": "D_SOC_NHIET",
-    "name": ""
+    "name": "SOC NHIET"
   },
   {
     "id": "D_SOC_NHIET_CAP_TINH",
-    "name": ""
+    "name": "SOC NHIET cấp TINH"
   },
   {
     "id": "D_SOI_BANG_QUANG",
-    "name": ""
+    "name": "SOI BANG QUANG"
   },
   {
     "id": "D_SOI_DUONG_TIEU",
-    "name": ""
+    "name": "SOI DUONG TIEU"
   },
   {
     "id": "D_SOI_DUONG_TIEU_NHIEM_TRUNG",
-    "name": ""
+    "name": "SOI DUONG TIEU nhiễm trùng"
   },
   {
     "id": "D_SOI_NIEU",
-    "name": ""
+    "name": "SOI NIEU"
   },
   {
     "id": "D_SOI_NIEU_QUAN",
-    "name": ""
+    "name": "SOI NIEU QUAN"
   },
   {
     "id": "D_SOI_ONG_MAT_CHU",
@@ -2081,11 +2081,11 @@
   },
   {
     "id": "D_SOI_THAN",
-    "name": ""
+    "name": "SOI thận"
   },
   {
     "id": "D_SOI_THAN_NIEU_QUAN",
-    "name": ""
+    "name": "SOI thận NIEU QUAN"
   },
   {
     "id": "D_SOI_TIET_NIEU",
@@ -2097,15 +2097,15 @@
   },
   {
     "id": "D_SOT",
-    "name": ""
+    "name": "sốt"
   },
   {
     "id": "D_SOT_AC_TINH",
-    "name": ""
+    "name": "sốt AC TINH"
   },
   {
     "id": "D_SOT_CAP_TINH_DO_NHIEM_VIRUS",
-    "name": ""
+    "name": "sốt cấp TINH đỏ nhiễm VIRUS"
   },
   {
     "id": "D_SOT_CHUA_RO_NGUYEN_NHAN",
@@ -2117,11 +2117,11 @@
   },
   {
     "id": "D_SOT_DENGUE_NANG",
-    "name": ""
+    "name": "sốt DENGUE nặng"
   },
   {
     "id": "D_SOT_DO_NHIEM_TRUNG",
-    "name": ""
+    "name": "sốt đỏ nhiễm trùng"
   },
   {
     "id": "D_SOT_DO_THUOC",
@@ -2129,15 +2129,15 @@
   },
   {
     "id": "D_SOT_HOI_QUY_BORRELIA",
-    "name": ""
+    "name": "sốt HOI QUY BORRELIA"
   },
   {
     "id": "D_SOT_LIEN_TUC",
-    "name": ""
+    "name": "sốt LIEN TUC"
   },
   {
     "id": "D_SOT_LIET",
-    "name": ""
+    "name": "sốt LIET"
   },
   {
     "id": "D_SOT_MALTA",
@@ -2149,11 +2149,11 @@
   },
   {
     "id": "D_SOT_MO_RICKETTSIA",
-    "name": ""
+    "name": "sốt mỡ RICKETTSIA"
   },
   {
     "id": "D_SOT_NHIEM_TRUNG",
-    "name": ""
+    "name": "sốt nhiễm trùng"
   },
   {
     "id": "D_SOT_PHAT_BAN",
@@ -2165,43 +2165,43 @@
   },
   {
     "id": "D_SOT_RET_KALA_AZAR",
-    "name": ""
+    "name": "sốt RET KALA AZAR"
   },
   {
     "id": "D_SOT_RET_NAO",
-    "name": ""
+    "name": "sốt RET NAO"
   },
   {
     "id": "D_SOT_RET_PLASMODIUM_FALCIPARUM",
-    "name": ""
+    "name": "sốt RET PLASMODIUM FALCIPARUM"
   },
   {
     "id": "D_SOT_RET_PLASMODIUM_MALARIAE",
-    "name": ""
+    "name": "sốt RET PLASMODIUM MALARIAE"
   },
   {
     "id": "D_SOT_RET_PLASMODIUM_VIVAX",
-    "name": ""
+    "name": "sốt RET PLASMODIUM VIVAX"
   },
   {
     "id": "D_SOT_RET_P_FALCIPARUM",
-    "name": ""
+    "name": "sốt RET P FALCIPARUM"
   },
   {
     "id": "D_SOT_RET_P_MALARIAE",
-    "name": ""
+    "name": "sốt RET P MALARIAE"
   },
   {
     "id": "D_SOT_RET_P_VIVAX_OVALE",
-    "name": ""
+    "name": "sốt RET P VIVAX OVALE"
   },
   {
     "id": "D_SOT_TAI_PHAT_DO_XOAN_KHUAN",
-    "name": "Sốt tái phát do xoắn khuẩn Borrelia"
+    "name": "Sốt tái phát do xoắn khuẩn"
   },
   {
     "id": "D_SOT_THONG_THUONG",
-    "name": ""
+    "name": "sốt THONG THUONG"
   },
   {
     "id": "D_SOT_TRIEN_SONG_NHAT_BAN",
@@ -2217,7 +2217,7 @@
   },
   {
     "id": "D_SOT_XUAT_HUYET_DENGUE",
-    "name": ""
+    "name": "sốt xuất huyết DENGUE"
   },
   {
     "id": "D_SO_KHOANG_TRONG",
@@ -2225,7 +2225,7 @@
   },
   {
     "id": "D_SUY_CHUC_NANG_DA_CO_QUAN",
-    "name": ""
+    "name": "suy CHUC nặng da cổ QUAN"
   },
   {
     "id": "D_SUY_DA_CO_QUAN",
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "D_SUY_DINH_DUONG_NANG",
-    "name": ""
+    "name": "suy DINH DUONG nặng"
   },
   {
     "id": "D_SUY_GAN",
@@ -2257,15 +2257,15 @@
   },
   {
     "id": "D_SUY_HO_HAP_CAP",
-    "name": ""
+    "name": "suy ho HAP cấp"
   },
   {
     "id": "D_SUY_HO_HAP_NANG",
-    "name": ""
+    "name": "suy ho HAP nặng"
   },
   {
     "id": "D_SUY_MON_THE_LUC",
-    "name": ""
+    "name": "suy MON THE LUC"
   },
   {
     "id": "D_SUY_NUT_XOANG",
@@ -2281,19 +2281,19 @@
   },
   {
     "id": "D_SUY_THAN_CAP_DO_RHABDO",
-    "name": ""
+    "name": "suy thận cấp đỏ RHABDO"
   },
   {
     "id": "D_SUY_THAN_CAP_KHONG_HOI_PHUC",
-    "name": ""
+    "name": "suy thận cấp không HOI PHUC"
   },
   {
     "id": "D_SUY_THAN_CUC_BO",
-    "name": ""
+    "name": "suy thận CUC BO"
   },
   {
     "id": "D_SUY_THAN_GIAI_DOAN_CUOI",
-    "name": ""
+    "name": "suy thận GIAI DOAN CUOI"
   },
   {
     "id": "D_SUY_THAN_MAN",
@@ -2301,15 +2301,15 @@
   },
   {
     "id": "D_SUY_THAT_PHAI_CAP",
-    "name": ""
+    "name": "suy THAT phải cấp"
   },
   {
     "id": "D_SUY_THAT_PHAI_NANG",
-    "name": ""
+    "name": "suy THAT phải nặng"
   },
   {
     "id": "D_SUY_THAT_TRAI_CAP",
-    "name": ""
+    "name": "suy THAT trái cấp"
   },
   {
     "id": "D_SUY_THUONG_THAN",
@@ -2321,7 +2321,7 @@
   },
   {
     "id": "D_SUY_TIM_CAP",
-    "name": ""
+    "name": "suy tim cấp"
   },
   {
     "id": "D_SUY_TIM_CUNG_LUONG_CAO",
@@ -2333,27 +2333,27 @@
   },
   {
     "id": "D_SUY_TIM_GIAI_DOAN_CUOI",
-    "name": ""
+    "name": "suy tim GIAI DOAN CUOI"
   },
   {
     "id": "D_SUY_TIM_MAT_BU",
-    "name": ""
+    "name": "suy tim mắt BU"
   },
   {
     "id": "D_SUY_TIM_MAT_BU_CAP",
-    "name": ""
+    "name": "suy tim mắt BU cấp"
   },
   {
     "id": "D_SUY_TIM_NANG",
-    "name": ""
+    "name": "suy tim nặng"
   },
   {
     "id": "D_SUY_TIM_NANG_PHUPHOI_CAP",
-    "name": ""
+    "name": "suy tim nặng PHUPHOI cấp"
   },
   {
     "id": "D_SUY_TIM_PHAI",
-    "name": ""
+    "name": "suy tim phải"
   },
   {
     "id": "D_SUY_TIM_PSTM_BAO_TON",
@@ -2373,7 +2373,7 @@
   },
   {
     "id": "D_SUY_TIM_SUNG_HUYẾT",
-    "name": ""
+    "name": "suy tim SUNG HUYẾT"
   },
   {
     "id": "D_SUY_TIM_TAM_THU",
@@ -2385,11 +2385,11 @@
   },
   {
     "id": "D_SUY_TIM_TIEN_TRIEN",
-    "name": ""
+    "name": "suy tim TIEN TRIEN"
   },
   {
     "id": "D_SUY_TIM_TRAI",
-    "name": ""
+    "name": "suy tim trái"
   },
   {
     "id": "D_SUY_TINH_MACH_MAN",
@@ -2421,35 +2421,35 @@
   },
   {
     "id": "D_TAC_MAT",
-    "name": ""
+    "name": "TAC mắt"
   },
   {
     "id": "D_TAC_MAT_TRONG_GAN",
-    "name": ""
+    "name": "TAC mắt trong gan"
   },
   {
     "id": "D_TAC_NGHEN_DONG_MACH_THAN",
-    "name": ""
+    "name": "TAC NGHEN đông mạch thận"
   },
   {
     "id": "D_TAC_NGHEN_DO_MAU_CUC",
-    "name": ""
+    "name": "TAC NGHEN đỏ máu CUC"
   },
   {
     "id": "D_TAC_NGHEN_DUONG_DAN_KHI_TREN",
-    "name": ""
+    "name": "TAC NGHEN DUONG DAN KHI trên"
   },
   {
     "id": "D_TAC_NGHEN_DUONG_MAT",
-    "name": ""
+    "name": "TAC NGHEN DUONG mắt"
   },
   {
     "id": "D_TAC_NGHEN_NIEU_DAO",
-    "name": ""
+    "name": "TAC NGHEN NIEU DAO"
   },
   {
     "id": "D_TAC_NGHEN_NIEU_QUAN",
-    "name": ""
+    "name": "TAC NGHEN NIEU QUAN"
   },
   {
     "id": "D_TAC_NGHEN_RUOT",
@@ -2457,7 +2457,7 @@
   },
   {
     "id": "D_TAC_RUOT",
-    "name": ""
+    "name": "TAC ruột"
   },
   {
     "id": "D_TAC_TINH_MACH",
@@ -2477,7 +2477,7 @@
   },
   {
     "id": "D_TANG_AP_CUA",
-    "name": ""
+    "name": "tăng AP CUA"
   },
   {
     "id": "D_TANG_AP_DONG_MACH_PHOI",
@@ -2485,7 +2485,7 @@
   },
   {
     "id": "D_TANG_AP_LUC_NOI_SO",
-    "name": ""
+    "name": "tăng AP LUC NOI SO"
   },
   {
     "id": "D_TANG_AP_PHOI",
@@ -2501,7 +2501,7 @@
   },
   {
     "id": "D_TANG_CO2_MAU",
-    "name": ""
+    "name": "tăng CO2 máu"
   },
   {
     "id": "D_TANG_DON_NHAN_NHIEM_TRUNG",
@@ -2513,19 +2513,19 @@
   },
   {
     "id": "D_TANG_HUYET_AP_AC_TINH",
-    "name": ""
+    "name": "tăng huyết áp AC TINH"
   },
   {
     "id": "D_TANG_HUYET_AP_CAP_CUU",
-    "name": ""
+    "name": "tăng huyết áp cấp CUU"
   },
   {
     "id": "D_TANG_KALI_MAU",
-    "name": ""
+    "name": "tăng KALI máu"
   },
   {
     "id": "D_TANG_NATRI_MAU",
-    "name": ""
+    "name": "tăng NATRI máu"
   },
   {
     "id": "D_TANG_SINH_TUYEN_TIEN_LIET",
@@ -2545,7 +2545,7 @@
   },
   {
     "id": "D_TAN_HUYET",
-    "name": ""
+    "name": "TAN HUYET"
   },
   {
     "id": "D_TAN_HUYET_CAP",
@@ -2557,11 +2557,11 @@
   },
   {
     "id": "D_TAO_BON_CHAM_VAN_CHUYEN",
-    "name": ""
+    "name": "táo bón CHAM VAN CHUYEN"
   },
   {
     "id": "D_TAO_BON_MAN",
-    "name": ""
+    "name": "táo bón mạn"
   },
   {
     "id": "D_TAO_MAU_KHONG_HIEU_QUA",
@@ -2577,7 +2577,7 @@
   },
   {
     "id": "D_THAI_NGHEN",
-    "name": ""
+    "name": "THAI NGHEN"
   },
   {
     "id": "D_THALASSEMIA",
@@ -2593,7 +2593,7 @@
   },
   {
     "id": "D_THAN_U_NUOC",
-    "name": ""
+    "name": "thận U NUOC"
   },
   {
     "id": "D_THAP_KHOP_CAP",
@@ -2605,15 +2605,15 @@
   },
   {
     "id": "D_THIEU_DICH",
-    "name": ""
+    "name": "THIEU dịch"
   },
   {
     "id": "D_THIEU_DICH_LONG_MACH",
-    "name": ""
+    "name": "THIEU dịch LONG mạch"
   },
   {
     "id": "D_THIEU_DISACCARIDASE",
-    "name": ""
+    "name": "THIEU DISACCARIDASE"
   },
   {
     "id": "D_THIEU_DISACCHARIDASE",
@@ -2629,7 +2629,7 @@
   },
   {
     "id": "D_THIEU_MAU_CUC_BO_CO_TIM",
-    "name": ""
+    "name": "THIEU máu CUC BO cổ tim"
   },
   {
     "id": "D_THIEU_MAU_HONG_CAU_HINH_LIEM",
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "D_THIEU_MAU_RUOT",
-    "name": ""
+    "name": "THIEU máu ruột"
   },
   {
     "id": "D_THIEU_MEN_G6PD",
@@ -2657,7 +2657,7 @@
   },
   {
     "id": "D_THOI_CHEYNE_STOKES",
-    "name": ""
+    "name": "THOI CHEYNE STOKES"
   },
   {
     "id": "D_THONG_LIEN_THAT",
@@ -2665,11 +2665,11 @@
   },
   {
     "id": "D_THUAN_TAC_HUYET_KHOI_TINH_MACH",
-    "name": ""
+    "name": "THUAN TAC HUYET KHOI TINH mạch"
   },
   {
     "id": "D_THUAN_TAC_PHOI",
-    "name": ""
+    "name": "THUAN TAC phổi"
   },
   {
     "id": "D_THUNG_ONG_TIEU_HOA",
@@ -2677,7 +2677,7 @@
   },
   {
     "id": "D_THUNG_TANG_RONG",
-    "name": ""
+    "name": "THUNG tăng RONG"
   },
   {
     "id": "D_THUNG_TA_TRANG",
@@ -2693,11 +2693,11 @@
   },
   {
     "id": "D_THUYEAN_TAC_PHOI",
-    "name": ""
+    "name": "THUYEAN TAC phổi"
   },
   {
     "id": "D_THUYENTAC_PHOI",
-    "name": ""
+    "name": "THUYENTAC phổi"
   },
   {
     "id": "D_THUYEN_TAC_HUYET_KHOI_TINH_MACH",
@@ -2709,7 +2709,7 @@
   },
   {
     "id": "D_THUYEN_TAC_PHOI_LON",
-    "name": ""
+    "name": "THUYEN TAC phổi LON"
   },
   {
     "id": "D_THUYEN_TAC_PHOI_MAN_TINH",
@@ -2717,7 +2717,7 @@
   },
   {
     "id": "D_THUYÊN_TẮC_PHỔI",
-    "name": ""
+    "name": "THUYÊN TẮC PHỔI"
   },
   {
     "id": "D_TIEN_MAN_KINH",
@@ -2729,7 +2729,7 @@
   },
   {
     "id": "D_TIEU_CHAY_CAP",
-    "name": ""
+    "name": "tiêu chảy cấp"
   },
   {
     "id": "D_TIEU_CHAY_DO_C_DIFFICILE",
@@ -2741,23 +2741,23 @@
   },
   {
     "id": "D_TIM_BAM_SINH_TIM",
-    "name": ""
+    "name": "tim BAM SINH tim"
   },
   {
     "id": "D_TOAN_CHUYEN_HOA",
-    "name": ""
+    "name": "TOAN CHUYEN HOA"
   },
   {
     "id": "D_TOAN_CHUYEN_HOA_SUY_THAN",
-    "name": ""
+    "name": "TOAN CHUYEN HOA suy thận"
   },
   {
     "id": "D_TOAN_LACTIC",
-    "name": ""
+    "name": "TOAN LACTIC"
   },
   {
     "id": "D_TON_THUONG_CO_THAT_HAU_MON",
-    "name": ""
+    "name": "TON THUONG cổ THAT hầu MON"
   },
   {
     "id": "D_TON_THUONG_PHOI_CAP",
@@ -2769,11 +2769,11 @@
   },
   {
     "id": "D_TON_THUONG_THAN_CAP_TAI_THAN",
-    "name": ""
+    "name": "TON THUONG thận cấp tai thận"
   },
   {
     "id": "D_TON_THUONG_THAN_CAP_TRUOC_THAN",
-    "name": ""
+    "name": "TON THUONG thận cấp trước thận"
   },
   {
     "id": "D_TON_THUONG_THAN_NAO",
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "D_TRANG_KHOI_MANG_PHOI",
-    "name": ""
+    "name": "trắng KHOI màng phổi"
   },
   {
     "id": "D_TRAN_DICH_MANG_NGOAI_TIM",
@@ -2797,11 +2797,11 @@
   },
   {
     "id": "D_TRAN_DICH_MANG_TIM",
-    "name": ""
+    "name": "TRAN dịch màng tim"
   },
   {
     "id": "D_TRAN_DIC_MANH_PHOI",
-    "name": ""
+    "name": "TRAN DIC MANH phổi"
   },
   {
     "id": "D_TRAN_KHI_MANG_PHOI",
@@ -2817,15 +2817,15 @@
   },
   {
     "id": "D_TRAO_NGUOC_DAU_DAY_THUC_QUONG",
-    "name": ""
+    "name": "TRAO NGUOC đầu DAY THUC QUONG"
   },
   {
     "id": "D_TRAO_NGUOC_DA_DAY",
-    "name": ""
+    "name": "TRAO NGUOC dạ dày"
   },
   {
     "id": "D_TRAO_NGUOC_DA_DAY_THUC_QUAN",
-    "name": ""
+    "name": "TRAO NGUOC dạ dày THUC QUAN"
   },
   {
     "id": "D_TRI",
@@ -2833,15 +2833,15 @@
   },
   {
     "id": "D_TRI_NGOAI",
-    "name": ""
+    "name": "TRI ngoài"
   },
   {
     "id": "D_TRI_NOI",
-    "name": ""
+    "name": "TRI NOI"
   },
   {
     "id": "D_TRUONG_HOI",
-    "name": ""
+    "name": "TRUONG HOI"
   },
   {
     "id": "D_UNG_THU",
@@ -2873,7 +2873,7 @@
   },
   {
     "id": "D_UNG_THU_DAI_TRANG_PHAI",
-    "name": ""
+    "name": "ung thư DAI trắng phải"
   },
   {
     "id": "D_UNG_THU_DAI_TRUC_TRANG",
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "D_UNG_THU_DAU_TUY",
-    "name": ""
+    "name": "ung thư đầu tụy"
   },
   {
     "id": "D_UNG_THU_DA_DAY",
@@ -2897,7 +2897,7 @@
   },
   {
     "id": "D_UNG_THU_DI_CAN_HACH",
-    "name": ""
+    "name": "ung thư DI CAN HACH"
   },
   {
     "id": "D_UNG_THU_DI_CAN_MANG_BUNG",
@@ -2905,7 +2905,7 @@
   },
   {
     "id": "D_UNG_THU_DI_CAN_O_BUNG",
-    "name": ""
+    "name": "ung thư DI CAN O bụng"
   },
   {
     "id": "D_UNG_THU_DUONG_MAT",
@@ -2925,7 +2925,7 @@
   },
   {
     "id": "D_UNG_THU_MANG_BUNG",
-    "name": ""
+    "name": "ung thư màng bụng"
   },
   {
     "id": "D_UNG_THU_MAU",
@@ -2981,7 +2981,7 @@
   },
   {
     "id": "D_U_BUONG_TRUNG",
-    "name": ""
+    "name": "U BUONG TRUNG"
   },
   {
     "id": "D_U_CARCINOIDE",
@@ -3017,7 +3017,7 @@
   },
   {
     "id": "D_U_NUOC_THAN",
-    "name": ""
+    "name": "U NUOC thận"
   },
   {
     "id": "D_U_PHOI",
@@ -3037,7 +3037,7 @@
   },
   {
     "id": "D_U_THAN",
-    "name": ""
+    "name": "U thận"
   },
   {
     "id": "D_U_THANH_QUAN",
@@ -3045,11 +3045,11 @@
   },
   {
     "id": "D_U_TIEN_LIET_TUYEN",
-    "name": ""
+    "name": "U TIEN LIET TUYEN"
   },
   {
     "id": "D_U_TRUC_TRANG",
-    "name": ""
+    "name": "U TRUC trắng"
   },
   {
     "id": "D_U_TUYEN_NHANH_DAI_TRUC_TRANG",
@@ -3057,11 +3057,11 @@
   },
   {
     "id": "D_U_TUYH_THUONG_THAN",
-    "name": ""
+    "name": "U TUYH THUONG thận"
   },
   {
     "id": "D_U_TUYNH_THUONG_THAN",
-    "name": ""
+    "name": "U TUYNH THUONG thận"
   },
   {
     "id": "D_U_TUY_THUONG_THAN",
@@ -3077,7 +3077,7 @@
   },
   {
     "id": "D_VIEM_BANG_QUANG",
-    "name": ""
+    "name": "viêm BANG QUANG"
   },
   {
     "id": "D_VIEM_BANG_QUANG_XUAT_HUYET",
@@ -3085,7 +3085,7 @@
   },
   {
     "id": "D_VIEM_BE_THAN",
-    "name": ""
+    "name": "viêm BE thận"
   },
   {
     "id": "D_VIEM_CAU_THAN_CAP",
@@ -3101,7 +3101,7 @@
   },
   {
     "id": "D_VIEM_CAU_THAN_HAU_NHIEM_LIEN_CAU",
-    "name": ""
+    "name": "viêm CAU thận hầu nhiễm LIEN CAU"
   },
   {
     "id": "D_VIEM_CAU_THAN_LIEM",
@@ -3137,7 +3137,7 @@
   },
   {
     "id": "D_VIEM_DAI_TRANG",
-    "name": ""
+    "name": "viêm DAI trắng"
   },
   {
     "id": "D_VIEM_DAI_TRANG_DO_TIA_XA",
@@ -3145,7 +3145,7 @@
   },
   {
     "id": "D_VIEM_DAI_TRANG_GIA_MAC",
-    "name": ""
+    "name": "viêm DAI trắng GIA MAC"
   },
   {
     "id": "D_VIEM_DAI_TRANG_THIEU_MAU_CUC_BO",
@@ -3161,7 +3161,7 @@
   },
   {
     "id": "D_VIEM_DA_DAY_RUOT",
-    "name": ""
+    "name": "viêm dạ dày ruột"
   },
   {
     "id": "D_VIEM_DA_DAY_RUOT_BACH_CAU_AI_TOAN",
@@ -3173,7 +3173,7 @@
   },
   {
     "id": "D_VIEM_DA_DONG_MACH_DANG_NOT",
-    "name": "Viêm da động mạch dạng nốt"
+    "name": "Viêm đa động mạch dạng nốt"
   },
   {
     "id": "D_VIEM_DA_KHOP_DANG_THAP",
@@ -3189,7 +3189,7 @@
   },
   {
     "id": "D_VIEM_GAN",
-    "name": ""
+    "name": "viêm gan"
   },
   {
     "id": "D_VIEM_GAN_BAN_CAP",
@@ -3209,7 +3209,7 @@
   },
   {
     "id": "D_VIEM_GAN_RUOU",
-    "name": ""
+    "name": "viêm gan rượu"
   },
   {
     "id": "D_VIEM_GAN_SIEU_VI",
@@ -3237,7 +3237,7 @@
   },
   {
     "id": "D_VIEM_HONG_LIEN_CAU",
-    "name": ""
+    "name": "viêm họng LIEN CAU"
   },
   {
     "id": "D_VIEM_KHI_PHE_QUAN",
@@ -3245,11 +3245,11 @@
   },
   {
     "id": "D_VIEM_KHI_THE_QUAN",
-    "name": ""
+    "name": "viêm KHI THE QUAN"
   },
   {
     "id": "D_VIEM_KHOP",
-    "name": ""
+    "name": "viêm khớp"
   },
   {
     "id": "D_VIEM_KHOP_DANG_THAP",
@@ -3261,7 +3261,7 @@
   },
   {
     "id": "D_VIEM_KHOP_LAU_CAU",
-    "name": ""
+    "name": "viêm khớp LAU CAU"
   },
   {
     "id": "D_VIEM_KHOP_VI_THANH_NIEN",
@@ -3317,7 +3317,7 @@
   },
   {
     "id": "D_VIEM_MANG_NGOAI_TIM_CAP_TRAN_DICH",
-    "name": ""
+    "name": "viêm màng ngoài tim cấp TRAN dịch"
   },
   {
     "id": "D_VIEM_MANG_NGOAI_TIM_CO_THAT",
@@ -3329,11 +3329,11 @@
   },
   {
     "id": "D_VIEM_MO_KE_THAN_DO_THUOC",
-    "name": ""
+    "name": "viêm mỡ KE thận đỏ THUOC"
   },
   {
     "id": "D_VIEM_MO_TE_BAO",
-    "name": ""
+    "name": "viêm mỡ TE BAO"
   },
   {
     "id": "D_VIEM_MUI_DI_UNG",
@@ -3345,7 +3345,7 @@
   },
   {
     "id": "D_VIEM_NAO_VIEM_TUY",
-    "name": ""
+    "name": "viêm NAO viêm tụy"
   },
   {
     "id": "D_VIEM_NAP_THANH_QUAN",
@@ -3353,11 +3353,11 @@
   },
   {
     "id": "D_VIEM_NHIEM",
-    "name": ""
+    "name": "viêm nhiễm"
   },
   {
     "id": "D_VIEM_NIEU_DAO",
-    "name": ""
+    "name": "viêm NIEU DAO"
   },
   {
     "id": "D_VIEM_NOI_TAM_MAC_NHIEM_KHUAN",
@@ -3369,7 +3369,7 @@
   },
   {
     "id": "D_VIEM_ONG_THAN_MO_KE_CAP",
-    "name": ""
+    "name": "viêm ONG thận mỡ KE cấp"
   },
   {
     "id": "D_VIEM_PHE_NANG_XO_HOA",
@@ -3405,15 +3405,15 @@
   },
   {
     "id": "D_VIEM_PHOI_VIEM_MANG_PHOI",
-    "name": ""
+    "name": "viêm phổi viêm màng phổi"
   },
   {
     "id": "D_VIEM_PHO_PHO_CAP",
-    "name": ""
+    "name": "viêm PHO PHO cấp"
   },
   {
     "id": "D_VIEM_PHUC_MAC",
-    "name": ""
+    "name": "viêm PHUC MAC"
   },
   {
     "id": "D_VIEM_PHUC_MAC_MU",
@@ -3425,7 +3425,7 @@
   },
   {
     "id": "D_VIEM_RUOT",
-    "name": ""
+    "name": "viêm ruột"
   },
   {
     "id": "D_VIEM_RUOT_HOAI_TU",
@@ -3437,7 +3437,7 @@
   },
   {
     "id": "D_VIEM_SEN_SUON",
-    "name": ""
+    "name": "viêm SEN SUON"
   },
   {
     "id": "D_VIEM_SUN_SUON",
@@ -3445,11 +3445,11 @@
   },
   {
     "id": "D_VIEM_THANH_QUAN_CAP",
-    "name": ""
+    "name": "viêm thanh quản cấp"
   },
   {
     "id": "D_VIEM_THAN_BE_THAN",
-    "name": ""
+    "name": "viêm thận BE thận"
   },
   {
     "id": "D_VIEM_THAN_BE_THAN_CAP",
@@ -3457,11 +3457,11 @@
   },
   {
     "id": "D_VIEM_THAN_NGUC",
-    "name": ""
+    "name": "viêm thận ngực"
   },
   {
     "id": "D_VIEM_THUC_QUAN",
-    "name": ""
+    "name": "viêm THUC QUAN"
   },
   {
     "id": "D_VIEM_TIEU_PHE_QUAN",
@@ -3469,15 +3469,15 @@
   },
   {
     "id": "D_VIEM_TIM",
-    "name": ""
+    "name": "viêm tim"
   },
   {
     "id": "D_VIEM_TINH_MACH_HUYET_KHOI",
-    "name": ""
+    "name": "viêm TINH mạch HUYET KHOI"
   },
   {
     "id": "D_VIEM_TROT_DA_DAY",
-    "name": ""
+    "name": "viêm TROT dạ dày"
   },
   {
     "id": "D_VIEM_TROT_DA_DAY_TA_TRANG",
@@ -3489,7 +3489,7 @@
   },
   {
     "id": "D_VIEM_TUI_MALL",
-    "name": ""
+    "name": "viêm TUI MALL"
   },
   {
     "id": "D_VIEM_TUI_MAT",
@@ -3513,7 +3513,7 @@
   },
   {
     "id": "D_VIEM_XOANG",
-    "name": ""
+    "name": "viêm XOANG"
   },
   {
     "id": "D_VIEM_XOANG_MAN",
@@ -3545,7 +3545,7 @@
   },
   {
     "id": "D_XO_CUNG_BI",
-    "name": ""
+    "name": "XO CUNG BI"
   },
   {
     "id": "D_XO_CUNG_COT_BEN_TEO_CO",
@@ -3557,7 +3557,7 @@
   },
   {
     "id": "D_XO_GAN_MAT_BU",
-    "name": ""
+    "name": "XO gan mắt BU"
   },
   {
     "id": "D_XO_GAN_RUOU",
@@ -3569,7 +3569,7 @@
   },
   {
     "id": "D_XO_HOA_MO_KE",
-    "name": ""
+    "name": "XO HOA mỡ KE"
   },
   {
     "id": "D_XO_HOA_NANG",
@@ -3577,7 +3577,7 @@
   },
   {
     "id": "D_XO_HOA_PHOI",
-    "name": ""
+    "name": "XO HOA phổi"
   },
   {
     "id": "D_XO_HOA_PHOI_KHU_TRU",
@@ -3589,11 +3589,11 @@
   },
   {
     "id": "D_XO_NANG_TUY",
-    "name": ""
+    "name": "XO nặng tụy"
   },
   {
     "id": "D_XO_PHOI",
-    "name": ""
+    "name": "XO phổi"
   },
   {
     "id": "D_XO_PHOI_VO_CAN",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": "D_XUAT_HUYET_PHOI",
-    "name": ""
+    "name": "xuất huyết phổi"
   },
   {
     "id": "D_XUAT_HUYET_TIEU_HOA",
@@ -3621,7 +3621,7 @@
   },
   {
     "id": "D_XUAT_HUYET_TIEU_HOA_NANG",
-    "name": ""
+    "name": "xuất huyết TIEU HOA nặng"
   },
   {
     "id": "D_XUAT_HUYET_TIEU_HOA_TREN",

@@ -5,11 +5,64 @@ Preserves existing data and adds new entities/edges.
 """
 
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 
 BASE_DIR = Path(__file__).parent
 EXTRACTED_V5 = BASE_DIR.parent / "extracted_v5"
+
+# Vietnamese word mappings for medical terms (for ID to name conversion)
+VIETNAMESE_MAPPINGS = {
+    'TANG': 'tăng', 'GIAM': 'giảm', 'CAO': 'cao', 'THAP': 'thấp',
+    'MAN': 'mạn', 'CAP': 'cấp', 'VIEM': 'viêm', 'BENH': 'bệnh',
+    'DAU': 'đau', 'SOT': 'sốt', 'HO': 'ho', 'MET MOI': 'mệt mỏi',
+    'BUON NON': 'buồn nôn', 'NON': 'nôn', 'TIEU CHAY': 'tiêu chảy',
+    'TAO BON': 'táo bón', 'PHU': 'phù', 'XUAT HUYET': 'xuất huyết',
+    'NHIEM TRUNG': 'nhiễm trùng', 'UNG THU': 'ung thư',
+    'DONG': 'đông', 'MAU': 'máu', 'GAN': 'gan', 'THAN': 'thận',
+    'PHOI': 'phổi', 'TIM': 'tim', 'MACH': 'mạch', 'DA': 'da',
+    'XUONG': 'xương', 'KHOP': 'khớp', 'CO': 'cơ',
+    'THAN KINH': 'thần kinh', 'NANG': 'nặng', 'NHE': 'nhẹ',
+    'KHONG': 'không', 'VA': 'và', 'HOAC': 'hoặc',
+    'AI TOAN': 'ái toan', 'BACH CAU': 'bạch cầu', 'HONG CAU': 'hồng cầu',
+    'TIEU CAU': 'tiểu cầu', 'HUYET TUONG': 'huyết tương',
+    'RUOU': 'rượu', 'MO': 'mỡ', 'THOAI HOA': 'thoái hóa',
+    'DA DAY': 'dạ dày', 'RUOT': 'ruột', 'TRANG': 'trắng',
+    'DO': 'đỏ', 'VANG': 'vàng', 'DEN': 'đen', 'XANH': 'xanh',
+    'SAU': 'sau', 'TRUOC': 'trước', 'TREN': 'trên', 'DUOI': 'dưới',
+    'TRONG': 'trong', 'NGOAI': 'ngoài', 'PHAI': 'phải', 'TRAI': 'trái',
+    'KHO THO': 'khó thở', 'DICH': 'dịch', 'MANG': 'màng',
+    'BUNG': 'bụng', 'NGUC': 'ngực', 'DAU': 'đầu', 'CO': 'cổ',
+    'TAY': 'tay', 'CHAN': 'chân', 'LUNG': 'lưng', 'MAT': 'mắt',
+    'MUI': 'mũi', 'HONG': 'họng', 'TAI': 'tai', 'MIENG': 'miệng',
+    'LUOI': 'lưỡi', 'RANG': 'răng', 'LOI': 'lợi', 'HAU': 'hầu',
+    'THANH QUAN': 'thanh quản', 'PHE QUAN': 'phế quản',
+    'TUY': 'tụy', 'TUYENPHAI': 'tuyến phải', 'LAC': 'lách',
+    'HOI CHUNG': 'hội chứng', 'TRIEU CHUNG': 'triệu chứng',
+    'ROI LOAN': 'rối loạn', 'SUY': 'suy', 'TANG': 'tăng',
+    'HUYET AP': 'huyết áp', 'NHIP TIM': 'nhịp tim',
+    'PHAN': 'phân', 'NUOC TIEU': 'nước tiểu', 'DOM': 'đờm',
+    'CHAN THUONG': 'chấn thương', 'NHIEM': 'nhiễm',
+    'DI UNG': 'dị ứng', 'TU MIEN': 'tự miễn', 'DI TRUYEN': 'di truyền',
+}
+
+
+def id_to_name(entity_id):
+    """Convert entity ID to Vietnamese name"""
+    # Remove prefix (S_, M_, D_)
+    name = entity_id
+    if name.startswith(('S_', 'M_', 'D_')):
+        name = name[2:]
+
+    # Replace underscores with spaces
+    name = name.replace('_', ' ')
+
+    # Apply replacements (longer phrases first)
+    for old, new in sorted(VIETNAMESE_MAPPINGS.items(), key=lambda x: -len(x[0])):
+        name = re.sub(r'\b' + old + r'\b', new, name, flags=re.IGNORECASE)
+
+    return name
 ENTITIES_DIR = EXTRACTED_V5 / "entities"
 EDGES_DIR = EXTRACTED_V5 / "edges"
 
@@ -148,12 +201,20 @@ def load_v5_edges():
     return edges, edge_set
 
 
-def merge_nodes(existing_nodes, new_nodes):
-    """Merge new nodes into existing, update names if empty"""
+def merge_nodes(existing_nodes, new_nodes, generate_missing=True):
+    """Merge new nodes into existing, update names if empty.
+
+    Args:
+        existing_nodes: Dict of existing nodes by ID
+        new_nodes: Dict of new nodes from v5 by ID
+        generate_missing: If True, generate names from IDs for nodes without names
+    """
     merged = existing_nodes.copy()
     added = 0
-    updated = 0
+    updated_from_v5 = 0
+    generated = 0
 
+    # First, merge v5 entities
     for node_id, node in new_nodes.items():
         if node_id not in merged:
             merged[node_id] = node
@@ -162,9 +223,17 @@ def merge_nodes(existing_nodes, new_nodes):
             # Update name if existing is empty and new has name
             if not merged[node_id].get("name") and node.get("name"):
                 merged[node_id]["name"] = node["name"]
-                updated += 1
+                updated_from_v5 += 1
 
-    return merged, added, updated
+    # Then, generate names from IDs for remaining empty-name nodes
+    if generate_missing:
+        for node_id, node in merged.items():
+            if not node.get("name"):
+                generated_name = id_to_name(node_id)
+                node["name"] = generated_name
+                generated += 1
+
+    return merged, added, updated_from_v5, generated
 
 
 def normalize_edge_key(from_id, to_id, edge_type):
@@ -344,13 +413,13 @@ def main():
 
     # Merge nodes
     print("\n3. Merging nodes...")
-    merged_s, s_added, s_updated = merge_nodes(existing_s, v5_s)
-    merged_m, m_added, m_updated = merge_nodes(existing_m, v5_m)
-    merged_d, d_added, d_updated = merge_nodes(existing_d, v5_d)
+    merged_s, s_added, s_updated, s_generated = merge_nodes(existing_s, v5_s)
+    merged_m, m_added, m_updated, m_generated = merge_nodes(existing_m, v5_m)
+    merged_d, d_added, d_updated, d_generated = merge_nodes(existing_d, v5_d)
 
-    print(f"   S: +{s_added} new, {s_updated} names updated → {len(merged_s)} total")
-    print(f"   M: +{m_added} new, {m_updated} names updated → {len(merged_m)} total")
-    print(f"   D: +{d_added} new, {d_updated} names updated → {len(merged_d)} total")
+    print(f"   S: +{s_added} new, {s_updated} from v5, {s_generated} generated → {len(merged_s)} total")
+    print(f"   M: +{m_added} new, {m_updated} from v5, {m_generated} generated → {len(merged_m)} total")
+    print(f"   D: +{d_added} new, {d_updated} from v5, {d_generated} generated → {len(merged_d)} total")
 
     # Merge edges
     print("\n4. Merging edges...")

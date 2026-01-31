@@ -966,6 +966,7 @@
 {"from": "D_HEN", "to": "S_RALES", "type": "HAS_SYMPTOM"}
 {"from": "D_HEN", "to": "S_RAN_RIT", "type": "HAS_SYMPTOM"}
 {"from": "D_HEN", "to": "S_THO_CHAM", "type": "HAS_SYMPTOM"}
+{"from": "D_HEN_DANG_HO", "to": "D_HEN", "type": "SUBTYPE_OF"}
 {"from": "D_HEN_DANG_HO", "to": "M_CO_THAT_PHE_QUAN", "type": "HAS_MECHANISM"}
 {"from": "D_HEN_DANG_HO", "to": "S_HO", "type": "HAS_SYMPTOM"}
 {"from": "D_HEN_DANG_HO", "to": "S_HO_VE_DEM", "type": "HAS_SYMPTOM"}
@@ -1138,6 +1139,7 @@
 {"from": "D_HOI_CHUNG_QT_DAI", "to": "S_HOI_HOP", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_QT_DAI", "to": "S_MAT_Y_THUC", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_QT_DAI", "to": "S_NGAT", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_QUA_MAN_HO", "to": "M_QUA_MAN_HO", "type": "HAS_MECHANISM"}
 {"from": "D_HOI_CHUNG_QUA_MAN_HO", "to": "M_TANG_NHAY_CAM_THAN_KINH_HO", "type": "HAS_MECHANISM"}
 {"from": "D_HOI_CHUNG_QUA_MAN_HO", "to": "S_HO", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_QUA_MAN_HO", "to": "S_KICH_THICH_HONG", "type": "HAS_SYMPTOM"}
@@ -3931,15 +3933,21 @@
 {"from": "D_VIEM_PHOI", "to": "S_CO_KEO_CO_HO_HAP_PHU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_DAM_MU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_DAU_NGUC", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_DOM_MU", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_GIAM_AM_PHE_BAO", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_GO_DUC", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_HO", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_HO_KHAC_DAM", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_HO_RA_MAU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_KHO_THO", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_LONG_NGUC_NO_KHONG_DEU", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_NHIP_THO_NHANH", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_NHIP_TIM_NHANH", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_RALES", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_RAN_NO", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_SOT", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_TIENG_CO_MANG_PHOI", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_PHOI", "to": "S_TIENG_DE_KEU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI", "to": "S_TIENG_THO_PHE_QUAN", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_PHOI_CONG_DONG", "to": "M_DONG_DAC_PHE_NANG", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_PHOI_CONG_DONG", "to": "M_NHIEM_TRUNG_VI_KHUAN", "type": "HAS_MECHANISM"}
@@ -7144,7 +7152,7 @@
 {"from": "S_DAU_HONG", "to": "D_CUM", "type": "SUGGESTS"}
 {"from": "S_DAU_HONG", "to": "D_NHIEM_VIRUS_DUONG_HO_HAP", "type": "SUGGESTS"}
 {"from": "S_DAU_HONG", "to": "D_VIEM_HONG_LIEN_CAU", "type": "SUGGESTS"}
-{"from": "S_DAU_HONG", "to": "S_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}]}
+{"from": "S_DAU_HONG", "to": "S_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}, {"type": "Disease", "id": "D_NHIEM_VIRUS_DUONG_HO_HAP", "name": "Nhiễm virus đường hô hấp"}]}
 {"from": "S_DAU_HONG", "to": "S_NGHET_MUI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_HONG", "name": "Viêm họng"}, {"type": "Disease", "id": "D_CAM_CUM", "name": "Cảm cúm"}]}
 {"from": "S_DAU_HONG", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_NHIEM_TRUNG", "name": "Nhiễm trùng"}]}
 {"from": "S_DAU_HONG_LUNG", "to": "D_AP_XE_THAN", "type": "SUGGESTS"}
@@ -7673,24 +7681,27 @@
 {"from": "S_HO", "to": "D_VIEM_KHI_THE_QUAN", "type": "SUGGESTS"}
 {"from": "S_HO", "to": "D_VIEM_MANG_PHOI", "type": "SUGGESTS"}
 {"from": "S_HO", "to": "D_VIEM_PHOI", "type": "SUGGESTS"}
-{"from": "S_HO", "to": "S_HO_RA_MAU", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HO", "to": "S_HO_RA_MAU", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_UNG_THU_PHE_QUAN", "name": "Ung thư phế quản"}, {"type": "Disease", "id": "D_LAO", "name": "Lao"}, {"type": "Disease", "id": "D_GIAN_PHE_QUAN", "name": "Giãn phế quản"}]}
 {"from": "S_HO", "to": "S_KHAC_DAM", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}]}
 {"from": "S_HO", "to": "S_KHO_MAT", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_KHO_THO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_BENH_HO_HAP", "name": "Bệnh hô hấp"}]}
+{"from": "S_HO", "to": "S_KHO_THO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_BENH_HO_HAP", "name": "Bệnh hô hấp"}, {"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}, {"type": "Disease", "id": "D_SUY_TIM", "name": "Suy tim"}, {"type": "Disease", "id": "D_HEN", "name": "Hen phế quản"}, {"type": "Disease", "id": "D_COPD", "name": "COPD"}]}
 {"from": "S_HO", "to": "S_KHO_THO_KHI_GANG_SUC", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HO", "to": "S_KHO_THO_KHI_NGHI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HO", "to": "S_KHO_THO_KICH_PHAT_VE_DEM", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HO", "to": "S_LANH", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_NGHET_MUI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_NHIP_THO_NHANH", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_NHIP_TIM_NHANH", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HO", "to": "S_MAT_KHUU_GIAC", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_COVID_19", "name": "COVID-19"}]}
+{"from": "S_HO", "to": "S_NGHET_MUI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_VIEM_MUI_DI_UNG", "name": "Viêm mũi dị ứng"}, {"type": "Mechanism", "id": "M_CHAY_DICH_MUI_SAU", "name": "Chảy dịch mũi sau"}]}
+{"from": "S_HO", "to": "S_NHIP_THO_NHANH", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}]}
+{"from": "S_HO", "to": "S_NHIP_TIM_NHANH", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}]}
 {"from": "S_HO", "to": "S_RAN_NGAY", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_RAN_NO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HO", "to": "S_RAN_NO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}]}
 {"from": "S_HO", "to": "S_RAN_PHOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_ROI_LOAN_VI_GIAC", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}, {"type": "Disease", "id": "D_LAO_PHOI", "name": "Lao phổi"}, {"type": "Disease", "id": "D_CUM", "name": "Cúm"}]}
+{"from": "S_HO", "to": "S_ROI_LOAN_VI_GIAC", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_COVID_19", "name": "COVID-19"}]}
+{"from": "S_HO", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_PHOI", "name": "Viêm phổi"}, {"type": "Disease", "id": "D_LAO_PHOI", "name": "Lao phổi"}, {"type": "Disease", "id": "D_CUM", "name": "Cúm"}, {"type": "Disease", "id": "D_NHIEM_VIRUS_DUONG_HO_HAP", "name": "Nhiễm virus đường hô hấp"}]}
+{"from": "S_HO", "to": "S_SUT_CAN", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_UNG_THU_PHE_QUAN", "name": "Ung thư phế quản"}, {"type": "Disease", "id": "D_LAO", "name": "Lao"}]}
 {"from": "S_HO", "to": "S_TIENG_CO_MANG_PHOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HO", "to": "S_TINH_MACH_CO_NOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HO", "to": "S_VA_MO_HOI_DEM", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_LAO", "name": "Lao"}, {"type": "Disease", "id": "D_UNG_THU", "name": "Ung thư"}]}
 {"from": "S_HOA_MAT", "to": "D_SOC_NHIEM_TRUNG", "type": "SUGGESTS"}
 {"from": "S_HOA_MAT", "to": "D_SOT", "type": "SUGGESTS"}
 {"from": "S_HOA_MAT", "to": "D_SOT_DENGUE", "type": "SUGGESTS"}
@@ -7777,11 +7788,14 @@
 {"from": "S_HO_KHAN", "to": "D_HO_DO_ACEI", "type": "SUGGESTS"}
 {"from": "S_HO_KHAN", "to": "D_XO_PHOI_VO_CAN", "type": "SUGGESTS"}
 {"from": "S_HO_KHAN", "to": "S_HO", "type": "SUBTYPE_OF"}
+{"from": "S_HO_KHAN", "to": "S_KHO_MAT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_HOI_CHUNG_SJOGREN", "name": "Hội chứng Sjögren"}]}
 {"from": "S_HO_KHAN", "to": "S_O_NONG", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_BENH_TRAO_NGUOC_DA_DAY_THUC_QUAN", "name": "GERD"}]}
 {"from": "S_HO_KICH_PHAT", "to": "D_HEN", "type": "SUGGESTS"}
 {"from": "S_HO_KICH_PHAT", "to": "D_HO_GA", "type": "SUGGESTS"}
+{"from": "S_HO_KICH_PHAT", "to": "S_HO", "type": "SUBTYPE_OF"}
 {"from": "S_HO_KICH_PHAT", "to": "S_NON_SAU_CON_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
-{"from": "S_HO_KICH_PHAT", "to": "S_NON_SAU_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HO_KICH_PHAT", "to": "S_NON_SAU_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}, {"type": "Disease", "id": "D_HO_GA", "name": "Ho gà"}]}
+{"from": "S_HO_KICH_PHAT", "to": "S_TIENG_RIT_HIT_VAO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_HO_GA", "name": "Ho gà"}]}
 {"from": "S_HO_KICH_PHAT", "to": "S_TIENG_RIT_KHI_HIT_VAO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HO_MAN", "to": "D_COPD", "type": "SUGGESTS"}
 {"from": "S_HO_MAN", "to": "D_HEN", "type": "SUGGESTS"}
@@ -7822,6 +7836,7 @@
 {"from": "S_HO_VE_DEM", "to": "D_HEN", "type": "SUGGESTS"}
 {"from": "S_HO_VE_DEM", "to": "D_HEN_DANG_HO", "type": "SUGGESTS"}
 {"from": "S_HO_VE_DEM", "to": "D_SUY_TIM", "type": "SUGGESTS"}
+{"from": "S_HO_VE_DEM", "to": "S_HO", "type": "SUBTYPE_OF"}
 {"from": "S_HO_VE_DEM", "to": "S_KHO_KHE", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_HEN", "name": "Hen phế quản"}]}
 {"from": "S_HO_VE_DEM", "to": "S_KHO_THO_KHI_NAM", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_SUY_TIM", "name": "Suy tim"}]}
 {"from": "S_HUT_HOI", "to": "D_BLOC_NHI_THAT_DO_II_III", "type": "SUGGESTS"}
@@ -8153,6 +8168,7 @@
 {"from": "S_MACH_NHIET_PHAN_LY", "to": "D_SOT_MO", "type": "SUGGESTS"}
 {"from": "S_MACH_NHIET_PHAN_LY", "to": "D_THUONG_HAN", "type": "INDICATES"}
 {"from": "S_MACH_NHIET_PHAN_LY", "to": "S_SOT", "type": "SUGGESTS"}
+{"from": "S_MAT_KHUU_GIAC", "to": "D_COVID_19", "type": "INDICATES"}
 {"from": "S_MAT_KHUU_GIAC", "to": "D_COVID_19", "type": "SUGGESTS"}
 {"from": "S_MAT_KHUU_GIAC", "to": "S_ROI_LOAN_VI_GIAC", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_COVID_19", "name": "COVID-19"}]}
 {"from": "S_MAT_KINH", "to": "D_BENH_CELIAC", "type": "SUGGESTS"}
@@ -8812,6 +8828,7 @@
 {"from": "S_ROI_LOAN_TRI_GIAC", "to": "S_VANG_DA", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_XO_GAN", "name": "Xơ gan"}]}
 {"from": "S_ROI_LOAN_TRI_GIAC", "to": "S_XANH_TIM", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_GIAM_OXY_MAU", "name": "Giảm oxy máu"}]}
 {"from": "S_ROI_LOAN_TRI_GIAC", "to": "S_XUAT_HUYET", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_ROI_LOAN_VI_GIAC", "to": "D_COVID_19", "type": "INDICATES"}
 {"from": "S_ROI_LOAN_VI_GIAC", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_NHIEM_TRUNG", "name": "Nhiễm trùng"}]}
 {"from": "S_ROI_LOAN_Y_THUC", "to": "S_VANG_DA", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_SUY_GAN", "name": "Suy gan"}]}
 {"from": "S_RON_LOI", "to": "D_BANG_BUNG", "type": "SUGGESTS"}
