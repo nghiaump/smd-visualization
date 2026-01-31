@@ -100,6 +100,10 @@
     "name": "BIEN đông HORMONE ESTROGEN"
   },
   {
+    "id": "M_BLOC_CHOP_THAN_KINH_CO",
+    "name": "Tắc nghẽn chỗ nối thần kinh-cơ"
+  },
+  {
     "id": "M_BLOC_DAN_TRUYEN",
     "name": "Blốc dẫn truyền"
   },
@@ -140,6 +144,10 @@
     "name": "CANG GIAN NOI tăng"
   },
   {
+    "id": "M_CANG_TANG_NOI_TANG",
+    "name": "Căng tạng nội tạng"
+  },
+  {
     "id": "M_CAU_BANG_QUANG",
     "name": "CAU BANG QUANG"
   },
@@ -166,6 +174,10 @@
   {
     "id": "M_CHAY_MAU_DONG_MACH",
     "name": "Chảy máu động mạch"
+  },
+  {
+    "id": "M_CHAY_MAU_TIEU_HOA_TREN",
+    "name": "Chảy máu tiêu hóa trên"
   },
   {
     "id": "M_CHAY_MAU_TINH_MACH",
@@ -252,6 +264,10 @@
     "name": "cổ THANG phế quản"
   },
   {
+    "id": "M_CO_THAT_BANG_QUANG_YEU",
+    "name": "Cơ thắt bàng quang yếu"
+  },
+  {
     "id": "M_CO_THAT_CO_TRON",
     "name": "cổ THAT cổ TRON"
   },
@@ -286,6 +302,10 @@
   {
     "id": "M_CO_THAT_THUC_QUAN",
     "name": "Co thắt thực quản"
+  },
+  {
+    "id": "M_CO_THAT_TU_CUNG",
+    "name": "Co thắt tử cung"
   },
   {
     "id": "M_CO_THRAT_PHE_QUAN",
@@ -518,6 +538,10 @@
   {
     "id": "M_GIAM_CHUC_NANG_TIM",
     "name": "giảm CHUC nặng tim"
+  },
+  {
+    "id": "M_GIAM_CHUYEN_HOA",
+    "name": "Giảm chuyển hóa"
   },
   {
     "id": "M_GIAM_CUNG_LUONG_TIM",
@@ -868,6 +892,10 @@
     "name": "HAP THU NUOC QUA NHIEU"
   },
   {
+    "id": "M_HA_DUONG_HUYET",
+    "name": "Hạ đường huyết"
+  },
+  {
     "id": "M_HELICOBACTER_PYLORI",
     "name": "HELICOBACTER PYLORI"
   },
@@ -886,6 +914,10 @@
   {
     "id": "M_HEP_NIEU_DAO",
     "name": "HEP NIEU DAO"
+  },
+  {
+    "id": "M_HEP_PHE_QUAN",
+    "name": "Hẹp phế quản"
   },
   {
     "id": "M_HEP_VAN",
@@ -936,6 +968,10 @@
     "name": "Hoại tử vỏ thận"
   },
   {
+    "id": "M_HOAT_DONG_DIEN_BAT_THUONG_NAO",
+    "name": "Hoạt động điện bất thường não"
+  },
+  {
     "id": "M_HOAT_DONG_DOI_GIAO_CAM_TANG",
     "name": "HOAT đông DOI GIAO CAM tăng"
   },
@@ -982,6 +1018,10 @@
   {
     "id": "M_HUYET_KHOI_DONG_MACH_THAN",
     "name": "HUYET KHOI đông mạch thận"
+  },
+  {
+    "id": "M_HUYET_KHOI_MACH_VANH",
+    "name": "Huyết khối mạch vành"
   },
   {
     "id": "M_HUYET_KHOI_TINH_MACH_SAU",
@@ -1050,6 +1090,10 @@
   {
     "id": "M_KHONG_CAN_BANG_OXYGEN",
     "name": "không CAN BANG OXYGEN"
+  },
+  {
+    "id": "M_KHONG_DUNG_NAP_LACTOSE",
+    "name": "Không dung nạp lactose"
   },
   {
     "id": "M_KHONG_TIEU_GIAM_PGE2",
@@ -1126,6 +1170,10 @@
   {
     "id": "M_KICH_THICH_THU_THE_HO",
     "name": "Kích thích thụ thể ho"
+  },
+  {
+    "id": "M_KICH_THICH_THU_THE_HOA_HOC",
+    "name": "Kích thích thụ thể hóa học"
   },
   {
     "id": "M_KICH_THICH_TRUNG_TAM_HO_HAP",
@@ -1314,6 +1362,10 @@
   {
     "id": "M_MAT_MAU_MAN",
     "name": "mắt máu mạn"
+  },
+  {
+    "id": "M_MAT_MYELIN",
+    "name": "Mất myelin"
   },
   {
     "id": "M_MAT_NUOC",
@@ -1588,6 +1640,10 @@
     "name": "nhiễm VIRUS YELLOW FEVER"
   },
   {
+    "id": "M_NHIEM_VI_KHUAN",
+    "name": "Nhiễm vi khuẩn"
+  },
+  {
     "id": "M_NHIEM_VI_KHUAN_MANG_NAO",
     "name": "nhiễm VI KHUAN màng NAO"
   },
@@ -1736,6 +1792,10 @@
     "name": "Phản xạ thân não cuối cùng"
   },
   {
+    "id": "M_PHAN_XA_VASOVAGAL",
+    "name": "Phản xạ vasovagal"
+  },
+  {
     "id": "M_PHAT_TRIEN_BAT_THUONG_XUONG_SUN",
     "name": "PHAT TRIEN BAT THUONG xương SUN"
   },
@@ -1750,6 +1810,10 @@
   {
     "id": "M_PHAT_TRIEN_QUA_MUC_C_DIFFICILE",
     "name": "PHAT TRIEN QUA MUC C DIFFICILE"
+  },
+  {
+    "id": "M_PHA_HUY_PHE_NANG",
+    "name": "Phá hủy phế nang"
   },
   {
     "id": "M_PHA_VO_HONG_CAU",
@@ -1808,6 +1872,10 @@
     "name": "phù NE mỡ KE phổi"
   },
   {
+    "id": "M_PHU_NOI_DICH",
+    "name": "Phù nội dịch"
+  },
+  {
     "id": "M_PHU_PHOI",
     "name": "phù phổi"
   },
@@ -1818,6 +1886,10 @@
   {
     "id": "M_PHU_PHOI_NANG",
     "name": "phù phổi nặng"
+  },
+  {
+    "id": "M_PHU_PHOI_TIM",
+    "name": "Phù phổi do tim"
   },
   {
     "id": "M_PHU_THANH_QUAN",
@@ -1842,6 +1914,10 @@
   {
     "id": "M_QUA_MAN_HO",
     "name": "Quá mẫn ho"
+  },
+  {
+    "id": "M_QUA_PHAT_TRIEN_VI_KHUAN_RUOT_NON",
+    "name": "Quá phát triển vi khuẩn ruột non"
   },
   {
     "id": "M_QUA_TAI_AP_LUC",
@@ -1878,6 +1954,10 @@
   {
     "id": "M_QUA_TAI_THE_TICH_TUAN_HOAN",
     "name": "Qua tai the tich tuan hoan"
+  },
+  {
+    "id": "M_RACH_NIEM_MAC_THUC_QUAN",
+    "name": "Rách niêm mạc thực quản"
   },
   {
     "id": "M_RACH_VO_MACH_MAU_PHOI",
@@ -2052,6 +2132,10 @@
     "name": "rối loạn TIC"
   },
   {
+    "id": "M_ROI_LOAN_TIEN_DINH",
+    "name": "Rối loạn tiền đình"
+  },
+  {
     "id": "M_ROI_LOAN_TONG_XUAT_TRUC_TRANG",
     "name": "rối loạn TONG XUAT TRUC trắng"
   },
@@ -2074,6 +2158,10 @@
   {
     "id": "M_ROI_LOAN_VAN_DONG_RUOT",
     "name": "Rối loạn vận động ruột"
+  },
+  {
+    "id": "M_ROI_LOAN_VAN_DONG_THUC_QUAN",
+    "name": "Rối loạn vận động thực quản"
   },
   {
     "id": "M_ROI_LOAN_VAN_TIM",
@@ -2246,6 +2334,10 @@
   {
     "id": "M_SUY_THAT_TRAI",
     "name": "Suy thất trái"
+  },
+  {
+    "id": "M_SUY_THUONG_THAN",
+    "name": "Suy thượng thận"
   },
   {
     "id": "M_SUY_TIM",
@@ -2472,6 +2564,10 @@
     "name": "TAC NGHEN tăng RONG"
   },
   {
+    "id": "M_TAC_NGHEN_THUC_QUAN",
+    "name": "Tắc nghẽn thực quản"
+  },
+  {
     "id": "M_TAC_NGHEN_TINH_MACH",
     "name": "TAC NGHEN TINH mạch"
   },
@@ -2628,12 +2724,20 @@
     "name": "tăng AP MAO QUAN phổi"
   },
   {
+    "id": "M_TANG_AP_NOI_SO",
+    "name": "Tăng áp lực nội sọ"
+  },
+  {
     "id": "M_TANG_AP_PHOI",
     "name": "tăng AP phổi"
   },
   {
     "id": "M_TANG_AP_THUY_TINH_MAO_MACH",
     "name": "tăng AP THUY TINH MAO mạch"
+  },
+  {
+    "id": "M_TANG_AP_TINH_MACH_CUA",
+    "name": "Tăng áp tĩnh mạch cửa"
   },
   {
     "id": "M_TANG_AP_TINH_MACH_PHOI",
@@ -2728,12 +2832,20 @@
     "name": "Tăng dòng máu qua gan"
   },
   {
+    "id": "M_TANG_DUONG_HUYET",
+    "name": "Tăng đường huyết"
+  },
+  {
     "id": "M_TANG_D_DIMER",
     "name": "Tăng D-dimer"
   },
   {
     "id": "M_TANG_ENDOTHELIN_1",
     "name": "Tăng endothelin-1"
+  },
+  {
+    "id": "M_TANG_ESTROGEN",
+    "name": "Tăng estrogen"
   },
   {
     "id": "M_TANG_FREE_METANEPHRINE",
@@ -2750,6 +2862,10 @@
   {
     "id": "M_TANG_HEMOGLOBIN_KHU",
     "name": "tăng HEMOGLOBIN KHU"
+  },
+  {
+    "id": "M_TANG_HOAT_CO_BANG_QUANG",
+    "name": "Tăng hoạt cơ bàng quang"
   },
   {
     "id": "M_TANG_HOAT_DONG_DOI_GIAO_CAM",
@@ -2812,6 +2928,10 @@
     "name": "Tăng nhạy cảm đường thở"
   },
   {
+    "id": "M_TANG_NHAY_CAM_NOI_TANG",
+    "name": "Tăng nhạy cảm nội tạng"
+  },
+  {
     "id": "M_TANG_NHAY_CAM_THAN_KINH_HO",
     "name": "tăng NHAY CAM thần kinh ho"
   },
@@ -2838,6 +2958,14 @@
   {
     "id": "M_TANG_PHONG_THICH_CATECHOLAMINE",
     "name": "Tăng phóng thích catecholamine"
+  },
+  {
+    "id": "M_TANG_PH_AM_DAO",
+    "name": "Tăng pH âm đạo"
+  },
+  {
+    "id": "M_TANG_PROSTAGLANDIN",
+    "name": "Tăng prostaglandin"
   },
   {
     "id": "M_TANG_SAN_SINH_DICH",
@@ -2984,6 +3112,10 @@
     "name": "tăng TIET CHAT NHAM tai ruột"
   },
   {
+    "id": "M_TANG_TIET_CHAT_NHAY",
+    "name": "Tăng tiết chất nhầy"
+  },
+  {
     "id": "M_TANG_TIET_NHAY_RUOT",
     "name": "tăng TIET NHAY ruột"
   },
@@ -3124,6 +3256,10 @@
     "name": "THIEU KHI OXY mỡ"
   },
   {
+    "id": "M_THIEU_LACTOBACILLI",
+    "name": "Thiếu Lactobacilli"
+  },
+  {
     "id": "M_THIEU_MAU",
     "name": "THIEU máu"
   },
@@ -3214,6 +3350,10 @@
   {
     "id": "M_THIEU_SAT",
     "name": "THIEU SAT"
+  },
+  {
+    "id": "M_THOAI_HOA_DOPAMINERGIC",
+    "name": "Thoái hóa tế bào dopaminergic"
   },
   {
     "id": "M_THOAT_DICH",
@@ -3432,6 +3572,14 @@
     "name": "Tổn thương mô kẽ"
   },
   {
+    "id": "M_TON_THUONG_NEURON_VAN_DONG_DUOI",
+    "name": "Tổn thương neuron vận động dưới"
+  },
+  {
+    "id": "M_TON_THUONG_NEURON_VAN_DONG_TREN",
+    "name": "Tổn thương neuron vận động trên"
+  },
+  {
     "id": "M_TON_THUONG_NIEM_MAC_DAI_TRANG",
     "name": "TON THUONG NIEM MAC DAI trắng"
   },
@@ -3494,6 +3642,10 @@
   {
     "id": "M_TON_THUONG_TE_BAO_GAN_DO_RUOU",
     "name": "TON THUONG TE BAO gan đỏ rượu"
+  },
+  {
+    "id": "M_TON_THUONG_TE_BAO_LONG_OC_TAI",
+    "name": "Tổn thương tế bào lông ốc tai"
   },
   {
     "id": "M_TON_THUONG_THAN",
@@ -3566,6 +3718,10 @@
   {
     "id": "M_TRAN_KHI_MEMQ_PHOI_TU_PHAT",
     "name": "TRAN KHI MEMQ phổi TU PHAT"
+  },
+  {
+    "id": "M_TRAO_NGUOC_ACID",
+    "name": "Trào ngược acid"
   },
   {
     "id": "M_TRAO_NGUOC_DAU_DAY_THUC_QUONG",
@@ -3752,6 +3908,10 @@
     "name": "Viêm đường thở"
   },
   {
+    "id": "M_VIEM_DUONG_TIET_NIEU",
+    "name": "Viêm đường tiết niệu"
+  },
+  {
     "id": "M_VIEM_GAN",
     "name": "viêm gan"
   },
@@ -3864,6 +4024,10 @@
     "name": "viêm NIEM MAC BANG QUANG"
   },
   {
+    "id": "M_VIEM_NIEM_MAC_DA_DAY",
+    "name": "Viêm niêm mạc dạ dày"
+  },
+  {
     "id": "M_VIEM_NIEM_MAC_DUONG_TIEU",
     "name": "viêm NIEM MAC DUONG TIEU"
   },
@@ -3912,8 +4076,16 @@
     "name": "viêm phổi HIT"
   },
   {
+    "id": "M_VIEM_PHUC_MAC",
+    "name": "Viêm phúc mạc"
+  },
+  {
     "id": "M_VIEM_RUOT",
     "name": "viêm ruột"
+  },
+  {
+    "id": "M_VIEM_SINH_DUC",
+    "name": "Viêm đường sinh dục"
   },
   {
     "id": "M_VIEM_TA_TRANG",
@@ -3970,6 +4142,10 @@
   {
     "id": "M_VO_MACH_MAU_TIEU_HOA",
     "name": "VO mạch máu TIEU HOA"
+  },
+  {
+    "id": "M_VO_MANG_XO_VUA",
+    "name": "Vỡ mảng xơ vữa"
   },
   {
     "id": "M_XAM_LAN_MO_LAN_CAN",

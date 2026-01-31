@@ -155,12 +155,12 @@ def load_v5_edges():
                     try:
                         data = json.loads(line)
 
-                        # Extract source and target
-                        source = data.get("source", {})
-                        target = data.get("target", {})
+                        # Extract source and target (handle both dict and string formats)
+                        source = data.get("source")
+                        target = data.get("target")
 
-                        from_id = source.get("id") if isinstance(source, dict) else data.get("from")
-                        to_id = target.get("id") if isinstance(target, dict) else data.get("to")
+                        from_id = source.get("id") if isinstance(source, dict) else (source or data.get("from"))
+                        to_id = target.get("id") if isinstance(target, dict) else (target or data.get("to"))
                         edge_type = data.get("edge_type") or data.get("type")
 
                         if not from_id or not to_id or not edge_type:
@@ -181,13 +181,15 @@ def load_v5_edges():
 
                         # Add context for ASSOCIATED_WITH (support array format)
                         if edge_type == "ASSOCIATED_WITH":
-                            properties = data.get("properties", {})
-                            context = properties.get("context")
+                            # Try direct context first, then properties.context
+                            context = data.get("context") or data.get("properties", {}).get("context")
                             if context:
-                                # Handle both array and single object format
+                                # Handle both array and single object/string format
                                 if isinstance(context, list):
                                     edge["context"] = context
                                 elif isinstance(context, dict):
+                                    edge["context"] = [context]
+                                elif isinstance(context, str):
                                     edge["context"] = [context]
 
                         edges.append(edge)
@@ -245,15 +247,21 @@ def normalize_edge_key(from_id, to_id, edge_type):
 
 
 def merge_contexts(existing_contexts, new_contexts):
-    """Merge context arrays, removing duplicates by id"""
+    """Merge context arrays, removing duplicates"""
     all_contexts = []
-    seen_ids = set()
+    seen = set()
 
     for ctx in (existing_contexts or []) + (new_contexts or []):
-        ctx_id = ctx.get("id")
-        if ctx_id and ctx_id not in seen_ids:
-            seen_ids.add(ctx_id)
-            all_contexts.append(ctx)
+        # Handle both string and dict contexts
+        if isinstance(ctx, str):
+            if ctx not in seen:
+                seen.add(ctx)
+                all_contexts.append(ctx)
+        elif isinstance(ctx, dict):
+            ctx_id = ctx.get("id") or str(ctx)
+            if ctx_id not in seen:
+                seen.add(ctx_id)
+                all_contexts.append(ctx)
 
     return all_contexts
 
@@ -349,12 +357,24 @@ def deduplicate_edges(edges):
                 existing_ctx = deduped[existing_idx].get("context", [])
                 new_ctx = edge.get("context", [])
 
-                # Merge contexts by id
-                seen_ids = {c.get("id") for c in existing_ctx}
+                # Merge contexts (handle both string and dict)
+                seen = set()
+                for c in existing_ctx:
+                    if isinstance(c, str):
+                        seen.add(c)
+                    elif isinstance(c, dict):
+                        seen.add(c.get("id") or str(c))
+
                 for ctx in new_ctx:
-                    if ctx.get("id") not in seen_ids:
-                        existing_ctx.append(ctx)
-                        seen_ids.add(ctx.get("id"))
+                    if isinstance(ctx, str):
+                        if ctx not in seen:
+                            existing_ctx.append(ctx)
+                            seen.add(ctx)
+                    elif isinstance(ctx, dict):
+                        ctx_id = ctx.get("id") or str(ctx)
+                        if ctx_id not in seen:
+                            existing_ctx.append(ctx)
+                            seen.add(ctx_id)
 
                 deduped[existing_idx]["context"] = existing_ctx
         else:

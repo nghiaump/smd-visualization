@@ -4,6 +4,10 @@
     "name": "Hội chứng mạch vành cấp"
   },
   {
+    "id": "D_ADENOMYOSIS",
+    "name": "Adenomyosis"
+  },
+  {
     "id": "D_AIDS",
     "name": "Hội chứng suy giảm miễn dịch mắc phải"
   },
@@ -74,6 +78,10 @@
   {
     "id": "D_BANG_BUNG_DUONG_TRAP",
     "name": "Báng bụng dưỡng trấp"
+  },
+  {
+    "id": "D_BANG_QUANG_TANG_HOAT",
+    "name": "Bàng quang tăng hoạt"
   },
   {
     "id": "D_BANG_QUANG_THAN_KINH",
@@ -222,6 +230,10 @@
   {
     "id": "D_BENH_MENETRIER",
     "name": "Bệnh Menetrier"
+  },
+  {
+    "id": "D_BENH_MENIERE",
+    "name": "Bệnh Meniere"
   },
   {
     "id": "D_BENH_NANG_TUY_THAN",
@@ -536,6 +548,10 @@
     "name": "Căng cơ"
   },
   {
+    "id": "D_CARCINOID",
+    "name": "Hội chứng Carcinoid"
+  },
+  {
     "id": "D_CAU_BANG_QUANG",
     "name": "CAU BANG QUANG"
   },
@@ -612,6 +628,14 @@
     "name": "Choáng tim"
   },
   {
+    "id": "D_CHOLESTEATOMA",
+    "name": "Cholesteatoma"
+  },
+  {
+    "id": "D_CHONG_MAT_TU_THE_LANH_TINH",
+    "name": "Chóng mặt tư thế kịch phát lành tính"
+  },
+  {
     "id": "D_CHUNG_AN_NON",
     "name": "Chứng ăn - nôn"
   },
@@ -658,6 +682,10 @@
   {
     "id": "D_COVID_19",
     "name": "COVID-19"
+  },
+  {
+    "id": "D_CO_THAT_TAM_VI",
+    "name": "Co thắt tâm vị"
   },
   {
     "id": "D_CUM",
@@ -728,6 +756,22 @@
     "name": "Dập cơ"
   },
   {
+    "id": "D_DAU_BUNG_KINH_NGUYEN_PHAT",
+    "name": "Đau bụng kinh nguyên phát"
+  },
+  {
+    "id": "D_DAU_BUNG_KINH_THU_PHAT",
+    "name": "Đau bụng kinh thứ phát"
+  },
+  {
+    "id": "D_DAU_DAU_CANG_THANG",
+    "name": "Đau đầu căng thẳng"
+  },
+  {
+    "id": "D_DAU_DAU_CUM",
+    "name": "Đau đầu cụm"
+  },
+  {
     "id": "D_DAU_NGUC_TAM_LY",
     "name": "Đau ngực do nguyên nhân tâm lý"
   },
@@ -768,6 +812,14 @@
     "name": "Đa u tủy"
   },
   {
+    "id": "D_DIEC_DO_TIENG_ON",
+    "name": "Điếc do tiếng ồn"
+  },
+  {
+    "id": "D_DIEC_TUOI_GIA",
+    "name": "Điếc tuổi già"
+  },
+  {
     "id": "D_DINH_RUOT",
     "name": "Dính ruột"
   },
@@ -796,8 +848,16 @@
     "name": "Dị vật đường thở"
   },
   {
+    "id": "D_DOC_TAI",
+    "name": "Độc tính tai"
+  },
+  {
     "id": "D_DONG_DAC_PHOI",
     "name": "đông DAC phổi"
+  },
+  {
+    "id": "D_DONG_KINH",
+    "name": "Động kinh"
   },
   {
     "id": "D_DONG_MAU_NOI_MACH_LAN_TOA_(DIC)",
@@ -856,6 +916,10 @@
     "name": "Giãn phế quản"
   },
   {
+    "id": "D_GIAN_TINH_MACH_THUC_QUAN",
+    "name": "Giãn tĩnh mạch thực quản"
+  },
+  {
     "id": "D_GIAN_TM_THUC_QUAN",
     "name": "GIAN TM THUC QUAN"
   },
@@ -878,6 +942,10 @@
   {
     "id": "D_GOUT_MAN_TOPHI",
     "name": "Viêm khớp gút mạn có hạt tophi"
+  },
+  {
+    "id": "D_GUILLAIN_BARRE",
+    "name": "Hội chứng Guillain-Barré"
   },
   {
     "id": "D_GU_VEO_COT_SONG",
@@ -934,6 +1002,10 @@
   {
     "id": "D_HEN_PHE_QUAN",
     "name": "HEN phế quản"
+  },
+  {
+    "id": "D_HEN_SUYEN",
+    "name": "Hen suyễn"
   },
   {
     "id": "D_HEN_TIM",
@@ -1036,6 +1108,10 @@
     "name": "Hội chứng Crigler-Najjar"
   },
   {
+    "id": "D_HOI_CHUNG_CUSHING",
+    "name": "Hội chứng Cushing"
+  },
+  {
     "id": "D_HOI_CHUNG_DUBIN_JOHNSON",
     "name": "Hội chứng Dubin-Johnson"
   },
@@ -1086,6 +1162,10 @@
   {
     "id": "D_HOI_CHUNG_MARFAN",
     "name": "Hội chứng Marfan"
+  },
+  {
+    "id": "D_HOI_CHUNG_MET_MOI_MAN",
+    "name": "Hội chứng mệt mỏi mạn tính"
   },
   {
     "id": "D_HOI_CHUNG_NHIEM_KHUAN_TIEU",
@@ -1288,6 +1368,10 @@
     "name": "LACH TO"
   },
   {
+    "id": "D_LAC_NOI_MAC_TU_CUNG",
+    "name": "Lạc nội mạc tử cung"
+  },
+  {
     "id": "D_LAM_DUNG_AMPHETAMINE",
     "name": "Lạm dụng amphetamine"
   },
@@ -1320,6 +1404,10 @@
     "name": "Lao ruột"
   },
   {
+    "id": "D_LAU",
+    "name": "Bệnh lậu"
+  },
+  {
     "id": "D_LEGIONELLA",
     "name": "LEGIONELLA"
   },
@@ -1344,6 +1432,10 @@
     "name": "LIET ruột"
   },
   {
+    "id": "D_LOAN_NHIP_TIM",
+    "name": "Loạn nhịp tim"
+  },
+  {
     "id": "D_LOET_DA_DAY",
     "name": "Loét dạ dày"
   },
@@ -1366,6 +1458,10 @@
   {
     "id": "D_LOI_DA_DAY",
     "name": "lợi dạ dày"
+  },
+  {
+    "id": "D_LONG_COVID",
+    "name": "Long COVID"
   },
   {
     "id": "D_LONG_NGUC_LOM_BAM_SINH",
@@ -1460,8 +1556,20 @@
     "name": "mắt NUOC"
   },
   {
+    "id": "D_MENIERE",
+    "name": "Bệnh Meniere"
+  },
+  {
     "id": "D_METHEMOGLOBIN_MAU",
     "name": "METHEMOGLOBIN máu"
+  },
+  {
+    "id": "D_ME_SANG",
+    "name": "Mê sảng"
+  },
+  {
+    "id": "D_MIGRAINE",
+    "name": "Đau nửa đầu"
   },
   {
     "id": "D_MYOGLOBINURIA",
@@ -1476,8 +1584,16 @@
     "name": "Viêm gan thoái hóa mỡ không do rượu"
   },
   {
+    "id": "D_NAM_AM_DAO",
+    "name": "Nhiễm nấm âm đạo"
+  },
+  {
     "id": "D_NANG_BUONG_TRUNG",
     "name": "nặng BUONG TRUNG"
+  },
+  {
+    "id": "D_NANG_VU",
+    "name": "Nang vú"
   },
   {
     "id": "D_NGHET_PHAN",
@@ -1578,6 +1694,10 @@
   {
     "id": "D_NHIEM_CAMPYLOBACTER",
     "name": "Nhiễm Campylobacter"
+  },
+  {
+    "id": "D_NHIEM_CHLAMYDIA",
+    "name": "Nhiễm Chlamydia"
   },
   {
     "id": "D_NHIEM_CHLAMYDOPHILA",
@@ -1720,6 +1840,10 @@
     "name": "Nhiễm toan ống thận (RTA)"
   },
   {
+    "id": "D_NHIEM_TRICHOMONAS",
+    "name": "Nhiễm Trichomonas"
+  },
+  {
     "id": "D_NHIEM_TRUNG",
     "name": "Nhiễm trùng"
   },
@@ -1746,6 +1870,10 @@
   {
     "id": "D_NHIEM_TRUNG_HO_HAP",
     "name": "nhiễm trùng ho HAP"
+  },
+  {
+    "id": "D_NHIEM_TRUNG_HO_HAP_TREN",
+    "name": "Nhiễm trùng hô hấp trên"
   },
   {
     "id": "D_NHIEM_TRUNG_HUYET",
@@ -1812,6 +1940,10 @@
     "name": "NHIP NHANH trên THAL"
   },
   {
+    "id": "D_NHIP_NHANH_TREN_THAT",
+    "name": "Nhịp nhanh trên thất"
+  },
+  {
     "id": "D_NHIP_NHANH_XOANG",
     "name": "NHIP NHANH XOANG"
   },
@@ -1844,12 +1976,20 @@
     "name": "NHUOC cổ"
   },
   {
+    "id": "D_NON_CHU_KY",
+    "name": "Hội chứng nôn chu kỳ"
+  },
+  {
     "id": "D_NON_STEMI",
     "name": "Nhồi máu cơ tim không ST chênh lên"
   },
   {
     "id": "D_NUT_HAU_MON",
     "name": "Nứt hậu môn"
+  },
+  {
+    "id": "D_PEYRONIE",
+    "name": "Bệnh Peyronie"
   },
   {
     "id": "D_PHAN_UNG_PHAN_VE",
@@ -1874,6 +2014,10 @@
   {
     "id": "D_PHINH_DAI_TUYEN_TIEN_LIET",
     "name": "PHINH DAI TUYEN TIEN LIET"
+  },
+  {
+    "id": "D_PHINH_DONG_MACH_CHU_BUNG",
+    "name": "Phình động mạch chủ bụng"
   },
   {
     "id": "D_PHI_DAI_THAT_TRAI",
@@ -1940,6 +2084,10 @@
     "name": "Polyp đại tràng"
   },
   {
+    "id": "D_POLYP_NOI_MAC_TU_CUNG",
+    "name": "Polyp nội mạc tử cung"
+  },
+  {
     "id": "D_PTSD",
     "name": "Hội chứng sang chấn sau chấn thương"
   },
@@ -1962,6 +2110,10 @@
   {
     "id": "D_ROI_LOAN_CHUC_NANG_TE_BAO_GAN",
     "name": "rối loạn CHUC nặng TE BAO gan"
+  },
+  {
+    "id": "D_ROI_LOAN_CUONG_DUONG",
+    "name": "Rối loạn cương dương"
   },
   {
     "id": "D_ROI_LOAN_DANG_CO_THE",
@@ -2032,6 +2184,14 @@
     "name": "rối loạn THOAT phân"
   },
   {
+    "id": "D_ROI_LOAN_TIEN_DINH",
+    "name": "Rối loạn tiền đình"
+  },
+  {
+    "id": "D_ROI_LOAN_TINH_DUC_NU",
+    "name": "Rối loạn tình dục nữ"
+  },
+  {
     "id": "D_RO_HAU_MON",
     "name": "Rò hậu môn"
   },
@@ -2058,6 +2218,10 @@
   {
     "id": "D_RUNG_THAT_VO_CAN",
     "name": "Rung thất vô căn"
+  },
+  {
+    "id": "D_RUN_VO_CAN",
+    "name": "Run vô căn"
   },
   {
     "id": "D_SAN_LA_PHOI",
@@ -2118,6 +2282,10 @@
   {
     "id": "D_SOI_DUONG_TIEU_NHIEM_TRUNG",
     "name": "SOI DUONG TIEU nhiễm trùng"
+  },
+  {
+    "id": "D_SOI_MAT",
+    "name": "Sỏi mật"
   },
   {
     "id": "D_SOI_NIEU",
@@ -2278,6 +2446,10 @@
   {
     "id": "D_STEMI",
     "name": "Nhồi máu cơ tim ST chênh lên"
+  },
+  {
+    "id": "D_SUY_BUONG_TRUNG_SOM",
+    "name": "Suy buồng trứng sớm"
   },
   {
     "id": "D_SUY_CHUC_NANG_DA_CO_QUAN",
@@ -2512,6 +2684,10 @@
     "name": "Tắc nghẽn ruột"
   },
   {
+    "id": "D_TAC_RAY_TAI",
+    "name": "Tắc ráy tai"
+  },
+  {
     "id": "D_TAC_RUOT",
     "name": "TAC ruột"
   },
@@ -2718,6 +2894,10 @@
   {
     "id": "D_THOAT_VI_CO_HOANH_BAM_SINH",
     "name": "Thoát vị cơ hoành bẩm sinh"
+  },
+  {
+    "id": "D_THOAT_VI_HOANH",
+    "name": "Thoát vị hoành"
   },
   {
     "id": "D_THOI_CHEYNE_STOKES",
@@ -2956,6 +3136,10 @@
     "name": "Ung thư dạ dày - ruột"
   },
   {
+    "id": "D_UNG_THU_DI_CAN",
+    "name": "Ung thư di căn"
+  },
+  {
     "id": "D_UNG_THU_DI_CAN_GAN",
     "name": "Ung thư di căn gan"
   },
@@ -3056,6 +3240,10 @@
     "name": "U đầu tụy"
   },
   {
+    "id": "D_U_DAY_THAN_KINH_TIEN_DINH",
+    "name": "U dây thần kinh tiền đình"
+  },
+  {
     "id": "D_U_DUONG_TIET_NIEU",
     "name": "U đường tiết niệu"
   },
@@ -3120,6 +3308,10 @@
     "name": "U tuyến nhánh đại trực tràng"
   },
   {
+    "id": "D_U_TUYEN_XO_VU",
+    "name": "U tuyến xơ vú"
+  },
+  {
     "id": "D_U_TUYH_THUONG_THAN",
     "name": "U TUYH THUONG thận"
   },
@@ -3140,8 +3332,24 @@
     "name": "U xơ tuyến tiền liệt"
   },
   {
+    "id": "D_U_XO_TU_CUNG",
+    "name": "U xơ tử cung"
+  },
+  {
+    "id": "D_VIEM_AMIDAN",
+    "name": "Viêm amidan"
+  },
+  {
+    "id": "D_VIEM_AM_DAO_VI_KHUAN",
+    "name": "Viêm âm đạo vi khuẩn"
+  },
+  {
     "id": "D_VIEM_BANG_QUANG",
     "name": "viêm BANG QUANG"
+  },
+  {
+    "id": "D_VIEM_BANG_QUANG_KE",
+    "name": "Viêm bàng quang kẽ"
   },
   {
     "id": "D_VIEM_BANG_QUANG_XUAT_HUYET",
@@ -3218,6 +3426,10 @@
   {
     "id": "D_VIEM_DAI_TRANG_XUAT_HUYET",
     "name": "Viêm đại tràng xuất huyết"
+  },
+  {
+    "id": "D_VIEM_DA_DAY",
+    "name": "Viêm dạ dày"
   },
   {
     "id": "D_VIEM_DA_DAY_MAN_TEO",
@@ -3298,6 +3510,10 @@
   {
     "id": "D_VIEM_GAN_VIRUS_C",
     "name": "Viêm gan virus C"
+  },
+  {
+    "id": "D_VIEM_HONG",
+    "name": "Viêm họng"
   },
   {
     "id": "D_VIEM_HONG_LIEN_CAU",
@@ -3390,6 +3606,10 @@
   {
     "id": "D_VIEM_MANG_PHOI",
     "name": "Viêm màng phổi"
+  },
+  {
+    "id": "D_VIEM_ME_DAO",
+    "name": "Viêm mê đạo"
   },
   {
     "id": "D_VIEM_MO_KE_THAN_DO_THUOC",
@@ -3512,6 +3732,14 @@
     "name": "Viêm sụn sườn"
   },
   {
+    "id": "D_VIEM_TAI_GIUA",
+    "name": "Viêm tai giữa"
+  },
+  {
+    "id": "D_VIEM_TAI_NGOAI",
+    "name": "Viêm tai ngoài"
+  },
+  {
     "id": "D_VIEM_THANH_QUAN_CAP",
     "name": "viêm thanh quản cấp"
   },
@@ -3524,12 +3752,20 @@
     "name": "Viêm thận bể thận cấp"
   },
   {
+    "id": "D_VIEM_THAN_KINH_TIEN_DINH",
+    "name": "Viêm thần kinh tiền đình"
+  },
+  {
     "id": "D_VIEM_THAN_NGUC",
     "name": "viêm thận ngực"
   },
   {
     "id": "D_VIEM_THUC_QUAN",
     "name": "viêm THUC QUAN"
+  },
+  {
+    "id": "D_VIEM_THUC_QUAN_TANG_BCATT",
+    "name": "Viêm thực quản tăng bạch cầu ái toan"
   },
   {
     "id": "D_VIEM_TIEU_PHE_QUAN",
@@ -3580,6 +3816,10 @@
     "name": "Viêm tụy mạn"
   },
   {
+    "id": "D_VIEM_VUNG_CHAU",
+    "name": "Viêm vùng chậu"
+  },
+  {
     "id": "D_VIEM_XOANG",
     "name": "viêm XOANG"
   },
@@ -3594,6 +3834,14 @@
   {
     "id": "D_VO_DAN_TINH_MACH_THUC_QUAN",
     "name": "Vỡ dãn tĩnh mạch thực quản"
+  },
+  {
+    "id": "D_VO_PHINH_DONG_MACH_CHU_BUNG",
+    "name": "Vỡ phình động mạch chủ bụng"
+  },
+  {
+    "id": "D_VO_SINH",
+    "name": "Vô sinh"
   },
   {
     "id": "D_WILSON",
@@ -3618,6 +3866,10 @@
   {
     "id": "D_XO_CUNG_COT_BEN_TEO_CO",
     "name": "Xơ cứng cột bên teo cơ"
+  },
+  {
+    "id": "D_XO_CUNG_RAI_RAC",
+    "name": "Xơ cứng rải rác"
   },
   {
     "id": "D_XO_GAN",
@@ -3656,6 +3908,10 @@
     "name": "Xơ hóa sau phúc mạc"
   },
   {
+    "id": "D_XO_NANG",
+    "name": "Xơ nang"
+  },
+  {
     "id": "D_XO_NANG_TUY",
     "name": "XO nặng tụy"
   },
@@ -3666,6 +3922,14 @@
   {
     "id": "D_XO_PHOI_VO_CAN",
     "name": "Xơ phổi vô căn"
+  },
+  {
+    "id": "D_XO_TAI",
+    "name": "Xơ tai"
+  },
+  {
+    "id": "D_XUAT_HUYET_DUOI_NHEN",
+    "name": "Xuất huyết dưới nhện"
   },
   {
     "id": "D_XUAT_HUYET_NANG",
