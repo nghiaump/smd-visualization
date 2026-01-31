@@ -1188,6 +1188,10 @@
     "name": "Ho gà"
   },
   {
+    "id": "D_HO_TAM_THE",
+    "name": "Ho tâm thể"
+  },
+  {
     "id": "D_HO_TIC",
     "name": "Ho tic"
   },
@@ -3378,6 +3382,10 @@
   {
     "id": "D_VIEM_PHE_QUAN",
     "name": "Viêm phế quản"
+  },
+  {
+    "id": "D_VIEM_PHE_QUAN_AI_TOAN_KHONG_HEN",
+    "name": "Viêm phế quản ái toan không hen"
   },
   {
     "id": "D_VIEM_PHE_QUAN_CAP",

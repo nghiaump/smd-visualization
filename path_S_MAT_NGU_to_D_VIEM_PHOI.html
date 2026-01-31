@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_KHO_THO", "label": "Kh\u00f3 th\u1edf", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_KHO_THO\u003c/b\u003e\u003cbr\u003eKh\u00f3 th\u1edf\u003cbr\u003eType: S"}, {"borderWidth": 4, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_MAT_NGU", "label": "M\u1ea5t ng\u1ee7", "shape": "dot", "size": 35, "title": "\u003cb\u003eS_MAT_NGU\u003c/b\u003e\u003cbr\u003eM\u1ea5t ng\u1ee7\u003cbr\u003eType: S\u003cbr\u003e\u003cb\u003e[START]\u003c/b\u003e"}, {"borderWidth": 4, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_VIEM_PHOI", "label": "Vi\u00eam ph\u1ed5i", "shape": "dot", "size": 35, "title": "\u003cb\u003eD_VIEM_PHOI\u003c/b\u003e\u003cbr\u003eVi\u00eam ph\u1ed5i\u003cbr\u003eType: D\u003cbr\u003e\u003cb\u003e[END]\u003c/b\u003e"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_KHAT_NUOC", "label": "Kh\u00e1t n\u01b0\u1edbc", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_KHAT_NUOC\u003c/b\u003e\u003cbr\u003eKh\u00e1t n\u01b0\u1edbc\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_GIAM_DAP_UNG_ADH", "label": "Gi\u1ea3m \u0111\u00e1p \u1ee9ng ADH \u1edf \u1ed1ng th\u1eadn", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_GIAM_DAP_UNG_ADH\u003c/b\u003e\u003cbr\u003eGi\u1ea3m \u0111\u00e1p \u1ee9ng ADH \u1edf \u1ed1ng th\u1eadn\u003cbr\u003eType: M"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_HO", "label": "Ho", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_HO\u003c/b\u003e\u003cbr\u003eHo\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_HOI_CHUNG_SJOGREN", "label": "H\u1ed9i ch\u1ee9ng Sj\u00f6gren", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_HOI_CHUNG_SJOGREN\u003c/b\u003e\u003cbr\u003eH\u1ed9i ch\u1ee9ng Sj\u00f6gren\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_BENH_CUONG_UONG", "label": "B\u1ec7nh cu\u1ed3ng u\u1ed1ng", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_BENH_CUONG_UONG\u003c/b\u003e\u003cbr\u003eB\u1ec7nh cu\u1ed3ng u\u1ed1ng\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_SARCOIDOSIS", "label": "Sarcoidosis", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_SARCOIDOSIS\u003c/b\u003e\u003cbr\u003eSarcoidosis\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_SOT", "label": "S\u1ed1t", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_SOT\u003c/b\u003e\u003cbr\u003eS\u1ed1t\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_DAI_THAO_NHAT", "label": "DAI THAO NHAT", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_DAI_THAO_NHAT\u003c/b\u003e\u003cbr\u003eDAI THAO NHAT\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_TANG_BAI_TIET_NUOC", "label": "T\u0103ng b\u00e0i ti\u1ebft n\u01b0\u1edbc", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_TANG_BAI_TIET_NUOC\u003c/b\u003e\u003cbr\u003eT\u0103ng b\u00e0i ti\u1ebft n\u01b0\u1edbc\u003cbr\u003eType: M"}]);
+                  edges = new vis.DataSet([{"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_MAT_NGU", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nM\u1ea5t ng\u1ee7 \u2192 B\u1ec7nh cu\u1ed3ng u\u1ed1ng", "to": "D_BENH_CUONG_UONG", "width": 2}, {"arrows": "", "color": "#B91C1C", "dashes": false, "from": "D_BENH_CUONG_UONG", "smooth": {"type": "continuous"}, "title": "HAS_MECHANISM\nB\u1ec7nh cu\u1ed3ng u\u1ed1ng \u2192 T\u0103ng b\u00e0i ti\u1ebft n\u01b0\u1edbc", "to": "M_TANG_BAI_TIET_NUOC", "width": 2}, {"arrows": "", "color": "#B91C1C", "dashes": false, "from": "D_DAI_THAO_NHAT", "smooth": {"type": "continuous"}, "title": "HAS_MECHANISM\nDAI THAO NHAT \u2192 T\u0103ng b\u00e0i ti\u1ebft n\u01b0\u1edbc", "to": "M_TANG_BAI_TIET_NUOC", "width": 2}, {"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_KHAT_NUOC", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nKh\u00e1t n\u01b0\u1edbc \u2192 DAI THAO NHAT", "to": "D_DAI_THAO_NHAT", "width": 2}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_KHAT_NUOC", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nKh\u00e1t n\u01b0\u1edbc \u2192 S\u1ed1t\n\nLi\u00ean quan:\n  \u2022 Nhi\u1ec5m tr\u00f9ng", "to": "S_SOT", "width": 1.5}, {"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_SOT", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nS\u1ed1t \u2192 Vi\u00eam ph\u1ed5i", "to": "D_VIEM_PHOI", "width": 2}, {"arrows": "", "color": "#92400E", "dashes": [8, 4], "from": "M_GIAM_DAP_UNG_ADH", "smooth": {"type": "continuous"}, "title": "LEADS_TO\nGi\u1ea3m \u0111\u00e1p \u1ee9ng ADH \u1edf \u1ed1ng th\u1eadn \u2192 T\u0103ng b\u00e0i ti\u1ebft n\u01b0\u1edbc", "to": "M_TANG_BAI_TIET_NUOC", "width": 2}, {"arrows": "", "color": "#B91C1C", "dashes": false, "from": "D_HOI_CHUNG_SJOGREN", "smooth": {"type": "continuous"}, "title": "HAS_MECHANISM\nH\u1ed9i ch\u1ee9ng Sj\u00f6gren \u2192 Gi\u1ea3m \u0111\u00e1p \u1ee9ng ADH \u1edf \u1ed1ng th\u1eadn", "to": "M_GIAM_DAP_UNG_ADH", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_HOI_CHUNG_SJOGREN", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nH\u1ed9i ch\u1ee9ng Sj\u00f6gren \u2192 Ho", "to": "S_HO", "width": 2}, {"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_HO", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nHo \u2192 Vi\u00eam ph\u1ed5i", "to": "D_VIEM_PHOI", "width": 2}, {"arrows": "", "color": "#B91C1C", "dashes": false, "from": "D_SARCOIDOSIS", "smooth": {"type": "continuous"}, "title": "HAS_MECHANISM\nSarcoidosis \u2192 Gi\u1ea3m \u0111\u00e1p \u1ee9ng ADH \u1edf \u1ed1ng th\u1eadn", "to": "M_GIAM_DAP_UNG_ADH", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_SARCOIDOSIS", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nSarcoidosis \u2192 Ho", "to": "S_HO", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_SARCOIDOSIS", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nSarcoidosis \u2192 Kh\u00f3 th\u1edf", "to": "S_KHO_THO", "width": 2}, {"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_KHO_THO", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nKh\u00f3 th\u1edf \u2192 Vi\u00eam ph\u1ed5i", "to": "D_VIEM_PHOI", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -2000,
+            "springConstant": 0.001,
+            "springLength": 150
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
