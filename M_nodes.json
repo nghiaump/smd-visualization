@@ -116,6 +116,10 @@
     "name": "BLOC NHI THAT HOAN TOAN"
   },
   {
+    "id": "M_BLOC_THAN_KINH_CO",
+    "name": "Tắc nghẽn chỗ nối thần kinh-cơ"
+  },
+  {
     "id": "M_BOC_TACH_DONG_MACH_CHU",
     "name": "BOC TACH đông mạch CHU"
   },
@@ -182,6 +186,10 @@
   {
     "id": "M_CHAY_MAU_TINH_MACH",
     "name": "Chảy máu tĩnh mạch"
+  },
+  {
+    "id": "M_CHEN_EP_DAY_THAN_KINH",
+    "name": "Chèn ép dây thần kinh"
   },
   {
     "id": "M_CHEN_EP_DO_DICH",
@@ -321,7 +329,7 @@
   },
   {
     "id": "M_CYTOKINE_GAY_SOT_NOI_SINH",
-    "name": "CYTOKINE GAY sốt NOI SINH"
+    "name": "CYTOKINE gây sốt nội sinh"
   },
   {
     "id": "M_CYTOKINE_U_LYMPHO",
@@ -342,6 +350,10 @@
   {
     "id": "M_DAP_UNG_VIEM_HE_THONG",
     "name": "Đáp ứng viêm hệ thống"
+  },
+  {
+    "id": "M_DAU_DO_THAN_KINH",
+    "name": "Đau do thần kinh"
   },
   {
     "id": "M_DE_KHANG_PEPTIDE_LOI_NIEU",
@@ -3352,8 +3364,16 @@
     "name": "THIEU SAT"
   },
   {
+    "id": "M_THOAI_HOA_DIA_DEM",
+    "name": "Thoái hóa đĩa đệm"
+  },
+  {
     "id": "M_THOAI_HOA_DOPAMINERGIC",
     "name": "Thoái hóa tế bào dopaminergic"
+  },
+  {
+    "id": "M_THOAI_HOA_KHOP",
+    "name": "Thoái hóa khớp"
   },
   {
     "id": "M_THOAT_DICH",
@@ -3848,6 +3868,10 @@
     "name": "viêm BANG QUANG"
   },
   {
+    "id": "M_VIEM_BAO_HOAT_DICH",
+    "name": "Viêm bao hoạt dịch"
+  },
+  {
     "id": "M_VIEM_CAU_THAN",
     "name": "Viêm cầu thận"
   },
@@ -3916,12 +3940,20 @@
     "name": "viêm gan"
   },
   {
+    "id": "M_VIEM_GAN_BAM",
+    "name": "Viêm gân bám"
+  },
+  {
     "id": "M_VIEM_GAN_DO_VIRUS",
     "name": "viêm gan đỏ VIRUS"
   },
   {
     "id": "M_VIEM_HAT",
     "name": "viêm HAT"
+  },
+  {
+    "id": "M_VIEM_KHOP",
+    "name": "Viêm khớp"
   },
   {
     "id": "M_VIEM_KHOP_CAP",
@@ -4198,6 +4230,10 @@
   {
     "id": "M_XOI_MON_MACH_MAU",
     "name": "Xói mòn mạch máu"
+  },
+  {
+    "id": "M_XO_BAO_KHOP",
+    "name": "Xơ bao khớp"
   },
   {
     "id": "M_XO_HOA_CAU_THAN",

@@ -1,6 +1,6 @@
 # SMD Knowledge Graph Visualization
 
-> **Version**: 1.4.0
+> **Version**: 1.5.0
 > **Scripts**: `visualize_node.py`, `path_visualize.py`
 > **Output**: Interactive HTML (pyvis)
 
@@ -88,7 +88,7 @@ Ví dụ với `S_HOI_HOP -l 2 -E 7`:
 
 ## Path Visualization
 
-Tìm và visualize **tất cả đường đi** giữa 2 nodes sử dụng DFS (không chỉ shortest paths).
+Tìm và visualize **đa dạng đường đi** giữa 2 nodes sử dụng BFS với **S-S context validation**.
 
 ### Cú pháp
 
@@ -109,11 +109,33 @@ python path_visualize.py --from <node_id> --to <node_id> [OPTIONS]
 
 ### Thuật toán
 
-- **DFS (Depth-First Search)** với backtracking
-- Tìm **tất cả paths** có thể, không chỉ shortest
+- **BFS (Breadth-First Search)** - tìm paths level-by-level
+- Ưu tiên **paths ngắn và đa dạng** (qua các first-hop khác nhau)
 - Tránh cycles (mỗi node chỉ xuất hiện 1 lần trong path)
-- Kết quả được **sắp xếp theo độ dài** (ngắn → dài)
+- Kết quả được **sắp xếp theo độ dài và đa dạng**
 - Trả về top `-p` paths
+
+### S-S Context Validation
+
+Khi path chứa edges **S-S (ASSOCIATED_WITH)**, tất cả S-S edges trong path đó **phải có chung ít nhất 1 context** (Disease hoặc Mechanism).
+
+**Lý do**: Hai symptoms "đi cùng nhau" phải có lý do lâm sàng chung. Ví dụ:
+- `S_KHO_THO` ↔ `S_HOI_HOP` liên quan qua **Suy tim**, **Cường giáp**, **Thiếu máu**
+- Nếu path có 2 S-S edges, cả 2 phải có chung ít nhất 1 bệnh/cơ chế
+
+**Ví dụ path hợp lệ**:
+```
+S_DAU_BUNG → D_BENH_CROHN → S_SOT → S_DAU_CO
+                              ↑
+                    S-S edge có context: D_SOT_DENGUE, M_SAN_SINH_CYTOKINE
+```
+
+**Ví dụ path KHÔNG hợp lệ** (bị loại bỏ):
+```
+S_A → S_B → S_C
+  ↑     ↑
+  context: D_X    context: D_Y (khác nhau → invalid)
+```
 
 ### Ví dụ
 
@@ -127,21 +149,36 @@ python path_visualize.py -f S_MET_MOI -t S_HOI_HOP -p 10 -d 4
 # Tìm 5 paths với depth lớn hơn
 python path_visualize.py -f S_VANG_DA -t S_HOI_HOP -p 5 -d 6
 
-# Output text
-python path_visualize.py -f S_TIEU_MAU -t D_SUY_THAN --text
+# Output text (hiển thị context)
+python path_visualize.py -f S_DAU_BUNG -t S_DAU_CO -p 5 --text
 ```
 
 ### Output
 
 ```
-Finding paths from S_MET_MOI to S_HOI_HOP (max 10, depth 4)...
-Found 10 path(s), lengths: 1-4 hops
+Finding paths from S_DAU_BUNG to S_DAU_CO (max 5, depth 6)...
+Found 5 path(s), lengths: 2-3 hops
+
+Path 1 (2 hops):
+  Đau bụng (S_DAU_BUNG)
+    --[CAUSES]-->
+  Rối loạn chức năng tế bào gan (M_ROI_LOAN_CHUC_NANG_TE_BAO_GAN)
+    --[CONTRIBUTES_TO]-->
+  Đau cơ (S_DAU_CO)
+
+Path 2 (3 hops):
+  [S-S context: D_NHIEM_VIRUS, D_VIEM_CO]
+  Đau bụng (S_DAU_BUNG)
+    --[HAS_SYMPTOM]-->
+  Bệnh Addison (D_BENH_ADDISON)
+    --[SUGGESTS]-->
+  Mệt mỏi (S_MET_MOI)
+    --[ASSOCIATED_WITH]-->
+  Đau cơ (S_DAU_CO)
 
 --- Paths Summary ---
-Path 1: S_MET_MOI -> S_HOI_HOP                                    (1 hop)
-Path 2: S_MET_MOI -> D_AP_XE_PHOI -> S_DAU_NGUC -> S_HOI_HOP      (3 hops)
-Path 3: S_MET_MOI -> D_AP_XE_PHOI -> S_DAU_NGUC -> D_BENH_... -> S_HOI_HOP  (4 hops)
-...
+Path 1: S_DAU_BUNG -> M_ROI_LOAN_CHUC_NANG_TE_BAO_GAN -> S_DAU_CO
+Path 2: S_DAU_BUNG -> D_BENH_ADDISON -> S_MET_MOI -> S_DAU_CO  [context: D_NHIEM_VIRUS, D_VIEM_CO]
 ```
 
 ### Tips
@@ -151,6 +188,15 @@ Path 3: S_MET_MOI -> D_AP_XE_PHOI -> S_DAU_NGUC -> D_BENH_... -> S_HOI_HOP  (4 h
 | Tìm đường ngắn nhất | `-d 3` hoặc `-d 4` |
 | Khám phá nhiều đường | `-p 20 -d 6` |
 | Tránh graph quá phức tạp | `-p 5 -d 4` |
+| Xem S-S context chi tiết | `--text` |
+
+### So sánh BFS vs DFS
+
+| Tiêu chí | BFS (hiện tại) | DFS (legacy) |
+|----------|----------------|--------------|
+| Đa dạng paths | ✅ Qua nhiều first-hop khác nhau | ❌ Thường đi cùng 1 hướng |
+| Shortest first | ✅ Tự động (level-by-level) | ⚠️ Cần sort sau |
+| S-S validation | ✅ Có | ❌ Không |
 
 ---
 
@@ -354,9 +400,9 @@ python visualize_node.py -e S_KHO_THO -l 1 -E 5
 ```
 smd_visualization/
 ├── visualize_node.py      # Visualize graph từ 1 node
-├── path_visualize.py      # Tìm paths giữa 2 nodes (DFS)
+├── path_visualize.py      # Tìm paths giữa 2 nodes (BFS + S-S context validation)
 ├── update_data.py         # Merge edges từ extracted_v5 vào all_edges.json
-├── visualization.md       # Document này
+├── README.md              # Document này
 ├── all_edges.json         # Tất cả edges (JSONL)
 ├── all_nodes.json         # Tất cả nodes [{id, name}]
 ├── S_nodes.json           # Danh sách Symptom [{id, name}]
@@ -399,6 +445,7 @@ Node không có `name` → hiển thị ID
 
 ## Changelog
 
+- **v1.5.0** (2026-02-01): `path_visualize.py` - Đổi lại sang **BFS** cho đa dạng paths, thêm **S-S context validation** (tất cả S-S edges trong path phải có chung context)
 - **v1.4.0** (2026-01-31): `path_visualize.py` - Đổi từ BFS sang DFS, tìm **tất cả paths** (không chỉ shortest), thêm `--max-depth`
 - **v1.3.0** (2026-01-30): Thêm `path_visualize.py` - BFS tìm đường đi ngắn nhất
 - **v1.2.0** (2026-01-30): Di chuyển sang module `smd_visualization/`
@@ -407,4 +454,4 @@ Node không có `name` → hiển thị ID
 
 ---
 
-*Updated: 2026-01-31*
+*Updated: 2026-02-01*

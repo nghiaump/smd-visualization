@@ -416,6 +416,10 @@
     "name": "CUNG cổ SUNG"
   },
   {
+    "id": "S_CUNG_KHOP",
+    "name": "Cứng khớp"
+  },
+  {
     "id": "S_CUNG_KHOP_BUOI_SANG",
     "name": "CUNG khớp BUOI SANG"
   },
@@ -542,6 +546,10 @@
   {
     "id": "S_DAU_GAN",
     "name": "đầu gan"
+  },
+  {
+    "id": "S_DAU_GOI",
+    "name": "Đau gối"
   },
   {
     "id": "S_DAU_HAU_MON",
@@ -710,6 +718,10 @@
   {
     "id": "S_DAU_TUC_HA_VI",
     "name": "Đau tức hạ vị"
+  },
+  {
+    "id": "S_DAU_VAI",
+    "name": "Đau vai"
   },
   {
     "id": "S_DAU_VEO_DA",
@@ -942,6 +954,10 @@
   {
     "id": "S_DO_KHOP",
     "name": "Đau khớp"
+  },
+  {
+    "id": "S_DO_MAT",
+    "name": "Đỏ mắt"
   },
   {
     "id": "S_DO_MOI_HOI",
@@ -1186,6 +1202,10 @@
   {
     "id": "S_HET_KINH",
     "name": "Hết kinh"
+  },
+  {
+    "id": "S_HIEN_TUONG_RAYNAUD",
+    "name": "Hiện tượng Raynaud"
   },
   {
     "id": "S_HO",
@@ -1654,6 +1674,10 @@
   {
     "id": "S_MAT_CHUC_NANG",
     "name": "mắt CHUC nặng"
+  },
+  {
+    "id": "S_MAT_CHUC_NANG_KHOP",
+    "name": "Mất chức năng khớp"
   },
   {
     "id": "S_MAT_DIEN_DUC_TIM",
@@ -2610,6 +2634,10 @@
   {
     "id": "S_SUNG_HUYET_PHOI",
     "name": "Sung huyết phổi"
+  },
+  {
+    "id": "S_SUNG_KHOP",
+    "name": "Sưng khớp"
   },
   {
     "id": "S_SUNG_MOI",

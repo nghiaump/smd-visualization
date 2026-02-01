@@ -764,6 +764,10 @@
     "name": "Đau bụng kinh thứ phát"
   },
   {
+    "id": "D_DAU_CO_XO",
+    "name": "Đau cơ xơ"
+  },
+  {
     "id": "D_DAU_DAU_CANG_THANG",
     "name": "Đau đầu căng thẳng"
   },
@@ -948,6 +952,10 @@
     "name": "Hội chứng Guillain-Barré"
   },
   {
+    "id": "D_GUT",
+    "name": "Gút"
+  },
+  {
     "id": "D_GU_VEO_COT_SONG",
     "name": "Gù vẹo cột sống"
   },
@@ -1116,6 +1124,10 @@
     "name": "Hội chứng Dubin-Johnson"
   },
   {
+    "id": "D_HOI_CHUNG_DUOI_NGUA",
+    "name": "Hội chứng đuôi ngựa"
+  },
+  {
     "id": "D_HOI_CHUNG_FANCONI",
     "name": "Hội chứng Fanconi"
   },
@@ -1170,6 +1182,10 @@
   {
     "id": "D_HOI_CHUNG_NHIEM_KHUAN_TIEU",
     "name": "Hội chứng nhiễm khuẩn tiểu"
+  },
+  {
+    "id": "D_HOI_CHUNG_ONG_CO_TAY",
+    "name": "Hội chứng ống cổ tay"
   },
   {
     "id": "D_HOI_CHUNG_PICKWICKIAN",
@@ -2892,6 +2908,10 @@
     "name": "Thoái hóa dạng bột (Amyloidosis)"
   },
   {
+    "id": "D_THOAI_HOA_KHOP",
+    "name": "Thoái hóa khớp"
+  },
+  {
     "id": "D_THOAT_VI_CO_HOANH_BAM_SINH",
     "name": "Thoát vị cơ hoành bẩm sinh"
   },
@@ -2998,6 +3018,10 @@
   {
     "id": "D_TOAN_LACTIC",
     "name": "TOAN LACTIC"
+  },
+  {
+    "id": "D_TON_THUONG_CHOP_XOAY",
+    "name": "Tổn thương chóp xoay"
   },
   {
     "id": "D_TON_THUONG_CO_THAT_HAU_MON",
@@ -3396,6 +3420,10 @@
     "name": "Viêm cầu thận tơ huyết"
   },
   {
+    "id": "D_VIEM_COT_SONG_DINH_KHOP",
+    "name": "Viêm cột sống dính khớp"
+  },
+  {
     "id": "D_VIEM_CO_TIM",
     "name": "Viêm cơ tim"
   },
@@ -3426,6 +3454,10 @@
   {
     "id": "D_VIEM_DAI_TRANG_XUAT_HUYET",
     "name": "Viêm đại tràng xuất huyết"
+  },
+  {
+    "id": "D_VIEM_DA_CO_THAP_KHOP",
+    "name": "Viêm đa cơ thấp khớp"
   },
   {
     "id": "D_VIEM_DA_DAY",
@@ -3544,6 +3576,18 @@
     "name": "viêm khớp LAU CAU"
   },
   {
+    "id": "D_VIEM_KHOP_NHIEM_TRUNG",
+    "name": "Viêm khớp nhiễm trùng"
+  },
+  {
+    "id": "D_VIEM_KHOP_PHAN_UNG",
+    "name": "Viêm khớp phản ứng"
+  },
+  {
+    "id": "D_VIEM_KHOP_VAY_NEN",
+    "name": "Viêm khớp vảy nến"
+  },
+  {
     "id": "D_VIEM_KHOP_VI_THANH_NIEN",
     "name": "Viêm khớp vị thành niên"
   },
@@ -3570,6 +3614,10 @@
   {
     "id": "D_VIEM_LOET_TUI_THUA",
     "name": "Viêm loét túi thừa"
+  },
+  {
+    "id": "D_VIEM_LOI_CAU_NGOAI",
+    "name": "Viêm lồi cầu ngoài"
   },
   {
     "id": "D_VIEM_MACH_MAU",

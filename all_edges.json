@@ -915,6 +915,7 @@
 {"from": "D_DAU_BUNG_KINH_THU_PHAT", "to": "S_DAU_KHI_GIAO_HOP", "type": "HAS_SYMPTOM"}
 {"from": "D_DAU_BUNG_KINH_THU_PHAT", "to": "S_KINH_NGUYET_NHIEU", "type": "HAS_SYMPTOM"}
 {"from": "D_DAU_BUNG_KINH_THU_PHAT", "to": "S_VO_SINH", "type": "HAS_SYMPTOM"}
+{"from": "D_DAU_CO_XO", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_DAU_DAU_CANG_THANG", "to": "S_DAU_DAU", "type": "HAS_SYMPTOM"}
 {"from": "D_DAU_DAU_CANG_THANG", "to": "S_LO_AU", "type": "HAS_SYMPTOM"}
 {"from": "D_DAU_DAU_CANG_THANG", "to": "S_MET_MOI", "type": "HAS_SYMPTOM"}
@@ -1121,6 +1122,9 @@
 {"from": "D_GUILLAIN_BARRE", "to": "S_KHO_THO", "type": "HAS_SYMPTOM"}
 {"from": "D_GUILLAIN_BARRE", "to": "S_TE_BI", "type": "HAS_SYMPTOM"}
 {"from": "D_GUILLAIN_BARRE", "to": "S_YEU_CO", "type": "HAS_SYMPTOM"}
+{"from": "D_GUT", "to": "M_VIEM_KHOP", "type": "HAS_MECHANISM"}
+{"from": "D_GUT", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_GUT", "to": "S_SUNG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_GU_VEO_COT_SONG", "to": "M_GIAM_SUC_DAN_HOI_PHOI", "type": "HAS_MECHANISM"}
 {"from": "D_GU_VEO_COT_SONG", "to": "M_ROI_LOAN_BOM_HO_HAP", "type": "HAS_MECHANISM"}
 {"from": "D_GU_VEO_COT_SONG", "to": "S_KHO_THO", "type": "HAS_SYMPTOM"}
@@ -1298,6 +1302,11 @@
 {"from": "D_HOI_CHUNG_DUBIN_JOHNSON", "to": "S_FOAM_TEST_DUONG", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_DUBIN_JOHNSON", "to": "S_NUOC_TIEU_VANG_SAM", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_DUBIN_JOHNSON", "to": "S_VANG_DA", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_DUOI_NGUA", "to": "M_CHEN_EP_DAY_THAN_KINH", "type": "HAS_MECHANISM"}
+{"from": "D_HOI_CHUNG_DUOI_NGUA", "to": "M_THOAI_HOA_DIA_DEM", "type": "HAS_MECHANISM"}
+{"from": "D_HOI_CHUNG_DUOI_NGUA", "to": "S_DAU_LUNG", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_DUOI_NGUA", "to": "S_TE_BI", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_DUOI_NGUA", "to": "S_YEU_CO", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_FANCONI", "to": "M_TON_THUONG_ONG_THAN", "type": "HAS_MECHANISM"}
 {"from": "D_HOI_CHUNG_FANCONI", "to": "S_DAU_XUONG", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_FANCONI", "to": "S_MET_MOI", "type": "HAS_SYMPTOM"}
@@ -1384,6 +1393,9 @@
 {"from": "D_HOI_CHUNG_NHIEM_KHUAN_TIEU", "to": "S_TIEU_GAT", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_NHIEM_KHUAN_TIEU", "to": "S_TIEU_LAT_NHAT", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_NHIEM_KHUAN_TIEU", "to": "S_TIEU_MAU", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_ONG_CO_TAY", "to": "M_CHEN_EP_DAY_THAN_KINH", "type": "HAS_MECHANISM"}
+{"from": "D_HOI_CHUNG_ONG_CO_TAY", "to": "S_TE_BI", "type": "HAS_SYMPTOM"}
+{"from": "D_HOI_CHUNG_ONG_CO_TAY", "to": "S_YEU_CO", "type": "HAS_SYMPTOM"}
 {"from": "D_HOI_CHUNG_PICKWICKIAN", "to": "M_NGUNG_THO_TRUNG_UONG", "type": "ASSOCIATED_WITH"}
 {"from": "D_HOI_CHUNG_PICKWICKIAN", "to": "M_NGUNG_THO_TRUNG_UONG", "type": "HAS_MECHANISM"}
 {"from": "D_HOI_CHUNG_PICKWICKIAN", "to": "S_NGUNG_THO", "type": "HAS_SYMPTOM"}
@@ -2398,6 +2410,7 @@
 {"from": "D_NHUEN_KHI_QUAN", "to": "M_PHAN_XA_HO", "type": "HAS_MECHANISM"}
 {"from": "D_NHUEN_KHI_QUAN", "to": "S_HO", "type": "HAS_SYMPTOM"}
 {"from": "D_NHUOC_CO", "to": "M_BLOC_CHOP_THAN_KINH_CO", "type": "HAS_MECHANISM"}
+{"from": "D_NHUOC_CO", "to": "M_BLOC_THAN_KINH_CO", "type": "HAS_MECHANISM"}
 {"from": "D_NHUOC_CO", "to": "M_ROI_LOAN_BOM_HO_HAP", "type": "HAS_MECHANISM"}
 {"from": "D_NHUOC_CO", "to": "S_NHIN_DOI", "type": "HAS_SYMPTOM"}
 {"from": "D_NHUOC_CO", "to": "S_NUOT_KHO", "type": "HAS_SYMPTOM"}
@@ -3100,6 +3113,7 @@
 {"from": "D_SUY_TIM_PHAI", "to": "D_SUY_TIM", "type": "SUBTYPE_OF"}
 {"from": "D_SUY_TIM_PHAI", "to": "S_GAN_TO", "type": "HAS_SYMPTOM"}
 {"from": "D_SUY_TIM_PHAI", "to": "S_PHAN_HOI_BUNG_CANH", "type": "HAS_SYMPTOM"}
+{"from": "D_SUY_TIM_PHAI", "to": "S_PHU_CHAN", "type": "HAS_SYMPTOM"}
 {"from": "D_SUY_TIM_PHAI", "to": "S_PHU_NGOAI_BIEN", "type": "HAS_SYMPTOM"}
 {"from": "D_SUY_TIM_PHAI", "to": "S_TINH_MACH_CANH_NOI", "type": "HAS_SYMPTOM"}
 {"from": "D_SUY_TIM_PSTM_BAO_TON", "to": "D_SUY_TIM", "type": "SUBTYPE_OF"}
@@ -3504,6 +3518,12 @@
 {"from": "D_THOAI_HOA_DANG_BOT", "to": "S_TE_BI", "type": "HAS_SYMPTOM"}
 {"from": "D_THOAI_HOA_DANG_BOT", "to": "S_UONG_NHIEU", "type": "HAS_SYMPTOM"}
 {"from": "D_THOAI_HOA_DANG_BOT", "to": "S_YEU_CO", "type": "HAS_SYMPTOM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "M_THOAI_HOA_KHOP", "type": "HAS_MECHANISM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "S_CUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "S_DAU_GOI", "type": "HAS_SYMPTOM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "S_DAU_HONG", "type": "HAS_SYMPTOM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_THOAI_HOA_KHOP", "to": "S_MAT_CHUC_NANG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_THOAT_VI_CO_HOANH_BAM_SINH", "to": "S_LONG_NGUC_LOM", "type": "HAS_SYMPTOM"}
 {"from": "D_THOAT_VI_CO_HOANH_BAM_SINH", "to": "S_THO_REN", "type": "HAS_SYMPTOM"}
 {"from": "D_THOAT_VI_HOANH", "to": "D_TRAO_NGUOC_DA_DAY_THUC_QUAN", "type": "CONTRIBUTES_TO"}
@@ -3624,6 +3644,9 @@
 {"from": "D_TIEU_FIBRIN_NGUYEN_PHAT", "to": "S_FIBRINOGEN_GIAM", "type": "HAS_SYMPTOM"}
 {"from": "D_TOAN_CHUYEN_HOA_SUY_THAN", "to": "M_TOAN_CHUYEN_HOA", "type": "HAS_MECHANISM"}
 {"from": "D_TOAN_LACTIC", "to": "M_TOAN_CHUYEN_HOA", "type": "HAS_MECHANISM"}
+{"from": "D_TON_THUONG_CHOP_XOAY", "to": "M_XO_BAO_KHOP", "type": "HAS_MECHANISM"}
+{"from": "D_TON_THUONG_CHOP_XOAY", "to": "S_DAU_VAI", "type": "HAS_SYMPTOM"}
+{"from": "D_TON_THUONG_CHOP_XOAY", "to": "S_YEU_CO", "type": "HAS_SYMPTOM"}
 {"from": "D_TON_THUONG_PHOI_CAP", "to": "M_TANG_THAM_DIC_PHOI", "type": "HAS_MECHANISM"}
 {"from": "D_TON_THUONG_PHOI_CAP", "to": "M_TON_THUONG_ENDOTHELIUM_PHOI", "type": "HAS_MECHANISM"}
 {"from": "D_TON_THUONG_PHOI_CAP", "to": "M_VIEM_PHOI_CAP", "type": "HAS_MECHANISM"}
@@ -4198,6 +4221,10 @@
 {"from": "D_VIEM_CAU_THAN_TO_HUYET", "to": "S_TIEU_BOT", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_CAU_THAN_TO_HUYET", "to": "S_TIEU_MAU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_CAU_THAN_TO_HUYET", "to": "S_TIEU_PROTEIN", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_COT_SONG_DINH_KHOP", "to": "M_VIEM_GAN_BAM", "type": "HAS_MECHANISM"}
+{"from": "D_VIEM_COT_SONG_DINH_KHOP", "to": "S_CUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_COT_SONG_DINH_KHOP", "to": "S_DAU_LUNG", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_COT_SONG_DINH_KHOP", "to": "S_DO_MAT", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_CO_TIM", "to": "M_CHEN_EP_TIM", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_CO_TIM", "to": "M_ROI_LOAN_CHUC_NANG_TIM", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_CO_TIM", "to": "M_ROI_LOAN_CHUYEN_HOA", "type": "HAS_MECHANISM"}
@@ -4239,6 +4266,9 @@
 {"from": "D_VIEM_DAI_TRANG_XUAT_HUYET", "to": "S_DAU_DOC_KHUNG_DAI_TRANG", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_DAI_TRANG_XUAT_HUYET", "to": "S_THAY_DOI_THOI_QUEN_DI_CAU", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_DAI_TRANG_XUAT_HUYET", "to": "S_TIEU_PHAN_MAU", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_DA_CO_THAP_KHOP", "to": "S_CUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_DA_CO_THAP_KHOP", "to": "S_DAU_HONG", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_DA_CO_THAP_KHOP", "to": "S_DAU_VAI", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_DA_DAY", "to": "S_BUON_NON", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_DA_DAY", "to": "S_DAU_THUONG_VI", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_DA_DAY", "to": "S_NON", "type": "HAS_SYMPTOM"}
@@ -4432,9 +4462,16 @@
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "M_DAP_UNG_VIEM_HE_THONG", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "M_GIAM_LUONG_NHAP", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "M_TANG_CYTOKINE", "type": "HAS_MECHANISM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "M_VIEM_BAO_HOAT_DICH", "type": "HAS_MECHANISM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "M_VIEM_KHOP", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_CHAN_AN", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_CUNG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_KHO_MAT", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_KHO_MIENG", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_MAT_CHUC_NANG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_MET_MOI", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_SUNG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_SUT_CAN", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_SUT_CAN_KHONG_CHU_Y", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DANG_THAP", "to": "S_THIEU_MAU", "type": "HAS_SYMPTOM"}
@@ -4445,6 +4482,16 @@
 {"from": "D_VIEM_KHOP_DO_LAU_CAU", "to": "S_SOT_CON", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DO_LAU_CAU", "to": "S_VIEM_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_DO_LAU_CAU", "to": "S_VIEM_MANG_HOAT_DICH", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_NHIEM_TRUNG", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_NHIEM_TRUNG", "to": "S_SUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_PHAN_UNG", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_PHAN_UNG", "to": "S_DO_MAT", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_PHAN_UNG", "to": "S_SUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_VAY_NEN", "to": "M_VIEM_GAN_BAM", "type": "HAS_MECHANISM"}
+{"from": "D_VIEM_KHOP_VAY_NEN", "to": "M_VIEM_KHOP", "type": "HAS_MECHANISM"}
+{"from": "D_VIEM_KHOP_VAY_NEN", "to": "S_CUNG_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_VAY_NEN", "to": "S_DAU_KHOP", "type": "HAS_SYMPTOM"}
+{"from": "D_VIEM_KHOP_VAY_NEN", "to": "S_SUNG_KHOP", "type": "HAS_SYMPTOM"}
 {"from": "D_VIEM_KHOP_VI_THANH_NIEN", "to": "M_TU_MIEN_VIEM_KHOP", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_KHOP_VI_THANH_NIEN", "to": "M_VIEM_DA_HE_THONG", "type": "HAS_MECHANISM"}
 {"from": "D_VIEM_KHOP_VI_THANH_NIEN", "to": "S_GAN_LAC_TO", "type": "HAS_SYMPTOM"}
@@ -4843,6 +4890,7 @@
 {"from": "D_XO_CHAI_CAU_THAN_KHU_TRU", "to": "S_TIEU_MAU", "type": "HAS_SYMPTOM"}
 {"from": "D_XO_CHAI_CAU_THAN_KHU_TRU", "to": "S_TIEU_MAU_VI_THE", "type": "HAS_SYMPTOM"}
 {"from": "D_XO_CHAI_CAU_THAN_KHU_TRU", "to": "S_TIEU_PROTEIN", "type": "HAS_SYMPTOM"}
+{"from": "D_XO_CUNG_BI", "to": "S_HIEN_TUONG_RAYNAUD", "type": "HAS_SYMPTOM"}
 {"from": "D_XO_CUNG_COT_BEN_TEO_CO", "to": "M_GIAM_LUONG_NHAP", "type": "HAS_MECHANISM"}
 {"from": "D_XO_CUNG_COT_BEN_TEO_CO", "to": "M_MAT_KHOI_CO", "type": "HAS_MECHANISM"}
 {"from": "D_XO_CUNG_COT_BEN_TEO_CO", "to": "M_ROI_LOAN_VAN_DONG", "type": "HAS_MECHANISM"}
@@ -5067,6 +5115,7 @@
 {"from": "M_BLOC_DAN_TRUYEN", "to": "S_TIM_TAI", "type": "CAUSES"}
 {"from": "M_BLOC_NHIP_THAT", "to": "S_NHIP_TIM_CHAM", "type": "CAUSES"}
 {"from": "M_BLOC_NHI_THAT_HOAN_TOAN", "to": "M_PHAN_LY_NHI_THAT", "type": "CAUSES"}
+{"from": "M_BLOC_THAN_KINH_CO", "to": "S_YEU_CO", "type": "CAUSES"}
 {"from": "M_BU_TRU_GIAM_THE_TICH", "to": "S_TIM_NHANH", "type": "CAUSES"}
 {"from": "M_BU_TRU_TOAN_CHUYEN_HOA", "to": "S_TANG_THONG_KHI", "type": "CAUSES"}
 {"from": "M_BU_TRU_TOAN_CHUYEN_HOA", "to": "S_THO_KUSSMAUL", "type": "CAUSES"}
@@ -5106,6 +5155,9 @@
 {"from": "M_CHAY_MAU_TINH_MACH", "to": "M_TANG_AP_CUA", "type": "LEADS_TO"}
 {"from": "M_CHAY_MAU_TINH_MACH", "to": "S_NON_RA_MAU", "type": "CAUSES"}
 {"from": "M_CHAY_MAU_TINH_MACH", "to": "S_TIEU_PHAN_DEN", "type": "CAUSES"}
+{"from": "M_CHEN_EP_DAY_THAN_KINH", "to": "S_DAU_LUNG", "type": "CAUSES"}
+{"from": "M_CHEN_EP_DAY_THAN_KINH", "to": "S_TE_BI", "type": "CAUSES"}
+{"from": "M_CHEN_EP_DAY_THAN_KINH", "to": "S_YEU_CO", "type": "CAUSES"}
 {"from": "M_CHEN_EP_TIM", "to": "M_CHOANG_TIM", "type": "LEADS_TO"}
 {"from": "M_CHEN_EP_TIM", "to": "M_HOAI_TU_CO_TIM", "type": "LEADS_TO"}
 {"from": "M_CHEN_EP_TIM", "to": "M_SUY_THAT_PHAI", "type": "CAUSES"}
@@ -5227,6 +5279,7 @@
 {"from": "M_DAP_UNG_VIEM_HE_THONG", "to": "S_SUT_CAN_KHONG_CHU_Y", "type": "CAUSES"}
 {"from": "M_DAP_UNG_VIEM_HE_THONG", "to": "S_THO_NHANH", "type": "CAUSES"}
 {"from": "M_DAP_UNG_VIEM_HE_THONG", "to": "S_UE_OAI", "type": "CAUSES"}
+{"from": "M_DAU_DO_THAN_KINH", "to": "S_TE_BI", "type": "CAUSES"}
 {"from": "M_DE_KHANG_PEPTIDE_LOI_NIEU", "to": "M_GIAM_CUNG_LUONG_TIM", "type": "LEADS_TO"}
 {"from": "M_DE_KHANG_PEPTIDE_LOI_NIEU", "to": "M_HOAT_HOA_HE_RAA", "type": "LEADS_TO"}
 {"from": "M_DE_KHANG_PEPTIDE_LOI_NIEU", "to": "S_PHU", "type": "CAUSES"}
@@ -7100,8 +7153,13 @@
 {"from": "M_THIEU_OXY_NAO", "to": "S_TRI_GIAC_KICH_THICH", "type": "CAUSES"}
 {"from": "M_THIEU_OXY_TOAN_THAN", "to": "S_XANH_TIM", "type": "CAUSES"}
 {"from": "M_THIEU_SAT", "to": "S_THIEU_MAU", "type": "CAUSES"}
+{"from": "M_THOAI_HOA_DIA_DEM", "to": "S_DAU_CO", "type": "CAUSES"}
+{"from": "M_THOAI_HOA_DIA_DEM", "to": "S_DAU_LUNG", "type": "CAUSES"}
 {"from": "M_THOAI_HOA_DOPAMINERGIC", "to": "S_ROI_LOAN_DANG_DI", "type": "CAUSES"}
 {"from": "M_THOAI_HOA_DOPAMINERGIC", "to": "S_RUN", "type": "CAUSES"}
+{"from": "M_THOAI_HOA_KHOP", "to": "S_CUNG_KHOP", "type": "CAUSES"}
+{"from": "M_THOAI_HOA_KHOP", "to": "S_DAU_KHOP", "type": "CAUSES"}
+{"from": "M_THOAI_HOA_KHOP", "to": "S_MAT_CHUC_NANG_KHOP", "type": "CAUSES"}
 {"from": "M_THOAT_DICH_KHOANG_THU_BA", "to": "M_GIAM_THE_TICH_LONG_MACH", "type": "LEADS_TO"}
 {"from": "M_THOAT_DICH_KHOANG_THU_BA", "to": "M_GIAM_TUOI_MAU_THAN", "type": "LEADS_TO"}
 {"from": "M_THOAT_DICH_KHOANG_THU_BA", "to": "S_BANG_BUNG", "type": "CAUSES"}
@@ -7367,6 +7425,7 @@
 {"from": "M_VIEM", "to": "S_TIENG_CO_MANG_PHOI", "type": "CAUSES"}
 {"from": "M_VIEM", "to": "S_TIENG_CO_MANG_TIM", "type": "CAUSES"}
 {"from": "M_VIEM_BANG_QUANG", "to": "S_DAU_TUC_HA_VI", "type": "CAUSES"}
+{"from": "M_VIEM_BAO_HOAT_DICH", "to": "S_SUNG_KHOP", "type": "CAUSES"}
 {"from": "M_VIEM_CAU_THAN", "to": "S_PHU", "type": "CAUSES"}
 {"from": "M_VIEM_CAU_THAN", "to": "S_TANG_HUYET_AP", "type": "CAUSES"}
 {"from": "M_VIEM_CAU_THAN", "to": "S_TIEU_MAU", "type": "CAUSES"}
@@ -7387,6 +7446,9 @@
 {"from": "M_VIEM_DUONG_TIET_NIEU", "to": "S_TIEU_DAU", "type": "CAUSES"}
 {"from": "M_VIEM_DUONG_TIET_NIEU", "to": "S_TIEU_GAP", "type": "CAUSES"}
 {"from": "M_VIEM_DUONG_TIET_NIEU", "to": "S_TIEU_NHIEU_LAN", "type": "CAUSES"}
+{"from": "M_VIEM_KHOP", "to": "S_CUNG_KHOP", "type": "CAUSES"}
+{"from": "M_VIEM_KHOP", "to": "S_DAU_KHOP", "type": "CAUSES"}
+{"from": "M_VIEM_KHOP", "to": "S_SUNG_KHOP", "type": "CAUSES"}
 {"from": "M_VIEM_LOET_NIEM_MAC", "to": "M_CHAY_MAU_DONG_MACH", "type": "CAUSES"}
 {"from": "M_VIEM_LOET_NIEM_MAC", "to": "M_MAT_MAU", "type": "CAUSES"}
 {"from": "M_VIEM_LOET_NIEM_MAC", "to": "M_MAT_MAU", "type": "LEADS_TO"}
@@ -7468,6 +7530,8 @@
 {"from": "M_XOI_MON_MACH_MAU", "to": "S_HO_RA_MAU", "type": "CAUSES"}
 {"from": "M_XOI_MON_MACH_MAU", "to": "S_NON_RA_MAU", "type": "CAUSES"}
 {"from": "M_XOI_MON_MACH_MAU", "to": "S_TIEU_PHAN_DEN", "type": "CAUSES"}
+{"from": "M_XO_BAO_KHOP", "to": "S_CUNG_KHOP", "type": "CAUSES"}
+{"from": "M_XO_BAO_KHOP", "to": "S_MAT_CHUC_NANG_KHOP", "type": "CAUSES"}
 {"from": "M_XO_HOA_MO_KE", "to": "S_DA_DAY_CUNG", "type": "CAUSES"}
 {"from": "M_XO_VUA_DONG_MACH", "to": "M_THIEU_MAU_CO_TIM", "type": "CAUSES"}
 {"from": "M_XO_VUA_DONG_MACH", "to": "M_VO_MANG_XO_VUA", "type": "LEADS_TO"}
@@ -7967,6 +8031,12 @@
 {"from": "S_CUNG_CO", "to": "S_DONG_TU_GIAN", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_UON_VAN", "name": "Uốn ván"}]}
 {"from": "S_CUNG_CO", "to": "S_SUNG_MOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_PHAN_VE", "name": "Phản vệ"}]}
 {"from": "S_CUNG_CO", "to": "S_TIEU_MYOGLOBIN", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_BENH_TIET_NIEU", "name": "Bệnh tiết niệu"}]}
+{"from": "S_CUNG_KHOP", "to": "D_THOAI_HOA_KHOP", "type": "SUGGESTS"}
+{"from": "S_CUNG_KHOP", "to": "D_VIEM_KHOP_DANG_THAP", "type": "SUGGESTS"}
+{"from": "S_CUNG_KHOP", "to": "S_DAU_KHOP", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_KHOP_DANG_THAP", "name": "Viêm khớp dạng thấp"}]}
+{"from": "S_CUNG_KHOP", "to": "S_DAU_LUNG", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_COT_SONG_DINH_KHOP", "name": "Viêm cột sống dính khớp"}]}
+{"from": "S_CUNG_KHOP", "to": "S_DAU_VAI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_DA_CO_THAP_KHOP", "name": "Viêm đa cơ thấp khớp"}]}
+{"from": "S_CUNG_KHOP", "to": "S_SUNG_KHOP", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_KHOP_DANG_THAP", "name": "Viêm khớp dạng thấp"}]}
 {"from": "S_DAM_BOT_HONG", "to": "D_SUY_TIM_SUNG_HUYET", "type": "SUGGESTS"}
 {"from": "S_DAM_DAY_MAU", "to": "S_HO_RA_MAU", "type": "SUBTYPE_OF"}
 {"from": "S_DAM_MU", "to": "S_DAM_MUI_HOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_AP_XE_PHOI", "name": "Áp-xe phổi"}]}
@@ -8131,6 +8201,7 @@
 {"from": "S_DAU_HONG", "to": "D_VIEM_AMIDAN", "type": "SUGGESTS"}
 {"from": "S_DAU_HONG", "to": "D_VIEM_HONG", "type": "SUGGESTS"}
 {"from": "S_DAU_HONG", "to": "D_VIEM_HONG_LIEN_CAU", "type": "SUGGESTS"}
+{"from": "S_DAU_HONG", "to": "S_DAU_VAI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_DA_CO_THAP_KHOP", "name": "Viêm đa cơ thấp khớp"}]}
 {"from": "S_DAU_HONG", "to": "S_HO", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}, {"type": "Disease", "id": "D_NHIEM_VIRUS_DUONG_HO_HAP", "name": "Nhiễm virus đường hô hấp"}, {"type": "Disease", "id": "D_VIEM_HONG", "name": "Viêm họng"}, {"type": "Disease", "id": "D_NHIEM_TRUNG_HO_HAP_TREN", "name": "Nhiễm trùng hô hấp trên"}]}
 {"from": "S_DAU_HONG", "to": "S_NGHET_MUI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_HONG", "name": "Viêm họng"}, {"type": "Disease", "id": "D_CAM_CUM", "name": "Cảm cúm"}, {"type": "Disease", "id": "D_NHIEM_TRUNG_HO_HAP_TREN", "name": "Nhiễm trùng hô hấp trên"}]}
 {"from": "S_DAU_HONG", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_NHIEM_TRUNG", "name": "Nhiễm trùng"}, {"type": "Disease", "id": "D_VIEM_HONG", "name": "Viêm họng"}, {"type": "Disease", "id": "D_VIEM_AMIDAN", "name": "Viêm amidan"}]}
@@ -8169,13 +8240,17 @@
 {"from": "S_DAU_KHOP", "to": "S_MET_MOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}]}
 {"from": "S_DAU_KHOP", "to": "S_PHAT_BAN", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_MACH_MAU", "name": "Viêm mạch máu"}]}
 {"from": "S_DAU_KHOP", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_KHOP_NHIEM_KHUAN", "name": "Viêm khớp nhiễm khuẩn"}, {"type": "Disease", "id": "D_THAP_KHOP_CAP", "name": "Thấp khớp cấp"}]}
+{"from": "S_DAU_KHOP", "to": "S_SUNG_KHOP", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_KHOP_DANG_THAP", "name": "Viêm khớp dạng thấp"}]}
 {"from": "S_DAU_KHOP", "to": "S_TANG_BACH_CAU_AI_TOAN", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}]}
 {"from": "S_DAU_LIEN_QUAN_BUA_AN", "to": "D_LOET_DA_DAY_TA_TRANG", "type": "INDICATES"}
 {"from": "S_DAU_LIEN_QUAN_BUA_AN", "to": "S_DAU_THUONG_VI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_LOET_DA_DAY_TA_TRANG", "name": "Loét dạ dày tá tràng"}]}
 {"from": "S_DAU_LIEN_QUAN_BUA_AN", "to": "S_DAY_BUNG", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_DAU", "name": "Đau"}]}
 {"from": "S_DAU_LUNG", "to": "D_SOT", "type": "SUGGESTS"}
+{"from": "S_DAU_LUNG", "to": "D_THOAI_HOA_KHOP", "type": "SUGGESTS"}
+{"from": "S_DAU_LUNG", "to": "D_VIEM_COT_SONG_DINH_KHOP", "type": "SUGGESTS"}
 {"from": "S_DAU_LUNG", "to": "S_RUN_CO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_TIEU_CO_VAN", "name": "Tiêu cơ vân"}]}
-{"from": "S_DAU_LUNG", "to": "S_YEU_CO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_THOAT_VI_DIA_DEM", "name": "Thoát vị đĩa đệm"}]}
+{"from": "S_DAU_LUNG", "to": "S_TE_BI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_HOI_CHUNG_DUOI_NGUA", "name": "Hội chứng đuôi ngựa"}]}
+{"from": "S_DAU_LUNG", "to": "S_YEU_CO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_THOAT_VI_DIA_DEM", "name": "Thoát vị đĩa đệm"}, {"type": "Disease", "id": "D_HOI_CHUNG_DUOI_NGUA", "name": "Hội chứng đuôi ngựa"}]}
 {"from": "S_DAU_NGUC", "to": "D_ACS", "type": "INDICATES"}
 {"from": "S_DAU_NGUC", "to": "D_BENH_CO_TIM_PHI_DAI", "type": "SUGGESTS"}
 {"from": "S_DAU_NGUC", "to": "D_BENH_DONG_MACH_VANH", "type": "SUGGESTS"}
@@ -8333,6 +8408,7 @@
 {"from": "S_DAU_TUC_HA_VI", "to": "S_GO_DUC", "type": "INDICATES"}
 {"from": "S_DAU_TUC_HA_VI", "to": "S_KHO_TIEU", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_VIEM_BANG_QUANG", "name": "Viêm bàng quang"}]}
 {"from": "S_DAU_TUC_HA_VI", "to": "S_TIEU_GAT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_BENH_TIET_NIEU", "name": "Bệnh tiết niệu"}]}
+{"from": "S_DAU_VAI", "to": "D_TON_THUONG_CHOP_XOAY", "type": "SUGGESTS"}
 {"from": "S_DAU_VEO_DA", "to": "D_MAT_DICH_CAP", "type": "SUGGESTS"}
 {"from": "S_DAU_VEO_DA", "to": "D_THIEU_DICH", "type": "SUGGESTS"}
 {"from": "S_DAU_VEO_DA", "to": "S_MAT_TRUNG", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_GIAM_THE_TICH_LONG_MACH", "name": "Giảm thể tích lòng mạch"}]}
@@ -8564,6 +8640,7 @@
 {"from": "S_GAN_TO", "to": "D_VIEM_GAN_SIEU_VI", "type": "SUGGESTS"}
 {"from": "S_GAN_TO", "to": "S_SOT", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_AP_XE_GAN_DO_AMIP", "name": "Áp-xe gan amip"}]}
 {"from": "S_GAN_TO", "to": "S_TINH_MACH_CANH_NOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_SUY_TIM_PHAI", "name": "Suy tim phải"}]}
+{"from": "S_GAN_TO", "to": "S_TINH_MACH_CO_NOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_SUY_TIM_PHAI", "name": "Suy tim phải"}]}
 {"from": "S_GAN_TO", "to": "S_VANG_DA", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_UNG_THU_GAN", "name": "Ung thu gan"}]}
 {"from": "S_GAY_SUT", "to": "D_UNG_THU_DAI_TRANG", "type": "SUGGESTS"}
 {"from": "S_GAY_SUT", "to": "D_UNG_THU_DA_DAY", "type": "SUGGESTS"}
@@ -8697,6 +8774,7 @@
 {"from": "S_HET_KINH", "to": "D_MAN_KINH", "type": "SUGGESTS"}
 {"from": "S_HET_KINH", "to": "S_KINH_KHONG_DEU", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_HET_KINH", "to": "S_VO_MOI_HOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_HIEN_TUONG_RAYNAUD", "to": "D_XO_CUNG_BI", "type": "SUGGESTS"}
 {"from": "S_HO", "to": "D_BENH_CROUP", "type": "SUGGESTS"}
 {"from": "S_HO", "to": "D_COPD", "type": "SUGGESTS"}
 {"from": "S_HO", "to": "D_GERD", "type": "SUGGESTS"}
@@ -8946,6 +9024,8 @@
 {"from": "S_KHO_KHE", "to": "S_TANG_GANG_SUC_DE_THO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_COPD", "name": "Bệnh phổi tắc nghẽn mạn tính"}]}
 {"from": "S_KHO_KHE", "to": "S_THO_RIT", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
 {"from": "S_KHO_MAT", "to": "D_HOI_CHUNG_SJOGREN", "type": "SUGGESTS"}
+{"from": "S_KHO_MAT", "to": "S_KHO_MIENG", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_HOI_CHUNG_SJOGREN", "name": "Hội chứng Sjogren"}]}
+{"from": "S_KHO_MIENG", "to": "D_HOI_CHUNG_SJOGREN", "type": "SUGGESTS"}
 {"from": "S_KHO_MIENG", "to": "D_SOT_CAP_TINH_DO_NHIEM_VIRUS", "type": "SUGGESTS"}
 {"from": "S_KHO_MIENG", "to": "M_GIAM_LUONG_NHAP", "type": "LEADS_TO"}
 {"from": "S_KHO_MIENG", "to": "M_THAY_DOI_DIEM_DIEU_NHIET_HA_DOI", "type": "CONTRIBUTES_TO"}
@@ -10129,6 +10209,9 @@
 {"from": "S_SUNG_HUYET_PHOI", "to": "M_GIAM_CUNG_LUONG_TIM", "type": "INDICATES"}
 {"from": "S_SUNG_HUYET_PHOI", "to": "M_TANG_AP_LUC_THUY_TINH_MAO_MACH", "type": "CAUSES"}
 {"from": "S_SUNG_HUYET_PHOI", "to": "S_TRAN_DICH_MANG_PHOI", "type": "ASSOCIATED_WITH", "context": [{"type": "Mechanism", "id": "M_TRIEU_CHUNG_LIEN_QUAN", "name": "Triệu chứng liên quan"}]}
+{"from": "S_SUNG_KHOP", "to": "D_GUT", "type": "SUGGESTS"}
+{"from": "S_SUNG_KHOP", "to": "D_VIEM_KHOP_DANG_THAP", "type": "SUGGESTS"}
+{"from": "S_SUNG_KHOP", "to": "D_VIEM_KHOP_NHIEM_TRUNG", "type": "INDICATES"}
 {"from": "S_SUNG_MOI", "to": "D_SOC_NHIET", "type": "SUGGESTS"}
 {"from": "S_SUNG_MOI", "to": "D_TANG_THAN_NHIET_AC_TINH", "type": "SUGGESTS"}
 {"from": "S_SUT_CAN", "to": "D_BENH_AC_TINH", "type": "SUGGESTS"}
@@ -10319,7 +10402,8 @@
 {"from": "S_TETANY", "to": "D_BENH_CELIAC", "type": "SUGGESTS"}
 {"from": "S_TETANY", "to": "M_THIEU_HUT_VITAMIN", "type": "INDICATES"}
 {"from": "S_TETANY", "to": "M_THIEU_HUT_VITAMIN", "type": "SUGGESTS"}
-{"from": "S_TE_BI", "to": "S_YEU_CO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_GUILLAIN_BARRE", "name": "Hội chứng Guillain-Barré"}, {"type": "Disease", "id": "D_XO_CUNG_RAI_RAC", "name": "Xơ cứng rải rác"}, {"type": "Disease", "id": "D_DOT_QUY", "name": "Đột quỵ"}]}
+{"from": "S_TE_BI", "to": "D_HOI_CHUNG_ONG_CO_TAY", "type": "SUGGESTS"}
+{"from": "S_TE_BI", "to": "S_YEU_CO", "type": "ASSOCIATED_WITH", "context": [{"type": "Disease", "id": "D_GUILLAIN_BARRE", "name": "Hội chứng Guillain-Barré"}, {"type": "Disease", "id": "D_XO_CUNG_RAI_RAC", "name": "Xơ cứng rải rác"}, {"type": "Disease", "id": "D_DOT_QUY", "name": "Đột quỵ"}, {"type": "Disease", "id": "D_HOI_CHUNG_DUOI_NGUA", "name": "Hội chứng đuôi ngựa"}]}
 {"from": "S_TE_DAU_CHI", "to": "D_DAU_NGUC_TAM_LY", "type": "SUGGESTS"}
 {"from": "S_TE_DAU_CHI", "to": "D_ROI_LOAN_HOANG_SO", "type": "SUGGESTS"}
 {"from": "S_THAI_MAY", "to": "D_MANG_THAI", "type": "INDICATES"}
