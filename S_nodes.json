@@ -1808,6 +1808,10 @@
     "name": "Mờ mắt"
   },
   {
+    "id": "S_MUN_NUOC",
+    "name": "Mụn nước"
+  },
+  {
     "id": "S_NANG_NGUC",
     "name": "Nặng ngực"
   },
@@ -2874,6 +2878,10 @@
   {
     "id": "S_THAY_DOI_MAU_DA",
     "name": "Thay đổi màu da"
+  },
+  {
+    "id": "S_THAY_DOI_MONG",
+    "name": "Thay đổi móng"
   },
   {
     "id": "S_THAY_DOI_THOI_QUEN_DAI_TIEN",

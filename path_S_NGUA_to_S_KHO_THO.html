@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_LYMPHOMA", "label": "Lymphoma", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_LYMPHOMA\u003c/b\u003e\u003cbr\u003eLymphoma\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_VIEM_GAN_DO_THUOC", "label": "Vi\u00eam gan do thu\u1ed1c", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_VIEM_GAN_DO_THUOC\u003c/b\u003e\u003cbr\u003eVi\u00eam gan do thu\u1ed1c\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_THIEU_MAU_CAP", "label": "Thi\u1ebfu m\u00e1u c\u1ea5p", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_THIEU_MAU_CAP\u003c/b\u003e\u003cbr\u003eThi\u1ebfu m\u00e1u c\u1ea5p\u003cbr\u003eType: M"}, {"borderWidth": 4, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_KHO_THO", "label": "Kh\u00f3 th\u1edf", "shape": "dot", "size": 35, "title": "\u003cb\u003eS_KHO_THO\u003c/b\u003e\u003cbr\u003eKh\u00f3 th\u1edf\u003cbr\u003eType: S\u003cbr\u003e\u003cb\u003e[END]\u003c/b\u003e"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_PHAT_BAN", "label": "Ph\u00e1t ban", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_PHAT_BAN\u003c/b\u003e\u003cbr\u003ePh\u00e1t ban\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_CHAM", "label": "Ch\u00e0m", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_CHAM\u003c/b\u003e\u003cbr\u003eCh\u00e0m\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_GIAI_PHONG_HISTAMINE", "label": "GIAI PHONG HISTAMINE", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_GIAI_PHONG_HISTAMINE\u003c/b\u003e\u003cbr\u003eGIAI PHONG HISTAMINE\u003cbr\u003eType: M"}, {"borderWidth": 4, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_NGUA", "label": "NGUA", "shape": "dot", "size": 35, "title": "\u003cb\u003eS_NGUA\u003c/b\u003e\u003cbr\u003eNGUA\u003cbr\u003eType: S\u003cbr\u003e\u003cb\u003e[START]\u003c/b\u003e"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_ME_DAY", "label": "M\u1ec1 \u0111ay", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_ME_DAY\u003c/b\u003e\u003cbr\u003eM\u1ec1 \u0111ay\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_MET_MOI", "label": "M\u1ec7t m\u1ecfi", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_MET_MOI\u003c/b\u003e\u003cbr\u003eM\u1ec7t m\u1ecfi\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_GIAM_THE_TICH_TUAN_HOAN", "label": "Gi\u1ea3m th\u1ec3 t\u00edch tu\u1ea7n ho\u00e0n", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_GIAM_THE_TICH_TUAN_HOAN\u003c/b\u003e\u003cbr\u003eGi\u1ea3m th\u1ec3 t\u00edch tu\u1ea7n ho\u00e0n\u003cbr\u003eType: M"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_SOT", "label": "S\u1ed1t", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_SOT\u003c/b\u003e\u003cbr\u003eS\u1ed1t\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_PHU_MAT", "label": "Ph\u00f9 m\u1eb7t", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_PHU_MAT\u003c/b\u003e\u003cbr\u003ePh\u00f9 m\u1eb7t\u003cbr\u003eType: S"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#DC2626", "border": "#DC2626", "highlight": {"background": "#DC2626", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "D_BENH_TE_BAO_MAST", "label": "B\u1ec7nh t\u1ebf b\u00e0o mast", "shape": "dot", "size": 22, "title": "\u003cb\u003eD_BENH_TE_BAO_MAST\u003c/b\u003e\u003cbr\u003eB\u1ec7nh t\u1ebf b\u00e0o mast\u003cbr\u003eType: D"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#F59E0B", "border": "#F59E0B", "highlight": {"background": "#F59E0B", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "M_TAN_HUYET", "label": "T\u00e1n huy\u1ebft", "shape": "dot", "size": 22, "title": "\u003cb\u003eM_TAN_HUYET\u003c/b\u003e\u003cbr\u003eT\u00e1n huy\u1ebft\u003cbr\u003eType: M"}, {"borderWidth": 2, "borderWidthSelected": 5, "color": {"background": "#3B82F6", "border": "#3B82F6", "highlight": {"background": "#3B82F6", "border": "#1F2937"}}, "font": {"color": "#1F2937"}, "id": "S_HOI_HOP", "label": "H\u1ed3i h\u1ed9p", "shape": "dot", "size": 22, "title": "\u003cb\u003eS_HOI_HOP\u003c/b\u003e\u003cbr\u003eH\u1ed3i h\u1ed9p\u003cbr\u003eType: S"}]);
+                  edges = new vis.DataSet([{"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_NGUA", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nNGUA \u2192 Ch\u00e0m", "to": "D_CHAM", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_CHAM", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nCh\u00e0m \u2192 Ph\u00e1t ban", "to": "S_PHAT_BAN", "width": 2}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_KHO_THO", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nKh\u00f3 th\u1edf \u2192 Ph\u00e1t ban\n\nLi\u00ean quan:\n  \u2022 Ph\u1ea3n \u1ee9ng ph\u1ea3n v\u1ec7", "to": "S_PHAT_BAN", "width": 1.5}, {"arrows": "", "color": "#6B7280", "dashes": false, "from": "S_NGUA", "smooth": {"type": "continuous"}, "title": "SUGGESTS\nNGUA \u2192 M\u1ec1 \u0111ay", "to": "D_ME_DAY", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_ME_DAY", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nM\u1ec1 \u0111ay \u2192 Ph\u00e1t ban", "to": "S_PHAT_BAN", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_VIEM_GAN_DO_THUOC", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nVi\u00eam gan do thu\u1ed1c \u2192 NGUA", "to": "S_NGUA", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_VIEM_GAN_DO_THUOC", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nVi\u00eam gan do thu\u1ed1c \u2192 M\u1ec7t m\u1ecfi", "to": "S_MET_MOI", "width": 2}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_KHO_THO", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nKh\u00f3 th\u1edf \u2192 M\u1ec7t m\u1ecfi\n\nLi\u00ean quan:\n  \u2022 Suy tim", "to": "S_MET_MOI", "width": 1.5}, {"arrows": "", "color": "#D1D5DB", "dashes": false, "from": "S_NGUA", "smooth": {"type": "continuous"}, "title": "RULES_OUT\nNGUA \u2192 T\u00e1n huy\u1ebft", "to": "M_TAN_HUYET", "width": 1.5}, {"arrows": "", "color": "#92400E", "dashes": [8, 4], "from": "M_THIEU_MAU_CAP", "smooth": {"type": "continuous"}, "title": "LEADS_TO\nThi\u1ebfu m\u00e1u c\u1ea5p \u2192 T\u00e1n huy\u1ebft", "to": "M_TAN_HUYET", "width": 2}, {"arrows": "to", "color": "#F59E0B", "dashes": [5, 5], "from": "M_THIEU_MAU_CAP", "smooth": {"type": "continuous"}, "title": "CONTRIBUTES_TO\nThi\u1ebfu m\u00e1u c\u1ea5p \u2192 Kh\u00f3 th\u1edf", "to": "S_KHO_THO", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_BENH_TE_BAO_MAST", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nB\u1ec7nh t\u1ebf b\u00e0o mast \u2192 NGUA", "to": "S_NGUA", "width": 2}, {"arrows": "", "color": "#B91C1C", "dashes": false, "from": "D_BENH_TE_BAO_MAST", "smooth": {"type": "continuous"}, "title": "HAS_MECHANISM\nB\u1ec7nh t\u1ebf b\u00e0o mast \u2192 Gi\u1ea3m th\u1ec3 t\u00edch tu\u1ea7n ho\u00e0n", "to": "M_GIAM_THE_TICH_TUAN_HOAN", "width": 2}, {"arrows": "to", "color": "#D97706", "dashes": false, "from": "M_GIAM_THE_TICH_TUAN_HOAN", "smooth": {"type": "continuous"}, "title": "CAUSES\nGi\u1ea3m th\u1ec3 t\u00edch tu\u1ea7n ho\u00e0n \u2192 Kh\u00f3 th\u1edf", "to": "S_KHO_THO", "width": 3}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_BENH_TE_BAO_MAST", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nB\u1ec7nh t\u1ebf b\u00e0o mast \u2192 H\u1ed3i h\u1ed9p", "to": "S_HOI_HOP", "width": 2}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_HOI_HOP", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nH\u1ed3i h\u1ed9p \u2192 Kh\u00f3 th\u1edf\n\nLi\u00ean quan:\n  \u2022 R\u1ed1i lo\u1ea1n nh\u1ecbp tim\n  \u2022 Suy tim\n  \u2022 Thi\u1ebfu m\u00e1u\n  \u2022 C\u01b0\u1eddng gi\u00e1p", "to": "S_KHO_THO", "width": 1.5}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_LYMPHOMA", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nLymphoma \u2192 NGUA", "to": "S_NGUA", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_LYMPHOMA", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nLymphoma \u2192 M\u1ec7t m\u1ecfi", "to": "S_MET_MOI", "width": 2}, {"arrows": "to", "color": "#DC2626", "dashes": false, "from": "D_LYMPHOMA", "smooth": {"type": "continuous"}, "title": "HAS_SYMPTOM\nLymphoma \u2192 S\u1ed1t", "to": "S_SOT", "width": 2}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_KHO_THO", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nKh\u00f3 th\u1edf \u2192 S\u1ed1t\n\nLi\u00ean quan:\n  \u2022 Vi\u00eam ph\u1ed5i", "to": "S_SOT", "width": 1.5}, {"arrows": "to", "color": "#D97706", "dashes": false, "from": "M_GIAI_PHONG_HISTAMINE", "smooth": {"type": "continuous"}, "title": "CAUSES\nGIAI PHONG HISTAMINE \u2192 NGUA", "to": "S_NGUA", "width": 3}, {"arrows": "to", "color": "#D97706", "dashes": false, "from": "M_GIAI_PHONG_HISTAMINE", "smooth": {"type": "continuous"}, "title": "CAUSES\nGIAI PHONG HISTAMINE \u2192 Ph\u00e1t ban", "to": "S_PHAT_BAN", "width": 3}, {"arrows": "to", "color": "#D97706", "dashes": false, "from": "M_GIAI_PHONG_HISTAMINE", "smooth": {"type": "continuous"}, "title": "CAUSES\nGIAI PHONG HISTAMINE \u2192 Ph\u00f9 m\u1eb7t", "to": "S_PHU_MAT", "width": 3}, {"arrows": "", "color": "#9CA3AF", "dashes": [3, 3], "from": "S_KHO_THO", "smooth": {"type": "continuous"}, "title": "ASSOCIATED_WITH\nKh\u00f3 th\u1edf \u2192 Ph\u00f9 m\u1eb7t\n\nLi\u00ean quan:\n  \u2022 Ph\u1ea3n \u1ee9ng ph\u1ea3n v\u1ec7", "to": "S_PHU_MAT", "width": 1.5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -2000,
+            "springConstant": 0.001,
+            "springLength": 150
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -64,6 +64,7 @@ def id_to_name(entity_id):
 
     return name
 ENTITIES_DIR = EXTRACTED_V5 / "entities"
+ENTITIES_MANUAL_DIR = EXTRACTED_V5 / "entities_manual"
 EDGES_DIR = EXTRACTED_V5 / "edges"
 
 
@@ -115,23 +116,63 @@ def load_existing_edges(filepath):
 
 
 def load_v5_entities(entity_type):
-    """Load entities from extracted_v5/entities/{type}/"""
+    """Load entities from extracted_v5/entities/{type}/ and entities_manual/"""
     entities = {}
+
+    # Load from entities/{type}/*.json
     entity_dir = ENTITIES_DIR / entity_type
-
-    if not entity_dir.exists():
+    if entity_dir.exists():
+        for filepath in sorted(entity_dir.glob("*.json")):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    entity_id = data.get("id", filepath.stem)
+                    name = data.get("name", "")
+                    entities[entity_id] = {"id": entity_id, "name": name}
+            except Exception as e:
+                print(f"Error reading {filepath}: {e}")
+    else:
         print(f"Warning: {entity_dir} does not exist")
-        return entities
 
-    for filepath in sorted(entity_dir.glob("*.json")):
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                entity_id = data.get("id", filepath.stem)
-                name = data.get("name", "")
-                entities[entity_id] = {"id": entity_id, "name": name}
-        except Exception as e:
-            print(f"Error reading {filepath}: {e}")
+    # Load from entities_manual/ (both .json and .jsonl files)
+    if ENTITIES_MANUAL_DIR.exists():
+        type_lower = entity_type.lower()
+        prefix = f"{entity_type}_"
+
+        # Load .json files (JSON array format)
+        for filepath in ENTITIES_MANUAL_DIR.glob(f"*{type_lower}*.json"):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        for item in data:
+                            entity_id = item.get("id", "")
+                            if entity_id.startswith(prefix):
+                                name = item.get("name", "")
+                                entities[entity_id] = {"id": entity_id, "name": name}
+                    elif isinstance(data, dict):
+                        entity_id = data.get("id", "")
+                        if entity_id.startswith(prefix):
+                            name = data.get("name", "")
+                            entities[entity_id] = {"id": entity_id, "name": name}
+            except Exception as e:
+                print(f"Error reading manual {filepath}: {e}")
+
+        # Load .jsonl files (JSONL format)
+        for filepath in ENTITIES_MANUAL_DIR.glob(f"*{type_lower}*.jsonl"):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        data = json.loads(line)
+                        entity_id = data.get("id", "")
+                        if entity_id.startswith(prefix):
+                            name = data.get("name", "")
+                            entities[entity_id] = {"id": entity_id, "name": name}
+            except Exception as e:
+                print(f"Error reading manual {filepath}: {e}")
 
     return entities
 

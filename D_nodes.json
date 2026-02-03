@@ -560,6 +560,10 @@
     "name": "Hội chứng mạch vành mạn"
   },
   {
+    "id": "D_CHAM",
+    "name": "Chàm"
+  },
+  {
     "id": "D_CHAM_VAN_CHUYEN_DAI_TRANG",
     "name": "CHAM VAN CHUYEN DAI trắng"
   },
@@ -1580,12 +1584,20 @@
     "name": "METHEMOGLOBIN máu"
   },
   {
+    "id": "D_ME_DAY",
+    "name": "Mề đay"
+  },
+  {
     "id": "D_ME_SANG",
     "name": "Mê sảng"
   },
   {
     "id": "D_MIGRAINE",
     "name": "Đau nửa đầu"
+  },
+  {
+    "id": "D_MUN_TRUNG_CA",
+    "name": "Mụn trứng cá"
   },
   {
     "id": "D_MYOGLOBINURIA",
@@ -1697,6 +1709,10 @@
   },
   {
     "id": "D_NHANH_NHI_DA_O_MAT",
+    "name": "Nhanh nhĩ đa ổ"
+  },
+  {
+    "id": "D_NHANH_NHI_DA_O__MAT_",
     "name": "Nhanh nhĩ đa ổ"
   },
   {
@@ -3200,6 +3216,10 @@
     "name": "ung thư màng bụng"
   },
   {
+    "id": "D_UNG_THU_MANG_PHOI",
+    "name": "Ung thư màng phổi"
+  },
+  {
     "id": "D_UNG_THU_MAU",
     "name": "Ung thư máu"
   },
@@ -3272,6 +3292,10 @@
     "name": "U đường tiết niệu"
   },
   {
+    "id": "D_U_HAC_TO",
+    "name": "U hắc tố ác tính"
+  },
+  {
     "id": "D_U_HAT_WEGENER",
     "name": "U hạt Wegener"
   },
@@ -3294,6 +3318,10 @@
   {
     "id": "D_U_NUOC_THAN",
     "name": "U NUOC thận"
+  },
+  {
+    "id": "D_U_NẤM",
+    "name": "U nấm"
   },
   {
     "id": "D_U_PHOI",
@@ -3328,6 +3356,10 @@
     "name": "U TRUC trắng"
   },
   {
+    "id": "D_U_TRUNG_BIEU_MO",
+    "name": "U trung biểu mô"
+  },
+  {
     "id": "D_U_TUYEN_NHANH_DAI_TRUC_TRANG",
     "name": "U tuyến nhánh đại trực tràng"
   },
@@ -3358,6 +3390,10 @@
   {
     "id": "D_U_XO_TU_CUNG",
     "name": "U xơ tử cung"
+  },
+  {
+    "id": "D_VAY_NEN",
+    "name": "Vảy nến"
   },
   {
     "id": "D_VIEM_AMIDAN",
@@ -3856,6 +3892,10 @@
     "name": "Viêm tụy"
   },
   {
+    "id": "D_VIEM_TUYEN_MO_HOI_MU",
+    "name": "Viêm tuyến mồ hôi mủ"
+  },
+  {
     "id": "D_VIEM_TUY_CAP",
     "name": "Viêm tụy cấp"
   },
@@ -3890,6 +3930,10 @@
   {
     "id": "D_VO_SINH",
     "name": "Vô sinh"
+  },
+  {
+    "id": "D_VO_THUC_QUAN",
+    "name": "Vỡ thực quản"
   },
   {
     "id": "D_WILSON",
@@ -4006,5 +4050,9 @@
   {
     "id": "D_XUAT_HUYET_TIEU_HOA_TREN",
     "name": "Xuất huyết tiêu hóa trên"
+  },
+  {
+    "id": "D_ZONA",
+    "name": "Zona"
   }
 ]

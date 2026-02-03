@@ -414,7 +414,8 @@ scripts/
 └── merge_all_versions.py  # Script merge data từ v3/v4/v5
 
 extracted_v5/
-├── entities/              # Entity files (S, M, D)
+├── entities/              # Entity files (S, M, D) - auto-extracted
+├── entities_manual/       # Manual entities (JSONL format) - ALSO SCANNED
 └── edges/                 # Edge files (*.jsonl)
 ```
 

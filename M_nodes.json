@@ -672,6 +672,10 @@
     "name": "giảm LUU LUONG tim"
   },
   {
+    "id": "M_GIAM_MELANIN",
+    "name": "Giảm tổng hợp melanin"
+  },
+  {
     "id": "M_GIAM_MIEN_DICH_DICH_BANG",
     "name": "giảm MIEN dịch dịch BANG"
   },
@@ -2196,6 +2200,10 @@
     "name": "RUNG THAT VO CAN"
   },
   {
+    "id": "M_RUT_NGAN_CHU_KY_BIEU_BI",
+    "name": "Rút ngắn chu kỳ biểu bì"
+  },
+  {
     "id": "M_SAN_SINH_CYTOKINE",
     "name": "Sản sinh cytokine"
   },
@@ -2932,6 +2940,10 @@
     "name": "tăng LUU LUONG MAS"
   },
   {
+    "id": "M_TANG_MELANIN",
+    "name": "Tăng tổng hợp melanin"
+  },
+  {
     "id": "M_TANG_NHAN_TIM",
     "name": "tăng NHAN tim"
   },
@@ -3114,6 +3126,10 @@
   {
     "id": "M_TANG_TIET_AVP_(ADH)",
     "name": "Tăng tiết arginine vasopressin (ADH)"
+  },
+  {
+    "id": "M_TANG_TIET_BA",
+    "name": "Tăng tiết bã nhờn"
   },
   {
     "id": "M_TANG_TIET_CATECHOLAMINE",
@@ -3676,6 +3692,10 @@
     "name": "TON THUONG thần kinh"
   },
   {
+    "id": "M_TON_THUONG_THAN_KINH_CAM_GIAC",
+    "name": "Tổn thương thần kinh cảm giác"
+  },
+  {
     "id": "M_TON_THUONG_THAN_KINH_CO",
     "name": "TON THUONG thần kinh cổ"
   },
@@ -3858,6 +3878,10 @@
   {
     "id": "M_U_TRE_TINH_MACH",
     "name": "Ứ trệ tĩnh mạch"
+  },
+  {
+    "id": "M_U_TRE_TUAN_HOAN_f1c5e73a",
+    "name": "Ứ trệ tuần hoàn"
   },
   {
     "id": "M_VIEM",
