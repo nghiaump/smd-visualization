@@ -1,6 +1,6 @@
 # SMD Knowledge Graph Visualization
 
-> **Version**: 1.5.0
+> **Version**: 1.7.0
 > **Scripts**: `visualize_node.py`, `path_visualize.py`
 > **Output**: Interactive HTML (pyvis)
 
@@ -200,6 +200,33 @@ Path 2: S_DAU_BUNG -> D_BENH_ADDISON -> S_MET_MOI -> S_DAU_CO  [context: D_NHIEM
 
 ---
 
+## Edge Types Excluded from Traversal
+
+**QUAN TRỌNG**: Các edge types sau đây **KHÔNG** được dùng để traverse graph (mở rộng hoặc tìm đường):
+
+| Edge Type | Lý do loại trừ |
+|-----------|----------------|
+| `RULES_OUT` | Quan hệ **loại trừ** - triệu chứng X loại trừ bệnh Y. Không có nghĩa đi từ X qua Y. |
+| `PERTINENT_NEGATIVE` | Quan hệ **âm tính quan trọng** - sự vắng mặt của triệu chứng có ý nghĩa. |
+
+**Hành vi:**
+- `visualize_node.py`: KHÔNG traverse qua các edges này khi mở rộng graph
+- `path_visualize.py`: KHÔNG dùng các edges này để tìm đường đi
+- Các edges này **VẪN** được hiển thị nếu:
+  - Dùng `--cross yes` trong `visualize_node.py` (tìm internal edges)
+  - Nodes đã được kết nối qua các edges khác
+
+**Ví dụ:**
+```
+S_DAU_NGUC --[RULES_OUT]--> D_VIEM_PHOI
+
+Ý nghĩa: Nếu có đau ngực kiểu X, ít nghĩ đến viêm phổi
+→ KHÔNG nên traverse từ S_DAU_NGUC đến D_VIEM_PHOI qua RULES_OUT
+→ Nhưng VẪN hiển thị edge này nếu cả 2 nodes đều có mặt
+```
+
+---
+
 ## Design System
 
 ### 1. Node Colors (cố định theo entity type)
@@ -238,10 +265,17 @@ Path 2: S_DAU_BUNG -> D_BENH_ADDISON -> S_MET_MOI -> S_DAU_CO  [context: D_NHIEM
 | **S → D RULES_OUT** | Đỏ đậm `#991B1B` | Dashed | 2 |
 | **M → S CAUSES** | Cam đậm `#D97706` | Solid | 3 |
 | **M → S CONTRIBUTES_TO** | Cam `#F59E0B` | Dashed | 2 |
+| **M → D CAUSES** | Amber đậm `#B45309` | Solid | 2 |
 | **D → S HAS_SYMPTOM** | Đỏ `#DC2626` | Solid | 2 |
+| **D → S PERTINENT_NEGATIVE** | Tím `#7C3AED` | Dashed | 2 |
 | **D ↔ M HAS_MECHANISM** | Đỏ đậm `#B91C1C` | Solid | 2 |
+| **D → D CAUSES** | Đỏ đậm `#991B1B` | Solid | 2 |
 | **M → M LEADS_TO** | Amber đậm `#92400E` | Dashed | 2 |
 | **S ↔ S ASSOCIATED_WITH** | Xám nhạt `#9CA3AF` | Dotted | 1.5 |
+
+**V7 Enriched Edge Types:**
+- `PERTINENT_NEGATIVE`: Câu hỏi âm tính quan trọng từ KG enrichment
+- `RULES_OUT`: Triệu chứng loại trừ bệnh từ KG enrichment
 
 ### 5. Edge Tooltips
 
@@ -401,22 +435,34 @@ python visualize_node.py -e S_KHO_THO -l 1 -E 5
 smd_visualization/
 ├── visualize_node.py      # Visualize graph từ 1 node
 ├── path_visualize.py      # Tìm paths giữa 2 nodes (BFS + S-S context validation)
-├── update_data.py         # Merge edges từ extracted_v5 vào all_edges.json
+├── update_data.py         # MERGE edges từ extracted_v5 vào data hiện tại
+├── regenerate_data.py     # TẠO LẠI TOÀN BỘ data từ extracted_v5 (replace)
 ├── README.md              # Document này
 ├── all_edges.json         # Tất cả edges (JSONL)
-├── all_nodes.json         # Tất cả nodes [{id, name}]
 ├── S_nodes.json           # Danh sách Symptom [{id, name}]
 ├── M_nodes.json           # Danh sách Mechanism [{id, name}]
 ├── D_nodes.json           # Danh sách Disease [{id, name}]
 └── *_graph.html           # Output files
 
-scripts/
-└── merge_all_versions.py  # Script merge data từ v3/v4/v5
-
 extracted_v5/
 ├── entities/              # Entity files (S, M, D) - auto-extracted
 ├── entities_manual/       # Manual entities (JSONL format) - ALSO SCANNED
 └── edges/                 # Edge files (*.jsonl)
+```
+
+### Data Management Scripts
+
+| Script | Mục đích | Khi nào dùng |
+|--------|----------|--------------|
+| `update_data.py` | Merge data mới vào data cũ | Khi thêm entities/edges mới |
+| `regenerate_data.py` | Tạo lại toàn bộ từ extracted_v5 | Khi cần reset hoặc sau enrichment |
+
+```bash
+# Merge thêm data mới
+python update_data.py
+
+# Tạo lại toàn bộ (khi entity schema thay đổi)
+python regenerate_data.py
 ```
 
 ### Node file format
@@ -446,6 +492,8 @@ Node không có `name` → hiển thị ID
 
 ## Changelog
 
+- **v1.7.0** (2026-02-07): **BREAKING** - Loại bỏ `RULES_OUT` và `PERTINENT_NEGATIVE` khỏi graph traversal. Các edge types này là quan hệ loại trừ/âm tính, không nên dùng để tìm đường hoặc mở rộng graph. Vẫn hiển thị khi dùng `--cross yes`.
+- **v1.6.0** (2026-02-07): Thêm `regenerate_data.py` để tạo lại toàn bộ data từ extracted_v5. Thêm edge styles cho V7 enriched types: `PERTINENT_NEGATIVE`, `D→D CAUSES`, `M→D CAUSES`. Data regenerated: 1479 nodes, 6079 edges.
 - **v1.5.0** (2026-02-01): `path_visualize.py` - Đổi lại sang **BFS** cho đa dạng paths, thêm **S-S context validation** (tất cả S-S edges trong path phải có chung context)
 - **v1.4.0** (2026-01-31): `path_visualize.py` - Đổi từ BFS sang DFS, tìm **tất cả paths** (không chỉ shortest), thêm `--max-depth`
 - **v1.3.0** (2026-01-30): Thêm `path_visualize.py` - BFS tìm đường đi ngắn nhất
@@ -455,4 +503,4 @@ Node không có `name` → hiển thị ID
 
 ---
 
-*Updated: 2026-02-01*
+*Updated: 2026-02-07 (v1.7.0)*

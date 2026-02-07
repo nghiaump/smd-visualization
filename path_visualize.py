@@ -26,6 +26,18 @@ except ImportError:
 BASE_DIR = Path(__file__).parent
 
 # =============================================================================
+# EXCLUDED EDGE TYPES FOR PATHFINDING
+# =============================================================================
+# These edge types represent NEGATIVE/EXCLUSIONARY relationships and should NOT
+# be traversed when finding paths. They can still be displayed if nodes are
+# already connected via other edges.
+#
+# - RULES_OUT: Symptom excludes/rules out a disease (negative relationship)
+# - PERTINENT_NEGATIVE: Absence of symptom is relevant to disease diagnosis
+#
+EXCLUDED_EDGE_TYPES_FOR_TRAVERSAL = {"RULES_OUT", "PERTINENT_NEGATIVE"}
+
+# =============================================================================
 # DESIGN SYSTEM - Same as visualize_node.py
 # =============================================================================
 
@@ -36,20 +48,45 @@ NODE_COLORS = {
 }
 
 EDGE_STYLES = {
+    # S → D: Inference edges
     "S_D_SUGGESTS": {"color": "#6B7280", "dashes": False, "width": 2},
     "S_D_INDICATES": {"color": "#374151", "dashes": False, "width": 3},
     "S_D_RULES_OUT": {"color": "#991B1B", "dashes": [5, 5], "width": 2},
+
+    # S → M: Inference
     "S_M_SUGGESTS": {"color": "#60A5FA", "dashes": False, "width": 2},
     "S_M_INDICATES": {"color": "#3B82F6", "dashes": False, "width": 3},
+
+    # M → S: Causal
     "M_S_CAUSES": {"color": "#D97706", "dashes": False, "width": 3},
     "M_S_CONTRIBUTES_TO": {"color": "#F59E0B", "dashes": [5, 5], "width": 2},
+    "M_S_LEADS_TO": {"color": "#92400E", "dashes": [8, 4], "width": 2},
+
+    # M → M: Causal chain
     "M_M_CAUSES": {"color": "#B45309", "dashes": False, "width": 2},
     "M_M_LEADS_TO": {"color": "#92400E", "dashes": [8, 4], "width": 2},
     "M_M_CONTRIBUTES_TO": {"color": "#D97706", "dashes": [5, 5], "width": 2},
+
+    # M → D: Mechanism causes disease
+    "M_D_CAUSES": {"color": "#B45309", "dashes": False, "width": 2},
+
+    # D → S: Disease has symptom
     "D_S_HAS_SYMPTOM": {"color": "#DC2626", "dashes": False, "width": 2},
+    "D_S_PERTINENT_NEGATIVE": {"color": "#7C3AED", "dashes": [5, 5], "width": 2},  # V7 enriched
+    "D_S_RULES_OUT": {"color": "#991B1B", "dashes": [5, 5], "width": 2},
+
+    # D → M: Disease has mechanism
     "D_M_HAS_MECHANISM": {"color": "#B91C1C", "dashes": False, "width": 2},
-    "S_S_ASSOCIATED_WITH": {"color": "#9CA3AF", "dashes": [3, 3], "width": 1.5},
+
+    # D → D: Disease relationships
+    "D_D_CAUSES": {"color": "#991B1B", "dashes": False, "width": 2},
     "D_D_SUBTYPE_OF": {"color": "#A78BFA", "dashes": [4, 4], "width": 2},
+
+    # S ↔ S: Association
+    "S_S_ASSOCIATED_WITH": {"color": "#9CA3AF", "dashes": [3, 3], "width": 1.5},
+
+    # General fallbacks
+    "S_M_CAUSES": {"color": "#60A5FA", "dashes": False, "width": 2},
 }
 
 DEFAULT_EDGE_STYLE = {"color": "#D1D5DB", "dashes": False, "width": 1.5}
@@ -94,7 +131,13 @@ def load_node_types_and_names():
 
 
 def build_adjacency_undirected(edges):
-    """Build undirected adjacency list for BFS path finding."""
+    """Build undirected adjacency list for BFS path finding.
+
+    IMPORTANT: Excludes RULES_OUT and PERTINENT_NEGATIVE edges from adjacency
+    (for traversal) but keeps them in edge_lookup (for display).
+    These are NEGATIVE/EXCLUSIONARY relationships that don't represent
+    valid paths in the knowledge graph.
+    """
     adj = defaultdict(list)
     edge_lookup = {}  # (from, to) -> edge info
 
@@ -105,12 +148,17 @@ def build_adjacency_undirected(edges):
         properties = edge.get("properties", {})
         context = edge.get("context")  # context is at top level
 
-        # Store edge info for both directions (for lookup)
+        # Store edge info for both directions (for lookup/display)
         edge_lookup[(from_id, to_id)] = edge
         reversed_edge = {"from": to_id, "to": from_id, "type": edge_type, "properties": properties, "reversed": True}
         if context:
             reversed_edge["context"] = context
         edge_lookup[(to_id, from_id)] = reversed_edge
+
+        # Skip excluded edge types for traversal (pathfinding)
+        # These represent negative/exclusionary relationships
+        if edge_type in EXCLUDED_EDGE_TYPES_FOR_TRAVERSAL:
+            continue
 
         # Undirected adjacency for BFS
         adj[from_id].append(to_id)
@@ -137,7 +185,13 @@ def get_context_ids(context):
 
 def validate_ss_contexts(path, edge_lookup):
     """
-    Validate that all S-S edges in a path share at least one common context.
+    Validate ASSOCIATED_WITH edges in a path.
+
+    Rule:
+    - If path has ASSOCIATED_WITH edge(s), EITHER:
+      a) Path passes through at least one context node of the ASSOCIATED_WITH edges, OR
+      b) There are at least 2 ASSOCIATED_WITH edges that share at least 1 common context
+    - Otherwise, the path is invalid
 
     Args:
         path: List of node IDs
@@ -145,34 +199,52 @@ def validate_ss_contexts(path, edge_lookup):
 
     Returns:
         (is_valid, common_contexts) where:
-        - is_valid: True if all S-S edges share common context (or no S-S edges)
-        - common_contexts: Set of shared context IDs (for display)
+        - is_valid: True if path is valid according to the rule
+        - common_contexts: Set of context IDs used for validation (for display)
     """
-    ss_contexts = []  # List of context sets for each S-S edge
+    ss_edges_info = []  # List of (ctx_ids, edge_info) for each ASSOCIATED_WITH edge
 
     for i in range(len(path) - 1):
         n1, n2 = path[i], path[i + 1]
 
-        # Check if both nodes are Symptoms
-        if n1.startswith("S_") and n2.startswith("S_"):
-            edge_info = edge_lookup.get((n1, n2)) or edge_lookup.get((n2, n1))
-            if edge_info and edge_info.get("type") == "ASSOCIATED_WITH":
-                context = edge_info.get("context")
-                ctx_ids = get_context_ids(context)
-                if ctx_ids:
-                    ss_contexts.append(ctx_ids)
-                else:
-                    # S-S edge without context - invalid
-                    return False, set()
+        # Check if edge is ASSOCIATED_WITH (typically S-S but check type)
+        edge_info = edge_lookup.get((n1, n2)) or edge_lookup.get((n2, n1))
+        if edge_info and edge_info.get("type") == "ASSOCIATED_WITH":
+            context = edge_info.get("context")
+            ctx_ids = get_context_ids(context)
+            if ctx_ids:
+                ss_edges_info.append((ctx_ids, edge_info))
+            else:
+                # ASSOCIATED_WITH edge without context - invalid
+                return False, set()
 
-    # No S-S edges = valid
-    if not ss_contexts:
+    # No ASSOCIATED_WITH edges = valid
+    if not ss_edges_info:
         return True, set()
 
-    # Find intersection of all S-S contexts
-    common = ss_contexts[0]
-    for ctx_set in ss_contexts[1:]:
-        common = common & ctx_set
+    # Get all nodes in the path as a set
+    path_nodes = set(path)
+
+    # Collect all context IDs from all ASSOCIATED_WITH edges
+    all_context_ids = set()
+    for ctx_ids, _ in ss_edges_info:
+        all_context_ids.update(ctx_ids)
+
+    # Check rule (a): Does the path pass through any context node?
+    context_nodes_in_path = path_nodes & all_context_ids
+    if context_nodes_in_path:
+        # Path goes through at least one context node - valid
+        return True, context_nodes_in_path
+
+    # Rule (a) failed - check rule (b): at least 2 ASSOCIATED_WITH edges with shared context
+    if len(ss_edges_info) < 2:
+        # Only 1 ASSOCIATED_WITH edge and path doesn't go through its context - invalid
+        return False, set()
+
+    # Find intersection of all ASSOCIATED_WITH contexts
+    common = ss_edges_info[0][0]
+    for ctx_ids, _ in ss_edges_info[1:]:
+        common = common & ctx_ids
         if not common:
             return False, set()
 

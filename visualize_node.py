@@ -26,6 +26,18 @@ except ImportError:
 BASE_DIR = Path(__file__).parent
 
 # =============================================================================
+# EXCLUDED EDGE TYPES FOR GRAPH TRAVERSAL
+# =============================================================================
+# These edge types represent NEGATIVE/EXCLUSIONARY relationships and should NOT
+# be traversed when expanding the graph. They can still be displayed if found
+# via --cross (internal edges between already-discovered nodes).
+#
+# - RULES_OUT: Symptom excludes/rules out a disease (negative relationship)
+# - PERTINENT_NEGATIVE: Absence of symptom is relevant to disease diagnosis
+#
+EXCLUDED_EDGE_TYPES_FOR_TRAVERSAL = {"RULES_OUT", "PERTINENT_NEGATIVE"}
+
+# =============================================================================
 # DESIGN SYSTEM - Medical Knowledge Graph Visualization
 # =============================================================================
 
@@ -63,21 +75,47 @@ EDGE_STYLES = {
     "M_M_LEADS_TO": {"color": "#92400E", "dashes": [8, 4], "width": 2},     # amber-800, dashed
     "M_M_CONTRIBUTES_TO": {"color": "#D97706", "dashes": [5, 5], "width": 2},
 
+    # M → D: Mechanism causes disease
+    "M_D_CAUSES": {"color": "#B45309", "dashes": False, "width": 2},        # amber-700
+
     # D → S: Disease has symptom
     "D_S_HAS_SYMPTOM": {"color": "#DC2626", "dashes": False, "width": 2},   # red-600
+    "D_S_PERTINENT_NEGATIVE": {"color": "#7C3AED", "dashes": [5, 5], "width": 2},  # violet-600, dashed (V7 enriched)
 
     # D → M: Disease has mechanism
     "D_M_HAS_MECHANISM": {"color": "#B91C1C", "dashes": False, "width": 2}, # red-700
 
+    # D → D: Disease relationships
+    "D_D_CAUSES": {"color": "#991B1B", "dashes": False, "width": 2},        # red-800, disease causes disease
+    "D_D_SUBTYPE_OF": {"color": "#A78BFA", "dashes": [4, 4], "width": 2},   # violet-400, dotted
+
     # S ↔ S: Association
     "S_S_ASSOCIATED_WITH": {"color": "#9CA3AF", "dashes": [3, 3], "width": 1.5},  # gray-400, dotted
 
-    # D ↔ D: Differential (if any)
-    "D_D_SUBTYPE_OF": {"color": "#A78BFA", "dashes": [4, 4], "width": 2},   # violet-400, dotted
+    # General fallbacks
+    "M_S_LEADS_TO": {"color": "#92400E", "dashes": [8, 4], "width": 2},     # amber-800, dashed
+    "S_M_CAUSES": {"color": "#60A5FA", "dashes": False, "width": 2},        # blue-400
+    "D_S_RULES_OUT": {"color": "#991B1B", "dashes": [5, 5], "width": 2},    # red-800, dashed (V7 enriched)
 }
 
 # Default edge style
 DEFAULT_EDGE_STYLE = {"color": "#D1D5DB", "dashes": False, "width": 1.5}  # gray-300
+
+
+def get_context_ids(context):
+    """Extract context IDs from context array."""
+    if not context:
+        return set()
+    ids = set()
+    ctx_list = context if isinstance(context, list) else [context]
+    for ctx in ctx_list:
+        if isinstance(ctx, dict):
+            ctx_id = ctx.get("id")
+            if ctx_id:
+                ids.add(ctx_id)
+        elif isinstance(ctx, str):
+            ids.add(ctx)
+    return ids
 
 
 def load_edges():
@@ -120,15 +158,37 @@ def load_node_types_and_names():
 
 
 def build_adjacency(edges):
-    """Build adjacency list from edges."""
+    """Build adjacency list from edges.
+
+    IMPORTANT: Excludes RULES_OUT and PERTINENT_NEGATIVE edges from adjacency.
+    These are NEGATIVE/EXCLUSIONARY relationships that shouldn't be traversed
+    during graph expansion. They can still be found via find_internal_edges
+    (for --cross option) and displayed.
+
+    For ASSOCIATED_WITH edges, includes context info for validation.
+    """
     adj = defaultdict(list)
     for edge in edges:
         from_id = edge["from"]
         to_id = edge["to"]
         edge_type = edge["type"]
         properties = edge.get("properties", {})
-        adj[from_id].append({"to": to_id, "type": edge_type, "dir": "out", "properties": properties})
-        adj[to_id].append({"from": from_id, "type": edge_type, "dir": "in", "properties": properties})
+        context = edge.get("context")  # For ASSOCIATED_WITH edges
+
+        # Skip excluded edge types for traversal
+        if edge_type in EXCLUDED_EDGE_TYPES_FOR_TRAVERSAL:
+            continue
+
+        edge_out = {"to": to_id, "type": edge_type, "dir": "out", "properties": properties}
+        edge_in = {"from": from_id, "type": edge_type, "dir": "in", "properties": properties}
+
+        # Include context for ASSOCIATED_WITH edges
+        if edge_type == "ASSOCIATED_WITH" and context:
+            edge_out["context"] = context
+            edge_in["context"] = context
+
+        adj[from_id].append(edge_out)
+        adj[to_id].append(edge_in)
     return adj
 
 
@@ -179,6 +239,45 @@ def find_internal_edges(nodes, all_edges, edge_set):
     return internal_edges
 
 
+def is_associated_with_valid(edge_neighbor, nodes, associated_with_contexts):
+    """
+    Check if an ASSOCIATED_WITH edge is valid for inclusion in the graph.
+
+    Rule:
+    - If any node already in the graph is a context of this edge → valid
+    - OR if there's already another ASSOCIATED_WITH edge with shared context → valid
+    - Otherwise → invalid (edge should not be traversed)
+
+    Args:
+        edge_neighbor: The neighbor edge info with context
+        nodes: Set of nodes currently in the graph
+        associated_with_contexts: List of context sets from existing ASSOCIATED_WITH edges
+
+    Returns:
+        (is_valid, ctx_ids) where ctx_ids is the context set for this edge
+    """
+    context = edge_neighbor.get("context")
+    ctx_ids = get_context_ids(context)
+
+    if not ctx_ids:
+        # ASSOCIATED_WITH edge without context - invalid
+        return False, set()
+
+    # Rule 1: Check if any node in graph is a context of this edge
+    if nodes & ctx_ids:
+        return True, ctx_ids
+
+    # Rule 2: Check if any existing ASSOCIATED_WITH edge shares context
+    if associated_with_contexts:
+        for existing_ctx in associated_with_contexts:
+            if ctx_ids & existing_ctx:
+                return True, ctx_ids
+
+    # No existing ASSOCIATED_WITH edges - this is the first one
+    # It's invalid on its own unless a context node is in the graph (checked above)
+    return False, ctx_ids
+
+
 def expand_graph(center_id, adj, all_edges, level=1, max_edges=7, cross=False):
     """
     Expand graph from center node to given level.
@@ -187,11 +286,18 @@ def expand_graph(center_id, adj, all_edges, level=1, max_edges=7, cross=False):
     - Level 1: center có tối đa max_edges neighbors
     - Level 2: mỗi node từ level 1 có thêm max_edges neighbors mới
     - ...
+
+    ASSOCIATED_WITH edge validation:
+    - If any node in graph is a context of the ASSOCIATED_WITH edge → allow
+    - OR if there's already another ASSOCIATED_WITH edge with shared context → allow
+    - Otherwise → skip (can't traverse via this edge)
     """
     nodes = {center_id}
     edges = []
     edge_set = set()
     node_levels = {center_id: 0}  # Track which level each node was added
+    associated_with_contexts = []  # Track contexts of included ASSOCIATED_WITH edges
+    pending_associated_with = []  # ASSOCIATED_WITH edges waiting for validation
 
     current_level_nodes = {center_id}
 
@@ -208,7 +314,6 @@ def expand_graph(center_id, adj, all_edges, level=1, max_edges=7, cross=False):
                 by_type[n["type"]].append(n)
 
             new_neighbors_count = 0
-            selected = []
 
             # Round-robin selection to get variety, but only count new nodes
             while new_neighbors_count < max_edges and by_type:
@@ -234,24 +339,89 @@ def expand_graph(center_id, adj, all_edges, level=1, max_edges=7, cross=False):
                             from_id, to_id = n["from"], node_id
 
                         edge_key = (from_id, to_id, n["type"])
-                        if edge_key not in edge_set:
-                            edge_set.add(edge_key)
-                            edges.append({
-                                "from": from_id,
-                                "to": to_id,
-                                "type": n["type"],
-                                "properties": n.get("properties", {})
-                            })
+                        if edge_key in edge_set:
+                            continue
 
-                            if is_new_node:
-                                nodes.add(neighbor_id)
-                                node_levels[neighbor_id] = lvl
-                                next_level_nodes.add(neighbor_id)
-                                new_neighbors_count += 1
+                        # Validate ASSOCIATED_WITH edges
+                        if n["type"] == "ASSOCIATED_WITH":
+                            is_valid, ctx_ids = is_associated_with_valid(n, nodes, associated_with_contexts)
+                            if not is_valid:
+                                # Save for later - might become valid when more nodes are added
+                                pending_associated_with.append({
+                                    "from": from_id,
+                                    "to": to_id,
+                                    "neighbor_id": neighbor_id,
+                                    "edge_info": n,
+                                    "edge_key": edge_key,
+                                    "ctx_ids": ctx_ids,
+                                    "level": lvl
+                                })
+                                continue
+                            else:
+                                # Valid - add context to tracking
+                                if ctx_ids:
+                                    associated_with_contexts.append(ctx_ids)
 
-                        if new_neighbors_count >= max_edges:
-                            break
+                        edge_set.add(edge_key)
+                        edge_data = {
+                            "from": from_id,
+                            "to": to_id,
+                            "type": n["type"],
+                            "properties": n.get("properties", {})
+                        }
+                        # Include context for ASSOCIATED_WITH edges
+                        if n["type"] == "ASSOCIATED_WITH" and n.get("context"):
+                            edge_data["context"] = n["context"]
+                        edges.append(edge_data)
 
+                        if is_new_node:
+                            nodes.add(neighbor_id)
+                            node_levels[neighbor_id] = lvl
+                            next_level_nodes.add(neighbor_id)
+                            new_neighbors_count += 1
+
+                    if new_neighbors_count >= max_edges:
+                        break
+
+        # After each level, try to include pending ASSOCIATED_WITH edges
+        # that may now be valid (context node was added, or shared context exists)
+        still_pending = []
+        for pending in pending_associated_with:
+            # Re-check with current nodes and contexts
+            is_valid = False
+
+            # Rule 1: context node in graph
+            if nodes & pending["ctx_ids"]:
+                is_valid = True
+            # Rule 2: shared context with existing ASSOCIATED_WITH edge
+            elif len(associated_with_contexts) >= 1:
+                for existing_ctx in associated_with_contexts:
+                    if pending["ctx_ids"] & existing_ctx:
+                        is_valid = True
+                        break
+
+            if is_valid and pending["edge_key"] not in edge_set:
+                edge_set.add(pending["edge_key"])
+                edge_data = {
+                    "from": pending["from"],
+                    "to": pending["to"],
+                    "type": "ASSOCIATED_WITH",
+                    "properties": pending["edge_info"].get("properties", {})
+                }
+                if pending["edge_info"].get("context"):
+                    edge_data["context"] = pending["edge_info"]["context"]
+                edges.append(edge_data)
+                associated_with_contexts.append(pending["ctx_ids"])
+
+                # Add neighbor node if new
+                if pending["neighbor_id"] not in nodes:
+                    nodes.add(pending["neighbor_id"])
+                    node_levels[pending["neighbor_id"]] = pending["level"]
+                    next_level_nodes.add(pending["neighbor_id"])
+            elif not is_valid:
+                still_pending.append(pending)
+
+        pending_associated_with = still_pending
         current_level_nodes = next_level_nodes  # Only expand from NEW nodes
 
     # Find all internal edges between nodes if cross=True
